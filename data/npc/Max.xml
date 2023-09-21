@@ -1,0 +1,9 @@
+<npc name="[BUY] Max" script="loot3.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="304" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Estou Vendendo Protection Amulet, Diga 'trade'."/>
+		<parameter key="shop_buyable" value="Phill,2533,50000;"/>
+	</parameters>
+</npc>

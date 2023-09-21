@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kakashi Boss" nameDescription="a kakashi boss" race="blood" experience="1000" speed="700" manacost="490">
+	<health now="200000" max="200000"/>
+	<look type="86" corpse="2852"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="dotonsuiryudannojutsu" interval="1000" chance="700" range="7" min="-5000" max="-6000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="kunaimonster" interval="500" chance="700" range="5" min="-1000" max="-3000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="raiton" interval="60000" chance="100" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<loot>
+		<item id="2148" countmax="12" chance="10000"/> <!-- Dollar -->
+	</loot>
+</monster>

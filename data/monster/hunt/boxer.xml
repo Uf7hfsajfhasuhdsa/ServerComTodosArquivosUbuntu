@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boxer" nameDescription="a boxer" race="blood" experience="500" speed="500" manacost="0">
+	<health now="10000" max="10000"/>
+	<look type="63" corpse="2874"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" chance="100" range="7" min="-1000" max="-1300">
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="8" chance="20000"/> <!-- dolar -->
+		<item id="11549" countmax="1" chance="2000"/> <!-- Gennin Helmet -->
+		<item id="11551" countmax="1" chance="1000"/> <!-- Gennin Legs -->
+
+	</loot>
+</monster>

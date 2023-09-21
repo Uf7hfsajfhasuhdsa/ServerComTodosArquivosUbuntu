@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weapon Specialist" nameDescription="a weapon specialist" race="blood" experience="500" speed="400" manacost="490">
+	<health now="5000" max="5000"/>
+	<look type="322" corpse="2844"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="kunaichunnin" interval="1700" min="-700" max="-900"/>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<loot>
+		<item id="2148" countmax="10" chance="20000"/> <!-- platinum coin -->
+		<item id="11511" countmax="1" chance="1000"/> <!-- Armor Begginer -->
+		<item id="11513" countmax="1" chance="2000"/> <!-- Boots Begginer -->
+
+	</loot>
+</monster>

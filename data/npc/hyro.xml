@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hyro" script="hiro.lua" walkinterval="2000" speed="0" floorchange="0">
+	<health now="257" max="150"/>
+	<look type="181" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Estou vendendo e comprando Armor, Diga 'trade'."/>
+	</parameters></npc>

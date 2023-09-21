@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="[BUY] Yuuf" script="loot2.lua" walkinterval="2000" speed="0" floorchange="0">
+	<health now="257" max="150"/>
+	<look type="70" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Estou vendendo backpacks,tem interesse? Diga 'trade'."/>
+		<parameter key="shop_buyable" value="chakra armor,2397,10000;double kusanagi,7867,10000;"/>
+	</parameters></npc>

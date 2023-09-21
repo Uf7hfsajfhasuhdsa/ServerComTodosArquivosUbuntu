@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" name="None" description="none" needpremium="0" gaincap="5" gainhp="5" gainmana="5" gainhpticks="6" gainhpamount="1" gainmanaticks="6" gainmanaamount="1" manamultiplier="4.0" attackspeed="1000" soulmax="100" gainsoulticks="120" fromvoc="0" attackable="no">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="2.0" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="1" name="Naruto" description="Naruto" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="1">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="2" name="Sasuke" description="Sasuke" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="2">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="3" name="Rock Lee" description="Rock Lee" needpremium="0" gaincap="10" gainhp="430" gainmana="330" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="3">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="4" name="Hinata" description="Hinata" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="4">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="5" name="Shikamaru" description="Shikamaru" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="5">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="6" name="Itachi" description="Itachi" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="6">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="7" name="Kakashi" description="Kakashi" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="7">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="8" name="Kisame" description="Kisame" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="8">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="2.0" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="9" name="Gaara" description="Gaara" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="9">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="12" name="Killer Bee" description="Killer Bee" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="12">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="13" name="Kankuro" description="Kankuro" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="13">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="14" name="Shino" description="Shino" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="14">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="40" name="Temari" description="Temari" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="40">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="50" name="Deidara" description="Deidara" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="50">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="16" name="Zabuza" description="Zabuza" needpremium="0" gaincap="10" gainhp="380" gainmana="380" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="16">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="2.0" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="15" name="Jiraya." description="Jiraya(vip)" needpremium="0" gaincap="10" gainhp="430" gainmana="430" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="15">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="17" name="Anbu." description="Anbu(vip)" needpremium="0" gaincap="10" gainhp="430" gainmana="430" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="17">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="1.1" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="18" name="Chouji" description="Chouji" needpremium="0" gaincap="10" gainhp="430" gainmana="330" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="18">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="19" name="Kabuto." description="Kabuto(vip)" needpremium="0" gaincap="10" gainhp="430" gainmana="430" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="19">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="20" name="Sakura" description="Sakura" needpremium="0" gaincap="10" gainhp="380" gainmana="430" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="20">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="1.1" distance="2.0" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+	<vocation id="21" name="Obito." description="Obito(vip)" needpremium="0" gaincap="10" gainhp="430" gainmana="430" gainhpticks="3" gainhpamount="100" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="1000" soulmax="150" gainsoulticks="60" fromvoc="21">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="2.0" defense="1.0" magDefense="2.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="1.1" axe="1.1" distance="1.1" shielding="1.5" fishing="2.0" experience="1.0"/>
+	</vocation>
+</vocations>

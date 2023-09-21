@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tsunade Hokage" nameDescription="a hokage" race="blood" experience="125000" speed="1220" manacost="390">
+	<health now="100000" max="100000"/>
+	<look type="396" head="113" body="120" legs="114" feet="132" />
+	<targetchange interval="5000" chance="20"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag passive="0" />
+	</flags>
+	<script>
+    <event name="tp"/>
+    </script> 
+	<attacks>
+	    <attack name="tsu2" interval="1000" min="-13050" max="-25250"/>
+		<attack name="headbutt" interval="2000" min="-30050" max="-70250"/>
+		<attack name="tsu1" interval="4500" min="-80050" max="-140250"/>
+		
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<elements>
+		<element physicalPercent="-0"/>
+		<element deathPercent="-0"/>
+	</elements>
+	<voices interval="5000" chance="0">
+		<voice sentence=""/>
+	</voices>
+	<loot>
+
+	</loot>
+</monster>

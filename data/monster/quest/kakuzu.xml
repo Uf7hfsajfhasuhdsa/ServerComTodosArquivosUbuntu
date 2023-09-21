@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kakuzu Boss" nameDescription="a kakuzu boss" race="blood" experience="600000" speed="1000" manacost="490">
+	<health now="40000000" max="40000000"/>
+	<look type="249" corpse="2892"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1000" chance="700" range="7" min="-10000" max="-30000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<summons maxSummons="2">
+		<summon name="Jiongu" interval="4000" chance="100" max="2"/>
+	</summons>
+	<loot>
+		<item id="2390" countmax="1" chance="100"/> <!-- Samehada -->
+		<item id="2127" countmax="1" chance="300"/> <!-- Kazekage Coat-->
+		<item id="2152" countmax="7" chance="1000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

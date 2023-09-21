@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<monster name="Black Kage" level="1000" maglevel="550" experience="10000" pushable="0" armor="40" defense="45" canpushitems="1" staticattack="50" changetarget="200" speed="600">
+	<health now="6000" max="6000"/>
+	<look type="173" head="77" body="79" legs="78" feet="77" corpse="3128" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+
+<attacks>
+	<attack type="melee" maxdamage="90" cycleticks="100" probability="100" exhaustion="0" />/>
+	<attack type="instant" name="katsu" exhaustion="1000" cycleticks="400" probability="60"/>
+        <attack type="instant" name="katsu5" exhaustion="2000" cycleticks="600" probability="60"/>
+        <attack type="instant" name="chiyute no jutsu" exhaustion="1500" cycleticks="600" probability="60"/>
+        <attack type="instant" name="fuuton mugen sajin daitoppa" exhaustion="1500" cycleticks="600" probability="60"/>
+        <attack type="instant" name="Katon Karyuudan" exhaustion="1500" cycleticks="600" probability="60"/>
+        <attack type="instant" name="Suiton Suigodan no Jutsu" exhaustion="1500" cycleticks="600" probability="60"/>
+        <attack type="instant" name="kawarimii" exhaustion="1500" cycleticks="600" probability="60"/>
+	
+</attacks>
+
+<defenses>
+
+	<defense immunity="invisible"/>
+        <defense immunity="fire"/>
+        
+        <defense immunity="water"/>
+</defenses>
+
+<voices>
+	<voice sentence="NOoobzinhoooo"/>
+	<voice sentence="vc n me mata nunca pede pra sair porra"/>
+</voices>
+
+<loot>
+</loot>
+
+<summons maxSummons="5">
+   <summon name="Deidara" chance="2000"/>
+   <summon name="Sasori" chance="2000"/>
+   <summon name="Kisame" chance="2000"/>
+   <summon name="Itachi" chance="2000"/>
+   <summon name="Pein" chance="2000"/>
+   <summon name="Konan" chance="2000"/>
+   <summon name="Kakuzu" chance="2000"/>
+   <summon name="Hidan" chance="2000"/>
+   <summon name="Zetsu" chance="2000"/>
+   <summon name="Orochimaru" chance="2000"/>
+   <summon name="Tobi" chance="2000"/>
+   <summon name="Yondaime" chance="2000"/>
+</summons>
+
+</monster>

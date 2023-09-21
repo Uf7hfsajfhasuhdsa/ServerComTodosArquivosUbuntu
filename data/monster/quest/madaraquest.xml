@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Madara" nameDescription="a madara" race="blood" experience="10000" speed="5000" manacost="490">
+	<health now="1200000" max="1200000"/>
+	<look type="51" corpse="2936"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="45"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1500" range="6" min="-17000" max="-25000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="melee" interval="800" range="6" min="-2000" max="-5000"/>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="49" chance="2500"/> <!-- Gold Bars	 -->
+	</loot>
+</monster>

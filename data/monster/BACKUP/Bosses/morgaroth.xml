@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Morgaroth" nameDescription="Morgaroth" race="UNDEAD" experience="888000" speed="300" manacost="0">
+	<health now="485000" max="485000"/>
+	<look type="12" head="0" body="94" legs="79" feet="79" corpse="6068"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="90" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="65"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-880" max="-3530"/>
+		<attack name="manadrain" interval="1000" chance="10" range="7" min="-60" max="-575">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="fire" interval="1000" chance="15" range="7" radius="8" target="1" min="-700" max="-1400">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="DROWN" interval="1000" chance="25" length="8" spread="0" min="-800" max="-1450">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="25" radius="8" target="0" min="-620" max="-900">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		<attack name="DROWN" interval="1000" chance="20" radius="8" target="0" min="-455" max="-805">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="speed" interval="1000" chance="25" radius="4" target="1" speedchange="-800" duration="4000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+	</attacks>
+	<defenses armor="80" defense="80">
+		<defense name="healing" interval="300" chance="5000" min="300" max="1700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+		<defense name="speed" interval="4000" chance="80" speedchange="450" duration="8000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element icePercent="10"/>
+		<element holyPercent="-15"/>
+		<element deathPercent="35"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="4">
+		<summon name="demon" interval="1000" chance="50"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="MY SEED IS FEAR AND MY HARVEST ARE YOUR SOULS" yell="1"/>
+		<voice sentence="The triangle of terror will rise!"/>
+		<voice sentence="Zathroth look at the destruction i am causing in your name!"/>
+	</voices>
+</monster>

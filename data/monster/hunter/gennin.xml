@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gennin" nameDescription="a gennin" race="blood" experience="200" speed="200" manacost="490">
+	<health now="1500" max="1500"/>
+	<look type="2" corpse="2844"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-200" max="-300"/>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<loot>
+		<item id="2666" countmax="10" chance="31250"/> <!-- meat -->
+		<item id="2152" countmax="10" chance="18350"/> <!-- Dollar -->
+	</loot>
+</monster>

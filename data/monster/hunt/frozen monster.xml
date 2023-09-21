@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frozen Monster" nameDescription="a frozen monster" race="blood" experience="2100" speed="700" manacost="490">
+	<health now="100000" max="100000"/>
+	<look type="276"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="suitonsuigadan" interval="1500" chance="700" range="7" min="-3500" max="-4000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="30" chance="20000"/> <!-- Dollar -->
+	</loot>
+</monster>

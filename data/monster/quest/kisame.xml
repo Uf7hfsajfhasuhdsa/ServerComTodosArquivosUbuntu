@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kisame Boss" nameDescription="Kisame Boss" race="blood" experience="100000" speed="1000" manacost="490">
+	<health now="90000000" max="90000000"/>
+	<look type="208" corpse="2889"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="suitonsuigadan" interval="1000" chance="700" range="7" min="-9000" max="-30000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="Suiton Amesuikouha" interval="2000" chance="700" range="7" min="-7000" max="-20000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="60" chance="20000"/> <!-- Dollar -->
+		<item id="2152" countmax="1" chance="1000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

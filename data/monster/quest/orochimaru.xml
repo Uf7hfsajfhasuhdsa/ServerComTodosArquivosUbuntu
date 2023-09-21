@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Orochimaru Akatsuki Boss" nameDescription="a orochimaru akatsuki boss" race="blood" experience="600000" speed="1000" manacost="490">
+	<health now="80000000" max="80000000"/>
+	<look type="426" corpse="2908"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1500" chance="700" range="7" min="-10000" max="-25000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<summons maxSummons="5">
+		<summon name="Manda" interval="1000" chance="30" max="1"/>
+		<summon name="Snake One" interval="1000" chance="30" max="2"/>
+		<summon name="Snake Two" interval="1000" chance="30" max="1"/>
+		<summon name="Snake Three" interval="1000" chance="30" max="1"/>
+	</summons>
+	<loot>
+		<item id="2463" countmax="1" chance="100"/> <!-- Orochimaru Tunic -->
+		<item id="2152" countmax="4" chance="2000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

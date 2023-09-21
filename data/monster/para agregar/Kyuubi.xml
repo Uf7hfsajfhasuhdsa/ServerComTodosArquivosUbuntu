@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<monster name="Kyuubi" level="200" maglevel="90" experience="1999" pushable="0" armor="25" defense="25" canpushitems="1" staticattack="10" changetarget="200" speed="650">
+	<health now="50000" max="50000"/>
+	<look type="230" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+	<combat targetdistance="1" runonhealth="0"/>
+<attacks>
+	<attack type="melee" mindamage="2300" maxdamage="450" /> 
+	<attack type="instant" name="kyuubi atack" exhaustion="500" cycleticks="3000" probability="90"/>
+        <attack type="instant" name="kyuubi explosion" exhaustion="500" cycleticks="3000" probability="90"/>
+        <attack type="instant" name="kyuubi baf" exhaustion="500" cycleticks="3000" probability="90"/>
+        <attack type="instant" name="kyuubi dead" exhaustion="500" cycleticks="3000" probability="90"/>
+</attacks>
+
+<defenses>
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<voices>
+	<voice sentence="The fouth Hokage isn't here to protect you!"/>
+<voice sentence="You'll be mine!!"/>
+</voices>
+
+<loot>
+ 	<item id="2534" chance="1000000"/>
+</loot>
+</monster>

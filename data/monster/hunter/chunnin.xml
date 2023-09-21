@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chunnin" nameDescription="a chunnin" race="blood" experience="500" speed="400" manacost="490">
+	<health now="5000" max="5000"/>
+	<look type="57" corpse="2844"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1700" min="-700" max="-900"/>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<loot>
+		<item id="2148" countmax="10" chance="25125"/> <!-- platinum coin -->
+	</loot>
+</monster>

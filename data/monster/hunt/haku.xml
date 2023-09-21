@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Haku" nameDescription="a haku" race="blood" experience="950" speed="700" manacost="490">
+	<health now="50000" max="50000"/>
+	<look type="17" corpse="2855"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2250" min="-2000" max="-2300"/>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="13" chance="20000"/> <!-- Dollar -->
+		<item id="2462" chance="1000"/> <!-- haku mask -->
+	</loot>
+</monster>

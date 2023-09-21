@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+    <globalevent name="heal" interval="1000" event="script" value="healfontes.lua"/>
+	<globalevent name="save" interval="3000000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/>
+	<globalevent name="lottery" interval="14400000" event="script" value="lotery.lua"/>
+	<globalevent name="DicasDefault" interval="1000000" script="DicasDefault.lua" />
+	<globalevent name="Dicas" interval="1200000" script="Dicas.lua" />
+   	<globalevent name="OpenVilarejo" time="22:30" event="script" value="TeleportVilarejo.lua"/>
+	<globalevent name="CloseVilarejo" time="23:30" event="script" value="TeleportVilarejo.lua"/>
+	<globalevent name="shop" interval="30" script="shop.lua"/>
+	<globalevent name="falante" interval="1200" script="tpfalante1.lua" />
+	<globalevent name="falante2" interval="1200" script="tpfalante2.lua" />
+	<globalevent name="falante3" interval="1200" script="tpfalante3.lua" />
+	<globalevent name="falante4" interval="1200" script="tpfalante4.lua" />
+	<globalevent name="falante5" interval="1200" script="tpfalante5.lua" />
+	<globalevent name="falante6" interval="1200" script="tpfalante6.lua" />	
+	<globalevent name="dailyReset" type="startup" event="script" value="dailyReset.lua"/>
+	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+</globalevents>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<monster name="Guardian" file="guarda.xml"/>
+	<monster name="Master Guardian" file="master guarda.xml"/>
+
+	<monster name="Trainer" file="naruto/trainer.xml"/>
+	<monster name="Obito" file="invasao/obito.xml"/>
+	<monster name="Hachibi" file="invasao/hachibi.xml"/>
+	<monster name="Kyuubi" file="invasao/kyuubi.xml"/>
+	<monster name="BOT AFK" file="botafk.xml"/>
+	
+	<!-- Quest -->
+	<monster name="Uchiha Bunshin" file="hunt/uchiha bunshin.xml"/>
+	<monster name="Hoshigaki Bunshin" file="hunt/hoshigaki bunshin.xml"/>
+	<monster name="Obito Uchiha" file="hunt/obito uchiha.xml"/>
+	<monster name="Konoha Elite Jounnin" file="quest/konoha elite jounnin.xml"/>
+	<monster name="Tsunade Lendary Sannin" file="quest/tsunade sannin.xml"/>
+	<monster name="Sasori" file="quest/sasori.xml"/>
+	<monster name="Kisame" file="quest/kisame.xml"/>
+	<monster name="Itachi" file="quest/itachi.xml"/>
+	
+	<!-- Bosses -->
+	<monster name="Zabuza Boss" file="boss/zabuza.xml"/>
+	<monster name="Orochimaru Boss" file="boss/orochimaru.xml"/>
+	<monster name="Kakashi Boss" file="boss/kakashi.xml"/>
+	<monster name="Kimimaru Boss" file="boss/kimimaru.xml"/>
+	<monster name="Sasuke Boss" file="boss/sasuke.xml"/>
+	<monster name="Naruto Boss" file="boss/naruto.xml"/>
+	<monster name="Tobirama Boss" file="boss/tobirama.xml"/>
+	<monster name="Kazekage Boss" file="boss/kazekage.xml"/>
+	<monster name="Yondaime Boss" file="boss/yondaime.xml"/>
+	<monster name="Gaara Boss" file="boss/gaara.xml"/>
+	<monster name="Jiraya Boss" file="boss/jiraya.xml"/>
+	<monster name="Hidan Boss" file="boss/hidan.xml"/>
+	<monster name="Raikage Boss" file="boss/raikage.xml"/>
+	<monster name="Sasuke Akatsuki Boss" file="boss/sasuke akatsuki.xml"/>
+	<monster name="Tobi Boss" file="boss/tobi.xml"/>
+
+	<!-- Inicio -->
+	<monster name="Snake" file="hunt/snake.xml"/>
+	<monster name="Wolf" file="hunt/wolf.xml"/>
+	<monster name="Gennin" file="hunt/gennin.xml"/>
+	<monster name="Chunnin" file="hunt/chunnin.xml"/>
+
+	<!-- Level 50 -->
+	<monster name="Naruto" file="hunt/naruto.xml"/>
+	<monster name="Gaara" file="hunt/gaara.xml"/>
+	<monster name="Orochimaru Snake" file="hunt/orochimaru snake.xml"/>
+
+	<!-- Level 75 -->
+	<monster name="Jounnin" file="hunt/jounnin.xml"/>
+	<monster name="Haku" file="hunt/haku.xml"/>
+	<monster name="Zabuza" file="hunt/zabuza.xml"/>
+
+	<!-- Level 100 -->
+	<monster name="Jiroubo" file="hunt/jiroubo.xml"/>
+	<monster name="Kidoumaro" file="hunt/kidoumaro.xml"/>
+	<monster name="Tayuya" file="hunt/tayuya.xml"/>
+	<monster name="Sakon" file="hunt/sakon.xml"/>
+	<monster name="Unknow" file="hunt/unknow.xml"/>
+
+	<!-- Level 150 -->
+	<monster name="Shinobi Star" file="hunt/shinobi star.xml"/>
+	<monster name="Gamaken" file="hunt/gamaken.xml"/>
+	<monster name="ANBU" file="hunt/anbu.xml"/>
+	<monster name="Suiton Shinobi" file="hunt/suiton shinobi.xml"/>
+	<monster name="Cursed Ghost" file="hunt/cursed ghost.xml"/>
+
+	<!-- Level 200 -->
+	<monster name="Shinobi Of The Blades" file="hunt/shinobi of the blades.xml"/>
+	<monster name="Mutant Creature" file="hunt/mutant creature.xml"/>
+	<monster name="Black Shinobi" file="hunt/black shinobi.xml"/>
+	<monster name="Red Shaolin" file="hunt/red shaolin.xml"/>
+	<monster name="Sand Jounin" file="hunt/sand jounin.xml"/>
+
+	<!-- Level 250 -->
+	<monster name="Black Anbu" file="hunt/black anbu.xml"/>
+	<monster name="Unknow Akatsuki" file="hunt/unknow akatsuki.xml"/>
+	<monster name="Kazuma" file="hunt/kazuma.xml"/>
+	<monster name="Sword Master" file="hunt/sword master.xml"/>
+	<monster name="Uchiha Itachi" file="hunt/uchiha itachi.xml"/>
+
+	<!-- Level 300 -->
+	<monster name="Perfect Anbu" file="hunt/perfect anbu.xml"/>
+
+	<!-- Level 350 -->
+	<monster name="Lider Guard" file="hunt/lider guard.xml"/>
+	<monster name="Master Shinobi" file="hunter/master shinobi.xml"/>
+
+	<!-- Level 500 -->
+	<monster name="White Zetsu" file="hunt/white zetsu.xml"/>
+
+	<!-- Boss de Up -->
+	<monster name="Shukaku" file="hunt/shukaku.xml"/>
+
+	<!-- Summon -->
+	<monster name="Guruko" file="summon/guruko.xml"/>
+	<monster name="Katsuyu" file="summon/katsuyu.xml"/>
+	<monster name="Manda" file="summon/manda.xml"/>
+	<monster name="Gama bunta" file="summon/gama bunta.xml"/>
+	<monster name="Mokuton Bunshin" file="summon/mokuton bunshin.xml"/>
+	<monster name="Raiton Bunshin" file="summon/raiton bunshin.xml"/>
+	<monster name="Mizu Bunshin" file="summon/mizu bunshin.xml"/>
+	<monster name="Kami Bunshin" file="summon/kami bunshin.xml"/>
+
+	<!-- Summon Kankuro -->
+	<monster name="Sasori Puppet" file="summon/sasori.xml"/>
+	<monster name="Kuroari" file="summon/kuroari.xml"/>
+	<monster name="Karasu" file="summon/karasu.xml"/>
+	<monster name="Sanshouo" file="summon/sanshouo.xml"/>
+
+	<!-- Summon Shino -->
+	<monster name="Kikai" file="summon/kikai.xml"/>
+	<monster name="Kikaichuu" file="summon/kikaichuu.xml"/>
+	<monster name="Kikai Muchidama" file="summon/muchidama.xml"/>
+
+	<!-- Summon Nagato -->
+	<monster name="Rinnegan One" file="summon/rinnegan one.xml"/>
+	<monster name="Rinnegan Two" file="summon/rinnegan two.xml"/>
+	<monster name="Rinnegan Three" file="summon/rinnegan three.xml"/>
+	<monster name="Rinnegan Four" file="summon/rinnegan four.xml"/>
+
+	<!-- Summon Monsters -->
+	<monster name="Pakkun" file="naruto/pakkun.xml"/>
+	<monster name="Buru" file="naruto/buru.xml"/>
+	<monster name="Clone" file="summon/clone.xml"/>
+	<monster name="Kage Bunshin" file="naruto/kage bunshin.xml"/>
+</monsters>

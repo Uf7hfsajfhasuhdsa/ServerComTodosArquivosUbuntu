@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Master Shinobi" nameDescription="a master shinobi" race="blood" experience="10100" speed="1000" manacost="490">
+	<health now="400000" max="400000"/>
+	<look type="327"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1200" chance="700" range="7" min="-9000" max="-12000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2160" countmax="2" chance="33333"/> <!-- Dollar -->
+		<item id="2399" countmax="1" chance="50000"/> <!-- Strong Shuriken -->
+	</loot>
+</monster>

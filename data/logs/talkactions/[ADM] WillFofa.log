@@ -1,0 +1,33 @@
+[13/6/2017 20:39:24] /up
+[13/6/2017 20:40:11] /t
+[13/6/2017 20:40:39] /m guardian one
+[13/6/2017 20:40:49] /c [adm] kaufofa
+[13/6/2017 20:40:59] /attr group 0
+[13/6/2017 20:41:1] /r
+[13/6/2017 20:41:28] /addskill [ADM] KauFofa, level, 700000
+[13/6/2017 20:42:10] /i 2446
+[13/6/2017 20:42:18] /i eletrix katana
+[13/6/2017 20:42:24] /i eletric katana
+[13/6/2017 20:42:33] /i sasuke sword
+[13/6/2017 20:42:39] /attr attack 999
+[13/6/2017 20:42:48] /attr set attack 99
+[13/6/2017 20:42:53] /attr set attack 99999999999
+[13/6/2017 20:43:10] /i sasuke sword
+[13/6/2017 20:43:14] /attr set attack 99999999
+[13/6/2017 20:43:26] /m trainer
+[13/6/2017 20:43:36] /attr set attack 99999
+[13/6/2017 20:43:56] /m trainer
+[13/6/2017 20:44:54] /m shinobi star
+[13/6/2017 20:45:3] /r
+[13/6/2017 20:45:25] /m shukaku
+[13/6/2017 20:45:50] /attr set attack 999999
+[13/6/2017 20:47:58] /addskill Test Serv, level, 700000
+[13/6/2017 20:48:13] /m trainer
+[13/6/2017 20:49:6] /addskill Test Serv, maric level, 150
+[13/6/2017 20:49:37] /addskill Test Serv, level, -600000
+[13/6/2017 20:49:41] /addskill Test Serv, level, - 600000
+[13/6/2017 20:50:8] /r
+[13/6/2017 20:50:38] /m trainer
+[13/6/2017 20:53:9] /save
+[13/6/2017 20:55:33] /m trainer
+[13/6/2017 20:55:57] /addskill [ADM] KauFofa, magic, 170

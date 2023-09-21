@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<spells>
+<!-- runes -->
+<rune name="Poison Field" id="2285" charges="1" blocktype="solid" exhaustion="1" enabled="1" allowfaruse="1" script="poison field.lua"></rune>
+<rune name="Antidote" id="2266" charges="1" aggressive="0" needtarget="1" maglv="0" exhaustion="1" enabled="1" allowfaruse="1" script="antidote.lua"></rune>
+<rune name="Intense Healing" id="2265" charges="1" aggressive="0" needtarget="1" maglv="1" exhaustion="1" enabled="1" allowfaruse="1" script="ih.lua"></rune>
+<rune name="Fire Field" id="2301" charges="3" blocktype="solid" maglv="1" exhaustion="1" enabled="1" allowfaruse="1" script="fire field.lua"></rune>
+<rune name="Light Magic Missile" id="2287" charges="5" needtarget="1" maglv="1" exhaustion="1" enabled="1" allowfaruse="1" script="lmm.lua"></rune>
+<rune name="Convince Creature" id="2290" charges="1" maglv="5" exhaustion="1" enabled="1" allowfaruse="1" function="convince"></rune>
+<rune name="Fireball" id="2302" charges="2" maglv="2" exhaustion="1" enabled="1" allowfaruse="1" script="fireball.lua"></rune>
+<rune name="Energy Field" id="2277" charges="3" blocktype="solid" maglv="3" exhaustion="1" enabled="1" allowfaruse="1" script="energy field.lua"></rune>
+<rune name="Envenom" id="2292" charges="1" maglv="4" exhaustion="1" enabled="1" allowfaruse="1" script="envenom.lua"></rune>
+<rune name="Great Fireball" id="2304" charges="2" maglv="4" exhaustion="1" enabled="1" allowfaruse="1" script="gfb.lua"></rune>
+<rune name="Ultimate Healing" id="2273" aggressive="0" charges="1" needtarget="1" maglv="4" exhaustion="1" enabled="1" allowfaruse="1" script="uh.lua"></rune>
+<rune name="Poison Bomb" id="2286" charges="2" maglv="4" blocktype="solid" exhaustion="1" enabled="1" allowfaruse="1" script="poison bomb.lua"></rune>
+<rune name="Heavy Magic Missile" id="2311" charges="5" needtarget="1" maglv="4" exhaustion="1" enabled="1" allowfaruse="1" script="hmm.lua"></rune>
+<rune name="Soul Fire" id="2308" charges="2" maglv="7" exhaustion="1" enabled="1" allowfaruse="1" script="soul fire.lua"></rune>
+<rune name="Chameleon" id="2291" charges="1" maglv="4" exhaustion="1" enabled="1" function="chameleon"></rune>
+<rune name="Fire Bomb" id="2305" charges="2" blocktype="solid" maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="fire bomb.lua"></rune>
+<rune name="Poison Wall" id="2289" charges="4" maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="poison wall.lua"></rune>
+<rune name="Explosion" id="2313" charges="3" maglv="6" exhaustion="1" enabled="1" allowfaruse="1" script="explosion.lua"></rune>
+<rune name="Magic Wall" id="2293" charges="4" blocktype="all" maglv="9" exhaustion="1" enabled="1" allowfaruse="1" script="magic wall.lua"></rune>
+<rune name="Fire Wall" id="2303" charges="4" maglv="6" exhaustion="1" enabled="1" allowfaruse="1" script="fire wall.lua"></rune>
+<rune name="Energy Bomb" id="2262" charges="2" blocktype="solid" maglv="10" exhaustion="1" enabled="1" allowfaruse="1" script="energy bomb.lua"></rune>
+<rune name="Energy Wall" id="2279" charges="4" maglv="9" exhaustion="1" enabled="1" allowfaruse="1" script="energy wall.lua"></rune>
+<rune name="Sudden Death" id="2268" charges="1" needtarget="1" maglv="15" exhaustion="1" enabled="1" allowfaruse="1" script="sd.lua"></rune>
+<rune name="Paralyze" id="2278" charges="1" maglv="18" exhaustion="1" enabled="1" allowfaruse="1" script="paralyze.lua"></rune>
+
+<rune name="Polymorph" id="2270" charges="1" lvl="10" maglv="20" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" script="polymorph.lua"></rune>
+<rune name="Combustion" id="2271" charges="1" lvl="10" maglv="20" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" script="combustion.lua"></rune>
+<rune name="Energy Arrow" id="2274" charges="1" lvl="10" maglv="20" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" script="energy wave.lua"></rune>
+<rune name="Magic Prison" id="2272" charges="1" lvl="10" maglv="20" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" script="magic prison.lua"></rune>
+
+<!-- instant spells -->
+<instant name="Create Illusion" words="utevo res ina" params="1" aggressive="0" lvl="13" mana="100" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" blockwalls="1" function="Illusion"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Find Person" words="exiva" aggressive="0" params="1" lvl="8" mana="20" soul="0" exhaustion="1" prem="0" enabled="1" function="searchPlayer"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/><vocation name="Knight"/></instant>
+<instant name="Light" words="utevo lux" selftarget="1" aggressive="0" lvl="8" mana="20" soul="0" exhaustion="1" prem="0" enabled="1" script="light.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/><vocation name="Knight"/></instant>
+<instant name="Magic Rope" words="exani tera" soul="0" selftarget="1" aggressive="0" lvl="8" mana="20" exhaustion="1" prem="1" enabled="1" script="magic rope.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/><vocation name="Knight"/></instant>
+<instant name="Light Healing" words="exura" selftarget="1" aggressive="0" lvl="8" mana="25" soul="0" exhaustion="1" prem="0" enabled="1" script="light healing.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/><vocation name="Knight"/></instant>
+<instant name="Antidote" words="exana pox" selftarget="1" aggressive="0" lvl="8" mana="30" soul="0" exhaustion="1" prem="0" enabled="1" script="antidote.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/><vocation name="Knight"/></instant>
+<instant name="Force Strike" words="exori mort" direction="1" lvl="9" mana="20" soul="0" exhaustion="1" prem="1" enabled="1" script="force strike.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Intense Healing" words="exura gran" selftarget="1" aggressive="0" lvl="10" mana="40" soul="0" exhaustion="1" prem="0" enabled="1" script="ih.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></instant>
+<instant name="Levitate" words="exani hur" params="1" lvl="12" mana="50" soul="0" exhaustion="1" prem="1" enabled="1" function="Levitate"></instant>
+<instant name="Flame Strike" words="exori flam" direction="1" lvl="10" mana="20" soul="0" exhaustion="1" prem="1" enabled="1" script="flame strike.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Energy Strike" words="exori vis" direction="1" lvl="10" mana="20" soul="0" exhaustion="1" prem="1" enabled="1" script="energy strike.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Great Light" words="utevo gran lux" selftarget="1" aggressive="0" lvl="13" mana="60" soul="0" exhaustion="1" prem="0" enabled="1" script="great light.lua"></instant>
+<instant name="Magic Shield" words="utamo vita" selftarget="1" aggressive="0" lvl="14" mana="50" soul="0" exhaustion="1" prem="0" enabled="1" script="magic shield.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></instant>
+<instant name="Haste" words="utani hur" selftarget="1" aggressive="0" lvl="9" mana="60" soul="0" exhaustion="1" prem="1" enabled="1" script="haste.lua"></instant>
+<instant name="Fire Wave" words="exevo flam hur" direction="1" lvl="12" mana="80" soul="0" exhaustion="1" prem="0" enabled="1" script="fire wave.lua"><vocation name="Sorcerer"/></instant>
+<instant name="Heal Friend" words="exura sio" aggressive="0" params="1" needtarget="1" lvl="10" mana="70" soul="0" exhaustion="1" prem="0" enabled="1" script="healfriend.lua"><vocation name="Druid"/></instant>
+<instant name="Challenge" words="exeta res" lvl="10" mana="30" soul="0" exhaustion="1" prem="1" enabled="1" script="challenge.lua"></instant>
+<instant name="Ultimate Healing" words="exura vita" selftarget="1" aggressive="0" lvl="10" mana="80" soul="0" exhaustion="1" prem="0" enabled="1" script="uh.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></instant>
+<instant name="Strong Haste" words="utani gran hur" selftarget="1" aggressive="0" lvl="15" mana="100" soul="0" exhaustion="1" prem="1" enabled="1" script="strong haste.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Summon Creature" words="utevo res" aggressive="0" lvl="12" params="1" soul="0" exhaustion="1" prem="0" enabled="1" function="summonMonster"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Cancel Invisibility" words="exana ina" lvl="26" mana="200" soul="0" exhaustion="1" prem="1" enabled="1" script="cancel invisible.lua"><vocation name="Sorcerer"/></instant>
+<instant name="Ultimate Light" words="utevo vis lux" selftarget="1" aggressive="0" lvl="16" mana="140" soul="0" exhaustion="1" prem="1" enabled="1" script="ultimate light.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Wild Growth" words="exevo grav vita" direction="1" blocktype="all" lvl="13" mana="220" soul="0" exhaustion="1" prem="1" enabled="1" script="wild growth.lua"><vocation name="Druid"/></instant>
+<instant name="Great Energy Beam" words="exevo gran vis lux" direction="1" lvl="14" mana="200" soul="0" exhaustion="1" prem="0" enabled="1" script="great energy beam.lua"><vocation name="Sorcerer"/><vocation name ="Druid"/></instant>
+<instant name="Invisibility" words="utana vid" selftarget="1" aggressive="0" lvl="15" mana="200" soul="0" exhaustion="1" prem="1" enabled="1" script="invisible.lua"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></instant>
+<instant name="Berserk" words="exori" lvl="15" manapercent="80" soul="0" exhaustion="1" prem="1" enabled="1" script="berserk.lua"><vocation name="Knight"/></instant>
+<instant name="Mass Healing" words="exura gran mas res" aggressive="0" lvl="10" mana="150" soul="0" exhaustion="1" prem="1" enabled="1" script="mass healing.lua"><vocation name="Druid"/></instant>
+<instant name="Energy Wave" words="exevo mort hur" direction="1" lvl="14" mana="250" soul="0" exhaustion="1" prem="0" enabled="1" script="energy wave.lua"><vocation name="Sorcerer"/></instant>
+<instant name="Poison Storm" words="exevo gran mas pox" lvl="20" mana="600" soul="0" exhaustion="1" prem="0" enabled="1" script="poison storm.lua"><vocation name="Druid"/></instant>
+<instant name="Ultimate Explosion" words="exevo gran mas vis" lvl="30" mana="800" soul="0" exhaustion="1" prem="1" enabled="1" script="ultimate explosion.lua"><vocation name="Sorcerer"/></instant>
+
+<instant name="Ultimate Haste" words="utani mas hur" selftarget="1" aggressive="0" lvl="40" mana="400" soul="0" exhaustion="1" prem="1" enabled="1" script="ultimate haste.lua"><vocation name="Druid"/><vocation name="Sorcerer"/></instant>
+<instant name="Whirlwind" words="exori hur" needtarget="1" needWeapon="1" soul="0" exhaustion="1" prem="0" enabled="1" script="whirlwind.lua" website="1"><vocation name="Knight"/></instant>
+
+<!-- conjure spells -->
+<conjure name="Poison Field Rune" words="adevo grav pox" reagentId="2260" conjureId="2285" aggressive="0" conjureCount="3" lvl="10" mana="40" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Antidote Rune" words="adana pox" reagentId="2260" conjureId="2266" aggressive="0" conjureCount="1" lvl="10" mana="40" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Intense Healing Rune" words="adura gran" reagentId="2260" conjureId="2265" aggressive="0" conjureCount="1" lvl="10" mana="60" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Fire Field Rune" words="adevo grav flam" reagentId="2260" conjureId="2301" aggressive="0" conjureCount="3" lvl="10" mana="60" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Light Magic Missile Rune" words="adori" reagentId="2260" conjureId="2287" aggressive="0" conjureCount="5" lvl="10" mana="30" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></conjure>
+<conjure name="Convince Creature Rune" words="adeta sio" reagentId="2260" conjureId="2290" aggressive="0" conjureCount="1" maglv="16" mana="200" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Fireball Rune" words="adori flam" reagentId="2260" conjureId="2302" aggressive="0" conjureCount="3" lvl="8" mana="50" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></conjure>
+<conjure name="Destroy Field Rune" words="adito grav" reagentId="2260" conjureId="2261" aggressive="0" conjureCount="3" lvl="8" mana="30" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></conjure>
+<conjure name="Energy Field Rune" words="adevo grav vis" reagentId="2260" conjureId="2277" aggressive="0" conjureCount="3" lvl="8" mana="40" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Envenom Rune" words="adevo res pox" reagentId="2260" conjureId="2292" aggressive="0" conjureCount="3" lvl="8" mana="100" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Desintegrate Rune" words="adito tera" reagentId="2260" conjureId="2310" aggressive="0" conjureCount="3" lvl="8" mana="40" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></conjure>
+<conjure name="Great Fireball Rune" words="adori gran flam" reagentId="2260" conjureId="2304" aggressive="0" conjureCount="2" lvl="8" mana="100" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Ultimate Healing Rune" words="adura vita" reagentId="2260" conjureId="2273" aggressive="0" conjureCount="1" lvl="8" mana="100" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Poison Bomb Rune" words="adevo mas pox" reagentId="2260" conjureId="2286" aggressive="0" conjureCount="2" lvl="8" mana="200" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Heavy Magic Missile Rune" words="adori gran" reagentId="2260" conjureId="2311" conjureCount="5" aggressive="0" lvl="8" mana="70" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/><vocation name="Paladin"/></conjure>
+<conjure name="Soul Fire Rune" words="adevo res flam" reagentId="2260" conjureId="2308" aggressive="0" conjureCount="2" lvl="8" mana="50" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Chameleon Rune" words="adevo ina" reagentId="2260" conjureId="2291" conjureCount="1" aggressive="0" lvl="8" mana="80" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/></conjure>
+<conjure name="Fire Bomb Rune" words="adevo mas flam" reagentId="2260" conjureId="2305" aggressive="0" conjureCount="2" lvl="8" mana="120" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Poison Wall Rune" words="adevo mas grav pox" reagentId="2260" conjureId="2289" aggressive="0" conjureCount="4" maglv="29" mana="100" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Explosion Rune" words="adevo mas hur" reagentId="2260" conjureId="2313" aggressive="0" conjureCount="3" lvl="8" mana="130" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Magic Wall Rune" words="adevo grav tera" reagentId="2260" conjureId="2293" aggressive="0" conjureCount="4" lvl="8" mana="150" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Sorcerer"/></conjure>
+<conjure name="Fire Wall Rune" words="adevo mas grav flam" reagentId="2260" conjureId="2303" aggressive="0" conjureCount="4" lvl="8" mana="200" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Energy Bomb Rune" words="adevo mas vis" reagentId="2260" conjureId="2262" aggressive="0" conjureCount="2" lvl="8" mana="180" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Sorcerer"/></conjure>
+<conjure name="Energy Wall Rune" words="adevo mas grav vis" reagentId="2260" conjureId="2279" aggressive="0" conjureCount="4" lvl="8" mana="200" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Druid"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Sudden Death Rune" words="adori vita vis" reagentId="2260" conjureId="2268" aggressive="0" conjureCount="1" lvl="8" mana="200" soul="0" prem="0" enabled="1" function="conjureRune"><vocation name="Sorcerer"/></conjure>
+<conjure name="Paralyze Rune" words="adana ani" reagentId="2260" conjureId="2278" aggressive="0" conjureCount="1" lvl="8" mana="500" soul="0" prem="1" enabled="1" function="conjureRune"><vocation name="Sorcerer"/></conjure>
+
+<conjure name="Create Food" words="exevo pan" lvl="8" maglv="0" mana="20" soul="0" prem="0" enabled="1" function="conjureFood"><vocation name="Druid"/><vocation name="Paladin"/><vocation name="Knight"/><vocation name="Sorcerer"/></conjure>
+<conjure name="Conjure Arrow" words="exevo con" conjureId="2544" conjureCount="15" aggressive="0" lvl="9" mana="40" soul="0" prem="0" enabled="1" function="conjureItem"><vocation name="Paladin"/></conjure>
+<conjure name="Poison Arrow" words="exevo con pox" conjureId="2545" conjureCount="5" aggressive="0" lvl="13" mana="50" soul="0" prem="0" enabled="1" function="conjureItem"><vocation name="Paladin"/></conjure>
+<conjure name="Conjure Bolt" words="exevo con mort" conjureId="2543" conjureCount="10" aggressive="0" lvl="13" mana="60" soul="0" prem="0" enabled="1" function="conjureItem"><vocation name="Paladin"/></conjure>
+<conjure name="Explosive Arrow" words="exevo con flam" conjureId="2546" conjureCount="5" aggressive="0" lvl="25" mana="290" soul="0" prem="0" enabled="1" function="conjureItem"><vocation name="Paladin"/></conjure>
+<conjure name="Power Bolt" words="exevo con vis" conjureId="2547" conjureCount="1" aggressive="0" lvl="59" mana="800" soul="0" prem="1" enabled="1" function="conjureItem"><vocation name="Paladin"/></conjure>
+
+
+<instant name="Invite" words="aleta sio" direction="0" enabled="1" aggressive="0" function="editHouseGuest"></instant>
+<instant name="Invite Door" words="aleta grav" direction="1" enabled="1" aggressive="0" function="editHouseDoor"></instant>
+<instant name="SubOwner" words="aleta gom" direction="0" enabled="1" aggressive="0" function="editHouseSubOwner"></instant>
+<instant name="Kick Player" words="alana sio" enabled="1" aggressive="0" function="houseKick"></instant>
+
+
+
+<!-- monster spells -->
+<rune name="bolt" id="20001" enabled="1" script="monsters/bolt.lua"></rune>
+<rune name="spider bite" id="20002" enabled="1" script="monsters/spider bite.lua"></rune>
+<rune name="imitate" id="20003" enabled="1" script="monsters/imitate.lua"></rune>
+<rune name="explosive arrow" id="20004" enabled="1" script="monsters/explosive arrow.lua"></rune>
+<rune name="poison spit" id="20005" enabled="1" script="monsters/poison spit.lua"></rune>
+<rune name="arrow" id="20006" enabled="1" script="monsters/arrow.lua"></rune>
+<rune name="spear" id="20007" enabled="1" script="monsters/spear.lua"></rune>
+<rune name="throwing knife" id="20008" enabled="1" script="monsters/throwing knife.lua"></rune>
+<rune name="throwing star" id="20009" enabled="1" script="monsters/throwing star.lua"></rune>
+<rune name="small stone" id="20010" enabled="1" script="monsters/small stone.lua"></rune>
+<rune name="poison arrow" id="20011" enabled="1" script="monsters/poison arrow.lua"></rune>
+<rune name="large rock" id="20012" enabled="1" script="monsters/large rock.lua"></rune>
+<rune name="mana drain" id="20013" enabled="1" script="monsters/mana drain.lua"></rune>
+<rune name="dragon fireball" id="20014" enabled="1" script="monsters/dragon fireball.lua"></rune>
+<rune name="dragon lord fireball" id="20015" enabled="1" script="monsters/dragon lord fireball.lua"></rune>
+<rune name="life drain" id="20016" enabled="1" script="monsters/life drain.lua"></rune>
+<rune name="dragon firebomb" id="20017" enabled="1" script="monsters/dragon firebomb.lua"></rune>
+
+<!-- instant monster spells -->
+<instant name="banshee sonar" words="sonar" enabled="0" script="monsters/sonar.lua"></instant>
+<instant name="dragon firewave" words="dragon firewave" direction="1" enabled="0" script="monsters/dragon firewave.lua"></instant>
+<instant name="dragon lord firewave" words="dragon lord firewave" direction="1" enabled="0" script="monsters/dragon lord firewave.lua"></instant>
+<instant name="hydra bubblewave" words="hydra bubblewave" direction="1" enabled="0" script="monsters/hydra bubblewave.lua"></instant>
+<instant name="hydra poisonwave" words="hydra poisonwave" direction="1" enabled="0" script="monsters/hydra poisonwave.lua"></instant>
+<instant name="orshabaal berserk" words="orshabaal berserk" enabled="0" script="monsters/orshabaal berserk.lua"></instant>
+
+</spells>

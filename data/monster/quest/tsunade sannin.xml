@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tsunade Lendary Sannin" nameDescription="a sannin" race="blood" experience="20000" speed="1000" manacost="490">
+	<health now="250000000" max="250000000"/>
+	<look type="84" corpse="2910"/>
+	<targetchange interval="5000" chance="20"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="oukashou" interval="500" chance="700" range="1" min="-1000" max="-2000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="fubuki no jutsu" interval="500" chance="700" range="1" min="-10000" max="-20000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<summons maxSummons="2">
+		<summon name="Katsuyu" interval="1000" chance="30" max="2"/>
+	</summons>
+	<loot>
+		<item id="2152" countmax="1" chance="1000"/> <!-- Dollar -->
+		<item id="2148" countmax="70" chance="20000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

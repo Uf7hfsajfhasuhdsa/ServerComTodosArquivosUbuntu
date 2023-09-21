@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Yondaime Boss" nameDescription="a yondaime boss" race="blood" experience="50000" speed="1220" manacost="390">
+	<health now="300000000" max="300000000"/>
+	<look type="109" head="113" body="120" legs="114" feet="132" />
+	<targetchange interval="5000" chance="7"/>
+	<strategy attack="100" defense="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag passive="0" />
+	</flags>
+	<script>
+    <event name="tp"/>
+    </script> 
+	<attacks>
+		<attack name="mina1" interval="1000" min="-19050" max="-30250"/>
+		<attack name="mina2" interval="4000" min="-47050" max="-70250"/>
+		<attack name="mina3" interval="8000" min="-87050" max="-132250"/>
+	</attacks>
+	<defenses armor="30" defense="50">
+		<defense name="raiton shunshin" interval="60000" chance="100" min="100" max="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-0"/>
+		<element deathPercent="-0"/>
+	</elements>
+	<voices interval="5000" chance="0">
+		<voice sentence=""/>
+	</voices>
+	<loot>
+
+	</loot>
+</monster>

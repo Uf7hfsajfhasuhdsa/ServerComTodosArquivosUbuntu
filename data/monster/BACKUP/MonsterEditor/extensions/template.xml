@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<monster name="BlackDemon" nameDescription="the BlackDemon" experience="6000" speed="420" race="Fire">
+  <health now="1337" max="1337"/>
+  <look type="35" head="0" body="0" legs="0" feet="0" addons="0" corpse="2916"/>
+  <strategy attack="720" defense="450"/>
+  <targetchange speed="420" chance="75"/>
+  <flags>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag hostile="1"/>
+    <flag attackable="1"/>
+    <flag staticattack="1"/>
+    <flag targetdistance="1"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" chance="100" fire="400" tick="10000" min="-1337" max="-1337" range="1"/>
+    <attack name="physical" interval="4000" chance="50" min="-1337" max="-1337" range="6" radius="8" target="1">
+      <attribute key="areaEffect" value="mortarea"/>
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+    <attack name="physical" interval="6000" chance="35" min="-6666" max="-6666" range="1" radius="9" target="0">
+      <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="25" min="-420" max="-720" range="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="outfit" interval="6000" chance="75" length="2" spread="3" duration="10000" item="277">
+      <attribute key="areaEffect" value="yellowfirework"/>
+    </attack>
+    <attack name="physical" interval="40000" chance="100" min="-420" max="-520" range="7">
+      <attribute key="areaEffect" value="redspark"/>
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+  </attacks>
+  <defenses defense="45" armor="10">
+    <defense name="healing" interval="2300" chance="75" min="1337" max="1337">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="4200" chance="50" duration="10000" speedchange="250">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+    <defense name="invisible" interval="4000" chance="10" duration="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity name="earth"/>
+    <immunity name="energy"/>
+    <immunity name="death"/>
+    <immunity name="physical"/>
+    <immunity name="lifedrain"/>
+    <immunity name="outfit"/>
+    <immunity name="ice"/>
+    <immunity name="fire"/>
+    <immunity name="holy"/>
+    <immunity name="paralyze"/>
+    <immunity name="invisible"/>
+    <immunity name="drown"/>
+    <immunity name="drunk"/>
+  </immunities>
+  <voices speed="2200" chance="75">
+    <voice sentence="MWAHAHAHAH" yell="1"/>
+    <voice sentence="Rawr!"/>
+  </voices>
+  <summons maxSummons="10">
+    <summon name="Demon" speed="2000" chance="75"/>
+    <summon name="Orshabaal" speed="6000" chance="30"/>
+  </summons>
+  <loot>
+    <item id="1971" countmax="1" chance="2000" text="Holy shit its a fucking book, zomg"/>
+    <item id="1987" countmax="1" chance="30">
+      <inside>
+        <item id="2148" countmax="100" chance="50"/>
+      </inside>
+    </item>
+    <item id="2393" countmax="1" chance="1000"/>
+    <item id="2421" countmax="1" chance="300"/>
+  </loot>
+</monster>

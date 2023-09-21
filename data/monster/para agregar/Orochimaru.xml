@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<monster name="Orochimaru" level="130" maglevel="70" experience="2500" speed="410" pushable="0" monster="1" armor="40" defense="50" canpushitems="1" staticattack="50" changetarget="400">
+<health now="4000" max="4000"/>
+<look type="218" corpse="3128"/>
+<combat targetdistance="1" runonhealth="0"/>
+<attacks>
+<attack type="instant" name="Selo Nivel 1" exhaustion="500" cycleticks="5500" probability="85"/>
+<attack type="instant" name="Protecao Maldita" exhaustion="500" cycleticks="5500" probability="65"/>
+<attack type="instant" name="hp restore" exhaustion="500" cycleticks="2000" probability="80"/>
+<attack type="meele" maxdamage="1000"/>
+</attacks>
+
+<defenses>
+</defenses>
+<voices>
+<voice sentence="Ola Sarutobi Sensei"/>
+</voices>
+  <loot>
+ 	<item id="6241" chance="50000000"/>
+ 	<item id="6255" chance="50000000"/>     	
+   	<item id="2433" chance="50000000"/>   
+  </loot>
+</monster>

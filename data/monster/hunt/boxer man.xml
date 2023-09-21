@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boxer Man" nameDescription="a boxer man" race="blood" experience="600" speed="400" manacost="0">
+	<health now="30000" max="30000"/>
+	<look type="63" corpse="2874"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="20"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" chance="100" range="7" min="-1000" max="-1700">
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="8" chance="20000"/> <!-- sand shuriken -->
+		<item id="11550" countmax="1" chance="1000"/> <!-- Gennin Armor -->
+		<item id="11552" countmax="1" chance="2000"/> <!-- Gennin Boots -->
+
+	</loot>
+</monster>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Especial Red Shaolin" nameDescription="a especial shaolin" race="blood" experience="3500" speed="540" manacost="0">
+	<health now="200000" max="200000"/>
+	<look type="260" corpse="2841"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Katon Ryuuka" interval="1000" chance="700" range="7" min="-5000" max="-12000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+</monster>

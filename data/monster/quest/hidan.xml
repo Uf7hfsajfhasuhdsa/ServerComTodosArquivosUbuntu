@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hidan Boss" nameDescription="a hidan boss" race="blood" experience="600000" speed="1000" manacost="490">
+	<health now="80000000" max="80000000"/>
+	<look type="408" corpse="2893"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	<attack name="scythe" interval="3000" radius="4" min="-5000" max="-10000"/>
+		<attack name="piercinghi" interval="1000" radius="4" min="-10000" max="-25000"/>
+		<attack name="piercinghi2" interval="4000" radius="4" min="-30000" max="-55000"/>
+	</attacks>
+	<loot>
+		<item id="2152" countmax="5" chance="1000"/> <!-- Dollar -->
+				<item id="2148" countmax="80" chance="30000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

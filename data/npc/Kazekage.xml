@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Kazekage" script="data/npc/scripts/simple_task2.lua" walkinterval="50000" floorchange="0">
+<health now="100" max="100"/>
+<look type="54" head="95" body="116" legs="121" feet="115" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|! Eu posso recompensa-lo por terminar tasks, basta dizer o nome de alguma! Para saber o nome das tasks e seu progresso em cada uma, diga !missao."/>
+</parameters>
+</npc>

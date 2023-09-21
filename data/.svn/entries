@@ -1,0 +1,142 @@
+8
+
+dir
+2056
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2006-12-18T22:24:45.982307Z
+2051
+mips_act
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+players
+dir
+
+accounts
+dir
+
+npc
+dir
+
+global.lua
+file
+
+
+
+
+2006-12-17T18:04:37.687500Z
+f535d9748ab579fe7aa5b16c13ed6579
+2006-11-19T20:30:45.000000Z
+1958
+otserv_simone
+has-props
+
+items
+dir
+
+bans.xml
+file
+
+
+
+
+2006-12-17T18:04:37.703125Z
+cb42f7ba6400cf9c5b3c016253e4b90d
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+has-props
+
+monster
+dir
+
+world
+dir
+
+admin.xml
+file
+
+
+
+
+2006-12-17T18:04:37.703125Z
+495c2e2d32588d2aaf6815cc85023be5
+2006-09-29T23:50:14.000000Z
+1794
+mips_act
+has-props
+
+outfits.xml
+file
+
+
+
+
+2006-12-19T19:15:39.734375Z
+76c22a02b84fab2a80a366182bf8ef59
+2006-12-18T22:24:45.982307Z
+2051
+mips_act
+has-props
+
+commands.xml
+file
+
+
+
+
+2006-12-17T18:04:37.734375Z
+07a589dfc220065b391cb0e75b7a25d9
+2006-11-25T16:08:56.000000Z
+1993
+jiddo
+has-props
+
+actions
+dir
+
+spells
+dir
+
+raids
+dir
+
+vocations.xml
+file
+
+
+
+
+2006-12-17T18:04:37.750000Z
+c9921429fe373d82edf8b2e926509791
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+has-props
+
+weapons
+dir
+
+talkactions
+dir
+
+movements
+dir
+

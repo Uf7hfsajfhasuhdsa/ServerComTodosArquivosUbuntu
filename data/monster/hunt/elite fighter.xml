@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Fighter" nameDescription="a elite fighter" race="blood" experience="2000" speed="600" manacost="200">
+	<health now="80000" max="80000"/>
+	<look type="678" corpse="2959" />
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="5"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1600" chance="700" range="4" min="-2500" max="-4000"/>
+	</attacks>
+	<defenses armor="1" defense="2"/>
+	<elements>
+		<element earthPercent="25"/>
+		<element holyPercent="10"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+</monster>

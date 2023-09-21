@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Custom Commands" version="1.0" author="MartyX" contact="martyx@otland.net" enabled="yes">
+<!-- BUY COMMAND -->
+	<config name="command-buy-config"><![CDATA[
+		items = {
+			['brown backpack'] = {
+				cost = 500, id = 1988
+			},
+			['green backpack'] = {
+				cost = 500, id = 1998
+			},
+			['yellow backpack'] = {
+				cost = 500, id = 1999
+			},
+			['red backpack'] = {
+				cost = 500, id = 2000
+			},
+			['purple backpack'] = {
+				cost = 500, id = 2001
+			},
+			['grey backpack'] = {
+				cost = 500, id = 2003
+			},
+			['blue backpack'] = {
+				cost = 500, id = 2002
+			},
+			['gold backpack'] = {
+				cost = 500, id = 2004
+			},
+			['amulet of loss'] = {
+				cost = 300000, id = 2173
+			},
+			['rope'] = {
+				cost = 500, id = 2120
+			},
+			['shovel'] = {
+				cost = 500, id = 2554
+			},
+			['machete'] = {
+				cost = 500, id = 2420
+			},
+			['fishing rod'] = {
+				cost = 500, id = 2580
+			}
+		}
+	]]></config>
+	<talkaction words="!buy;/buy" event="script"><![CDATA[
+		domodlib('command-buy-config')
+		local config = {
+			items = items
+		}
+
+		function onSay(cid, words, param, channel)
+			if(param == '') then
+				local str = ""
+				for name, options in pairs(config.items) do
+					str = str .. "\n" .. name
+				end
+
+				doPlayerPopupFYI(cid, "/buy or !buy:\n\n" .. str)
+				return true
+			end
+
+			local item = config.items[param]
+			if(item ~= nil) then
+				if(not doPlayerRemoveMoney(cid, item.cost)) then
+					doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Not enough money to buy " .. param .. ".\n(" .. item.cost .. "gp)")
+					return true
+				end
+
+				local amount = item.amount and item.amount or 1
+				doPlayerAddItem(cid, item.id, amount)
+				doSendMagicEffect(getCreaturePosition(cid), CONST_ME_GIFT_WRAPS)
+			else
+				doPlayerSendCancel(cid, "Item not found. Use '!buy' to see the list.")
+			end
+
+			return true
+		end
+	]]></talkaction>
+
+<!-- Send animated text -->
+	<talkaction words="!me;/me" event="buffer" value="doCreatureSay(cid, getCreatureName(cid) .. ' ' .. param, TALKTYPE_MONSTER)"/>
+
+<!-- Check Player Spells -->
+	<talkaction words="!jutsu;/jutsu" event="script"><![CDATA[
+		function onSay(cid, words, param)
+			local count = getPlayerInstantSpellCount(cid)
+			local text = ""
+			local t = {}
+			for i = 0, count - 1 do
+				local spell = getPlayerInstantSpellInfo(cid, i)
+				if spell.level ~= 0 then
+					if spell.manapercent > 0 then
+						spell.mana = spell.manapercent .. "%"
+					end
+					table.insert(t, spell)
+				end
+			end
+			table.sort(t, function(a, b) return a.level < b.level end)
+			local prevLevel = -1
+			for i, spell in ipairs(t) do
+				local line = ""
+				if prevLevel ~= spell.level then
+					if i ~= 1 then
+						line = "\n"
+					end
+					line = line .. "Jutsus Level " .. spell.level .. "\n"
+					prevLevel = spell.level
+				end
+				text = text .. line .. "  " .. spell.words .. " - " .. spell.name .. " : " .. spell.mana .. "\n"
+			end
+			doShowTextDialog(cid, 2263, text)
+			return true
+		end
+	]]></talkaction>
+
+<!-- Check Members Guild inGame -->
+	<talkaction words="!guildmeb;/guildmeb" event="script"><![CDATA[
+		function onSay(cid, words, param, channel)
+			if param == '' then
+				local list = db.getResult("SELECT `name` FROM `guilds`;")
+					if(list:getID() ~= -1) then
+				local v = ''
+				repeat
+					v = v .. list:getDataString("name")  .. "\n"
+				until not list:next()
+					list:free()
+					doShowTextDialog(cid, 2529, v)
+			else
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "There are no guilds on this server.")
+			end
+		else
+
+		local id = getGuildId(param)
+			if id then
+				local list = db.getResult("SELECT `name`, `rank_id` FROM `players` WHERE `rank_id` IN (SELECT `id` FROM `guild_ranks` WHERE `guild_id` = " .. id .. ");")
+					if(list:getID() ~= -1) then
+					local v = ''
+						repeat
+							local rank = db.getResult("SELECT `name` FROM `guild_ranks` WHERE `id` = " .. list:getDataInt("rank_id") .. " LIMIT 1;")
+								v = v .. list:getDataString("name")  .. " [" .. rank:getDataString("name") .. "]\n"
+								rank:free()
+						until not list:next()
+								list:free()
+								doShowTextDialog(cid, 2529, v)
+						else
+							doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "There are no players in this guild.")
+						end
+					else
+						doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "This guild doesn't exist.")
+					end
+				end
+			return true
+		end
+	]]></talkaction>
+
+<!-- Player Full Stop -->
+	<talkaction words="/stop" access="4" event="script"><![CDATA[
+		local condition1 = createConditionObject(CONDITION_INFIGHT)
+		local condition2 = createConditionObject(CONDITION_EXHAUST)
+		local condition3 = createConditionObject(CONDITION_MUTED)
+			setConditionParam(condition1, CONDITION_PARAM_TICKS, -1)
+			setConditionParam(condition2, CONDITION_PARAM_TICKS, -1)
+			setConditionParam(condition3, CONDITION_PARAM_TICKS, -1)
+
+		function onSay(cid, words, param)
+			if(param == "") then
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Name required.")
+				return true
+			end
+
+		local player = getPlayerByNameWildcard(param)
+			local pos = getCreaturePosition(player)
+
+		local nha = {x = pos.x, y = pos.y - 3, z = pos.z, stackpos = 255}
+		local sha = {x = pos.x, y = pos.y + 3, z = pos.z, stackpos = 255}
+		local wha = {x = pos.x - 3, y = pos.y, z = pos.z, stackpos = 255}
+		local eha = {x = pos.x + 3, y = pos.y, z = pos.z, stackpos = 255}
+		local nwa = {x = pos.x - 2, y = pos.y - 2, z = pos.z, stackpos = 255}
+		local nea = {x = pos.x + 2, y = pos.y - 2, z = pos.z, stackpos = 255}
+		local sea = {x = pos.x + 2, y = pos.y + 2, z = pos.z, stackpos = 255}
+		local swa = {x = pos.x - 2, y = pos.y + 2, z = pos.z, stackpos = 255}
+
+		if getPlayerGroupId(cid) >= getPlayerGroupId(player) then
+		if getPlayerStorageValue(player, 12346) < 0 then
+		if((doCreatureSetNoMove(player, 1))== LUA_ERROR) then
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Error.")
+		end
+
+		setPlayerStorageValue(player, 12346, 1)
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Player can now not move.")
+			doSendAnimatedText(getCreaturePosition(player), "Frozen", 64)
+				doSendDistanceShoot(nha, pos, 28)
+				doSendDistanceShoot(sha, pos, 28)
+				doSendDistanceShoot(wha, pos, 28)
+				doSendDistanceShoot(eha, pos, 28)
+				doSendDistanceShoot(nwa, pos, 28)
+				doSendDistanceShoot(nea, pos, 28)
+				doSendDistanceShoot(sea, pos, 28)
+				doSendDistanceShoot(swa, pos, 28)
+				doSendMagicEffect(pos, 52)
+				doAddCondition(player, condition1)
+				doAddCondition(player, condition2)
+				doAddCondition(player, condition3)
+		elseif getPlayerStorageValue(player, 12346) >= 0 then
+		if((doCreatureSetNoMove(player, 0))== LUA_ERROR) then
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Error.")
+		end
+
+		setPlayerStorageValue(player, 12346, -1)
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Player can now move again.")
+			doSendAnimatedText(getCreaturePosition(player), "Can Move", 168)
+				doSendDistanceShoot(pos, nha, 37)
+				doSendDistanceShoot(pos, sha, 37)
+				doSendDistanceShoot(pos, wha, 37)
+				doSendDistanceShoot(pos, eha, 37)
+				doSendDistanceShoot(pos, nwa, 37)
+				doSendDistanceShoot(pos, nea, 37)
+				doSendDistanceShoot(pos, sea, 37)
+				doSendDistanceShoot(pos, swa, 37)
+				doSendMagicEffect(pos, 49)
+				doRemoveCondition(cid, CONDITION_INFIGHT)
+				doRemoveCondition(cid, CONDITION_EXHAUST)
+				doRemoveCondition(cid, CONDITION_MUTED)
+			end
+		end
+			return true
+		end
+	]]></talkaction>
+
+<!-- Info mana - exp -->
+	<talkaction words="!mana" event="script"><![CDATA[
+		 function onSay(cid, words, param, channel)
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You need to spent " .. (getPlayerRequiredMana(cid, getPlayerMagLevel(cid, TRUE) + 1) - getPlayerSpentMana(cid))  ..
+				" mana to next magic level.")
+			return true
+		end
+	]]></talkaction>
+
+<!-- GiveReward Item to player -->
+	<talkaction words="/giveitem" access="5" event="script" log="yes"><![CDATA[
+		function onSay(cid, words, param, channel)
+			if(param == '') then
+				return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
+			end
+
+			local t = string.explode(param, ",")
+			local id = tonumber(t[1])
+			if not id then
+				id = getItemIdByName(t[1], false)
+				if not id then
+					return doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Item with such name does not exist.")
+				end
+			end
+
+			t[2] = tonumber(t[2])
+			local amount = t[2] or 1
+
+			for _, pid in ipairs(getPlayersOnline()) do
+				doDecayItem(doPlayerAddItem(pid, id, amount))
+			end
+
+			return true
+		end
+	]]></talkaction>
+
+<!-- GiveReward Item to player -->
+	<talkaction words="!giveitem" access="5" event="script" log="yes"><![CDATA[
+		function onSay(cid, words, param, channel)
+		local param = string.explode(param, ",")
+
+		local item = {
+			player = getPlayerByNameWildcard(param[1]),
+			itemid = tonumber(param[2]),
+			type = tonumber(param[3]),
+			charges = 1
+		}
+
+		local str = {
+			"",
+			""
+		}
+
+			if(item.player == 0 or item.player == nil) then
+				doPlayerSendCancel(cid, "Player " .. param[1] .. " is not online.")
+				doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+				return true
+			end
+
+			if(not item.itemid) then
+				item.itemid = getItemIdByName(param[2], true)
+				if not item.itemid then
+					doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Item wich such name does not exists.")
+					doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+					return true
+				end
+			end
+
+			if(item.itemid < 1) then
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "No item specified.")
+				doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+				return true
+			end
+
+			if(not item.type) then
+				if(isItemRune(item.itemid) or isItemStackable(item.itemid)) == true then
+					item.type = 100
+					item.charges = 1
+				else
+					item.type = 1
+					item.charges = 1
+				end
+			end
+
+			if(isItemMovable(item.itemid) == true) then
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cannot give that item.")
+				doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+				return true
+			end
+
+		local str = {
+			"You give " .. item.type .."x " .. getItemNameById(item.itemid) .. " to " .. param[1] .. ".",
+			"You received " .. item.type .. "x " .. getItemNameById(item.itemid) .. " from " .. getCreatureName(cid) .. "."
+		}
+
+			if(isItemRune(item.itemid) == true) then
+				item.charges = item.type
+				item.type = 1
+				str[1] = "You give " .. item.type .. "x " .. getItemNameById(item.itemid) .. " with " .. item.charges .. "x charges to " .. param[1] .. "."
+				str[2] = "You received " .. item.type .. "x " .. getItemNameById(item.itemid) .. " with " .. item.charges .. " charges from " .. getCreatureName(cid) .. "."
+			end
+
+			doPlayerGiveItem(item.player, item.itemid, item.type, item.charges)
+			doSendMagicEffect(getCreaturePosition(cid), CONST_ME_MAGIC_RED)
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str[1])
+			doSendMagicEffect(getCreaturePosition(item.player), CONST_ME_MAGIC_RED)
+			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, str[2])
+			return true
+		end
+	]]></talkaction>
+</mod>

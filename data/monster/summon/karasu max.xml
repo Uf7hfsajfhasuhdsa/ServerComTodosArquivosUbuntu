@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Karasu Max" nameDescription="a karasu max" race="blood" experience="35" speed="1500" manacost="300">
+	<health now="1000000" max="1000000"/>
+	<look type="154"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="kuskill1" interval="2000" chance="100" range="7" min="-3000" max="-5000"/>
+		<attack name="kuskill3" interval="2500" chance="100" range="7" min="-5000" max="-10000"/>
+	</attacks>
+	<elements>
+		<element deathPercent="100"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<loot>
+		<item id="2152" countmax="2" chance="24400"/> <!-- platinum coin -->
+	</loot>
+</monster>

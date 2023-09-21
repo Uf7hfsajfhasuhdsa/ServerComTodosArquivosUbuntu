@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Masked Man Boss" nameDescription="a masked man boss" race="blood" experience="800000" speed="1000" manacost="490">
+	<health now="400000000" max="400000000"/>
+	<look type="138" corpse="2893"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="habashiri" interval="1000" min="-30000" max="-45000"/>
+		<attack name="Katon Bakufu Ranbu" interval="4500" radius="4" min="-56000" max="-80000"/>
+	</attacks>
+	<loot>
+		<item id="2152" countmax="2" chance="1000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

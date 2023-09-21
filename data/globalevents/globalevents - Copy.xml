@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="3000000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/>
+	<globalevent name="AutoCast" interval="1000000" event="script" value="mensagem.lua"/>
+	<globalevent name="lottery" interval="14400000" event="script" value="lotery.lua"/>
+	<globalevent name="shop" interval="3000" script="shop.lua"/> 
+	<globalevent name="GlobalSave" time="23:55" event="script" value="GlobalSave.lua"/>
+	<globalevent name="War Castle" time="21:00" event="script" value="tpcastle.lua"/>
+	<globalevent name="War Castle2" time="03:00" event="script" value="tpcastle.lua"/>
+	<globalevent name="War Castle3" time="09:00" event="script" value="tpcastle.lua"/>
+	<globalevent name="War Castle4" time="15:00" event="script" value="tpcastle.lua"/>
+</globalevents>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+				 
+<mod name="Ultimate Survival" version="1.0" author="Omega" enabled="yes">
+<config name="ultimatelib"><![CDATA[
+USurvival = {
+	posi = {x=1303, y=1167, z=11},
+	posf = {x=1312, y=1176, z=11},
+	posc = {x=1308, y=1173, z=11},
+	posc1 = {x=1308, y=1173, z=11},
+	posc2 = {x=1308, y=1173, z=11},
+	
+	waves = {
+	
+	[1] = {monsters = {'snake', 'wolf', 'naruto', 'gennin', 'chunnin'}, count = 10, reward = {exp = 0, item = 2148, amount = 1, money = 100}},
+	
+	[2] = {monsters = {'bandit', 'wolf', 'naruto', 'human', 'orochimaru snake'}, count = 6, reward = {exp = 0, item = 2152, amount = 1, money = 1000}},
+	
+	[3] = {monsters = {'naruto', 'human', 'chunnin', 'gaara', 'jounnin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[4] = {monsters = {'gaara', 'jounnin', 'haku', 'fire shinobi', 'chunnin', 'naruto', 'snake', 'orochimaru snake'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[5] = {monsters = {'jounnin', 'haku', 'jiroubo', 'naruto', 'tutor'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[6] = {monsters = {'jounnin', 'tutor', 'tayuya', 'sakon', 'jiroubo'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[7] = {monsters = {'jiroubo', 'unknow', 'tutor', 'kidoumaro', 'white shaolin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[8] = {monsters = {'white shaolin', 'unknow', 'tutor', 'frozen monster', 'gamaken', 'shinobi star', 'anbu'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[9] = {monsters = {'anbu', 'cursed ghost', 'gamaken', 'suiton shinobi', 'shinobi star', 'frozen monster', 'shaolin master'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[10] = {monsters = {'shaolin master', 'shinobi of the blades', 'red shaolin', 'mutant creature', 'black shinobi'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	
+	[11] = {monsters = {'black shinobi', 'red shaolin', 'black anbu', 'kazuma', 'sword master'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[12] = {monsters = {'sword master', 'manda', 'black anbu', 'unknow akatsuki', 'kazuma'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[13] = {monsters = {'perfect anbu', 'orochimaru subordinade', 'black anbu', 'unknow akatsuki', 'kazuma'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[14] = {monsters = {'orochimaru subordinade', 'lider guard', 'unknow akatsuki', 'perfect anbu', 'jya', 'kyodai'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[15] = {monsters = {'kyodai', 'perfect anbu', 'jya', 'samurai one', 'master shinobi'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[16] = {monsters = {'samurai one', 'akatsuki assassin', 'lider guard', 'master shinobi', 'samurai two', 'perfect anbu', 'jya', 'kyodai', 'orochimaru subordinade'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[17] = {monsters = {'kyodaijya', 'akatsuki assassin', 'master shinobi', 'madara', 'Konoha Elite Jounnin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[18] = {monsters = {'kyodaijya', 'white zetsu', 'black snake', 'jiraya boss', 'lider guard'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[19] = {monsters = {'black snake', 'white zetsu', 'akatsuki assassin', 'sasuke akatsuki boss', 'kyodaijya'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[20] = {monsters = {'white zetsu', 'black snake', 'kyodaijya', 'jya', 'kyodai', 'lider guard'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},	
+	
+	[21] = {monsters = {'white zetsu', 'black snake', 'unknow akatsuki', 'konoha elite jounnin', 'madara', 'samurai two'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[22] = {monsters = {'white zetsu', 'black snake', 'master shinobi', 'konoha elite jounnin', 'madara', 'samurai two'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[23] = {monsters = {'white zetsu', 'black snake', 'white zetsu damage', 'konoha elite jounnin', 'kyodaijya', 'samurai two'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[24] = {monsters = {'white zetsu', 'black snake', 'white zetsu tanker', 'konoha elite jounnin', 'kyodaijya', 'unknow akatsuki'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[25] = {monsters = {'white zetsu', 'black snake', 'kyodaijya', 'konoha elite jounnin', 'kyodaijya', 'akatsuki assassin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[26] = {monsters = {'white zetsu', 'black snake', 'kyodaijya', 'konoha elite jounnin', 'ultimate pain boss', 'akatsuki assassin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[27] = {monsters = {'white zetsu', 'black snake', 'unknow akatsuki', 'konoha elite jounnin', 'master susano', 'akatsuki assassin'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+
+	[28] = {monsters = {'white zetsu', 'black snake', 'madara', 'konoha elite jounnin', 'killer bee boss', 'lider guard'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[29] = {monsters = {'white zetsu', 'black snake', 'madara', 'konoha elite jounnin', 'master shinobi', 'samurai two'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	
+	[30] = {monsters = {'white zetsu', 'black snake', 'raikage boss', 'konoha elite jounnin', 'lider guard', 'samurai two'}, count = 10, reward = {exp = 0, item = 2160, amount = 1, money = 10000}},
+	},
+	
+	exhaust = 1 * 24 * 60 * 60, -- Tempo em segundos até poder entrar novamente na arena (1 * 24 * 60 * 60 = 1 dia)
+	
+	final_reward = {item = 2160, amount = 100, exp = 10000, money = 100000},
+	
+	storage_ex = 607069,
+	storage_wave = 607089,
+}
+
+function isWalkable(pos)-- by Nord / editado por Omega
+    if getTileThingByPos({x = pos.x, y = pos.y, z = pos.z, stackpos = 0}).itemid == 0 then
+        return false
+    elseif isCreature(getTopCreature(pos).uid) then
+        return false
+    elseif getTileInfo(pos).protection then
+        return false
+    elseif hasProperty(getThingFromPos(pos).uid, 3) or hasProperty(getThingFromPos(pos).uid, 7) then
+        return false
+    end
+return true
+end
+
+function doSpawnMonsters(monsters, pos, radius, limit)
+	if not pos.x or not pos.y or not pos.z or not type(monsters) == 'table' then
+		return false
+	end
+		local radius = tonumber(radius)
+	if radius > 5 then
+		radius = 5
+	elseif radius < 2 then
+		radius = 2
+	end
+	if not limit or limit < 1 then
+		limit = 1
+	elseif limit > radius ^ 2 then
+		limit = math.floor((radius*1.5) ^ 2)
+	end
+	
+	local k = 0
+	local tries = 0
+	repeat
+		for x = pos.x - radius, pos.x + radius do
+			for y = pos.y - radius, pos.y + radius do
+				if isWalkable({x=x, y=y, z=pos.z}) then
+					local monster = monsters[math.random(1, #monsters)]
+					local chance = math.random(1, 100)
+					if k == limit then
+						break
+					elseif chance <= 8 and doCreateMonster(monster, {x=x, y=y, z=pos.z}) then
+						k = k + 1
+					end
+				end
+			end
+		end
+		tries = tries + 1
+	until k >= limit or tries >= 500
+	return k >= limit and true or false
+end
+
+function getPlayersInArea(pos1,pos2)
+	local players = {}
+	if pos1.x and pos1.y and pos2.x and pos2.y and pos1.z == pos2.z then
+		for a = pos1.x, pos2.x do
+			for b = pos1.y,pos2.y do
+				local pos = {x=a,y=b,z=pos1.z}
+				if isPlayer(getTopCreature(pos).uid) then
+					table.insert(players,getTopCreature(pos).uid)
+				end
+			end
+		end
+		return players
+	else
+		return false
+	end
+end	
+
+function getMonstersInArea(pos1,pos2)
+	local players = {}
+	if pos1.x and pos1.y and pos2.x and pos2.y and pos1.z == pos2.z then
+		for a = pos1.x, pos2.x do
+			for b = pos1.y,pos2.y do
+				local pos = {x=a,y=b,z=pos1.z}
+				if isMonster(getTopCreature(pos).uid) then
+					table.insert(players,getTopCreature(pos).uid)
+				end
+			end
+		end
+		return players
+	else
+		return false
+	end
+end
+
+function doCleanArena()
+	local monsters = getMonstersInArea(USurvival.posi, USurvival.posf)
+	for _, cid in pairs(monsters) do
+		doRemoveCreature(cid)
+	end
+end
+
+function doStartWave(waveID, cid)
+	if not isCreature(cid) then return false end
+	if USurvival.waves[waveID] then
+		wave = USurvival.waves[waveID]
+		doSpawnMonsters(wave.monsters, USurvival.posc, 5, wave.count)
+		doSpawnMonsters(wave.monsters, USurvival.posc1, 5, wave.count)
+		doSpawnMonsters(wave.monsters, USurvival.posc2, 5, wave.count)
+		doPlayerSendTextMessage(cid, 21, 'Wave '..waveID..' has started! FIGHT!')
+	end
+end
+]]></config>
+
+<action actionid="4599" event="script" override="yes"><![CDATA[
+domodlib('ultimatelib')
+function onUse(cid, item)
+	if getPlayerStorageValue(cid, USurvival.storage_ex) <= os.time() then
+		if #getPlayersInArea(USurvival.posi, USurvival.posf) == 0 then
+			doCleanArena()
+			doTeleportThing(cid, USurvival.posc, USurvival.posc1, USurvival.posc2)
+			doPlayerSendTextMessage(cid, 21, 'The Ultimate Survival will Start in 10 seconds! Be ready to face your destiny!')
+			addEvent(doStartWave, 10000, 1, cid)
+			setPlayerStorageValue(cid, USurvival.storage_wave, 1)
+			setPlayerStorageValue(cid, USurvival.storage_ex, os.time() + USurvival.exhaust)
+			if item.itemid % 2 == 1 then
+				doTransformItem(item.uid, item.itemid+1)
+			else
+				doTransformItem(item.uid, item.itemid-1)
+			end
+		else
+			doPlayerSendCancel(cid, 'Someone is already in the arena.')
+			doSendMagicEffect(getThingPos(cid), 2)
+		end
+	else
+		local left = getPlayerStorageValue(cid, USurvival.storage_ex) - os.time()
+		left = {hour = math.floor(left/3600), minutes = math.ceil((left % 3600)/60)}
+		doPlayerSendCancel(cid, 'You have to wait '.. left.hour ..'h and '..left.minutes..'min.')
+		doSendMagicEffect(getThingPos(cid), 2)
+	end
+	return true
+end
+]]></action>
+
+<event type="login" name="US Login" event="script"><![CDATA[
+domodlib('ultimatelib')
+function onLogin(cid)
+	registerCreatureEvent(cid,'UltimateSurvival1')
+	registerCreatureEvent(cid,'UltimateSurvival2')
+	if isInArea(getThingPos(cid), USurvival.posi, USurvival.posf) then
+		doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))
+		doSendMagicEffect(getThingPos(cid), 10)
+	end
+	return true
+end
+]]></event>
+
+<event type="kill" name="UltimateSurvival1" event="script"><![CDATA[
+domodlib('ultimatelib')
+function onKill(cid, target)
+	if isInArea(getThingPos(cid), USurvival.posi, USurvival.posf) then
+		if #getMonstersInArea(USurvival.posi, USurvival.posf) == 1 then
+			local wave = getPlayerStorageValue(cid, USurvival.storage_wave)
+			if USurvival.waves[wave+1] then
+				setPlayerStorageValue(cid, USurvival.storage_wave, wave + 1)
+				addEvent(doStartWave, 5000, wave + 1, cid)
+				doPlayerSendTextMessage(cid, 22, 'Congratulations! Next wave will start in 5 seconds!')
+			else
+				doPlayerSendTextMessage(cid, 22, 'CONGRATULATIONS! YOU HAVE BEATEN THE ULTIMATE SURVIVAL!')
+				local reward = USurvival.final_reward
+				if reward.item then
+					doPlayerAddItem(cid, reward.item, (reward.amount or 1), false)
+				end
+				if reward.exp then
+					doPlayerAddExp(cid, reward.exp)
+				end
+				if reward.money then
+					doPlayerAddMoney(cid, reward.money)
+				end
+				local medal = doPlayerAddItem(cid, 5785, 1, false)
+				if medal then
+					doItemSetAttribute(medal, 'description', 'This was awarded to '..getCreatureName(cid)..' for completing the Ultimate Survival.')
+					doItemSetAttribute(medal,'name', 'Ultimate Survival Medal')
+				end
+				doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))
+			end
+		end
+	end
+	return true
+end
+
+]]></event>
+
+<event type="preparedeath" name="UltimateSurvival2" event="script"><![CDATA[
+domodlib('ultimatelib')
+function onPrepareDeath(cid, killers)
+	if isInArea(getThingPos(cid), USurvival.posi, USurvival.posf) then
+		doCreatureAddHealth(cid, getCreatureMaxHealth(cid), 65535, 256, true)
+		doRemoveConditions(cid, false)
+		doTeleportThing(cid, getTownTemplePosition(getPlayerTown(cid)))
+		doPlayerSendTextMessage(cid, 21, 'Too bad, you couldn\'t defeat the Ultimate Survival... Better luck next time.')
+		local reward = USurvival.waves[getPlayerStorageValue(cid, USurvival.storage_wave)].reward
+		if reward.item then
+			doPlayerAddItem(cid, reward.item, reward.amount or 1)
+		end
+		if reward.exp then
+			doPlayerAddExp(cid, reward.exp)
+		end
+		if reward.money then
+			doPlayerAddMoney(cid, reward.money)
+		end
+		return false
+	end
+	return true
+end
+]]></event>
+
+</mod>

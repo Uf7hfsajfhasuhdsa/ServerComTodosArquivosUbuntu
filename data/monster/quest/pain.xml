@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ultimate Pain Boss" nameDescription="a ultimate pain boss" race="blood" experience="600000" speed="100000" manacost="490">
+	<health now="80000000" max="80000000"/>
+	<look type="35" corpse="2877"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	<attack name="headbutt" interval="1000" min="-5000" max="-40000"/>
+		<attack name="painspin" interval="4000" radius="4" min="-20000" max="-65000"/>
+		<attack name="painspin2" interval="2000" radius="4" min="-10000" max="-30000"/>
+	</attacks>
+	<loot>
+		<item id="7857" countmax="1" chance="800"/> <!-- Sealed Sword -->
+		<item id="2148" countmax="86" chance="30000"/> <!-- Dollar -->
+		<item id="2152" countmax="7" chance="3000"/> <!-- Dollar -->
+	</loot>
+	<script>
+		<event name="tp"/>
+	</script>
+</monster>

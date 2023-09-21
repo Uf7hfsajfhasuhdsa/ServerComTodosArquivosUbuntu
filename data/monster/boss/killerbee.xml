@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Killer Bee Boss" nameDescription="a killer bee boss" race="blood" experience="1000" speed="1000" manacost="490">
+	<health now="300000000" max="300000000"/>
+	<look type="376"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="5000" chance="700" range="2" min="-30000" max="-35000"/>
+		<attack name="hachibibeeboss" interval="1300" chance="700" range="2" min="-55000" max="-75000"/>
+		<attack name="bijudamabossbee" interval="30000" chance="700" range="2" radius="10" min="-190000" max="-350000"/>
+	</attacks>
+	<defenses armor="30" defense="50">
+		<defense name="killerbeebossbuf" interval="120000" chance="100" min="100" max="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<script>
+<event name="tp"/>
+</script>
+</monster>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weapons>
+<distance id="2543" script="paper.lua"/>
+<distance id="2544" script="sandshuriken.lua"/>
+<distance id="2546" script="strongshuriken.lua"/>
+<distance id="2545" script="shuriken.lua"/>
+<distance id="2399" script="bigshuriken.lua"/>
+<distance id="2547" script="needle.lua"/>
+<distance id="7862" script="shukaku.lua"/>
+<distance id="11493" script="mastershuriken.lua"/>
+<distance id="11414" script="royalshuriken.lua"/>
+<distance id="11410" script="sharinganshuriken.lua"/>
+<distance id="2168" level="350" script="fuutonshuriken.lua"/>
+<distance id="2164" level="350" script="chakrashuriken.lua"/>
+<distance id="2165" level="350" script="suitonshuriken.lua"/>
+<distance id="2169" level="350" script="hyotonshuriken.lua"/>
+<distance id="2167" level="350" script="raitonshuriken.lua"/>
+<distance id="2170" level="350" script="dotonshuriken.lua"/>
+<distance id="2166" level="350" script="katonshuriken.lua"/>
+<distance id="7375" level="100" script="wafer100.lua"/>
+<distance id="7376" level="200" script="wafer200.lua"/>
+<distance id="7377" level="300" script="wafer300.lua"/>
+<distance id="7866" level="400" script="wafer400.lua"/>
+<distance id="2172" level="275" script="argila.lua"/>
+<distance id="2141" script="kageshuriken.lua"/>
+<distance id="2496" script="gaarasand.lua"/>
+<distance id="2392" script="kunaiexplosion.lua"/>
+<distance id="7890" level="300" script="wafer.lua"/>
+<distance id="2659" script="eliteshuriken.lua"/>
+<distance id="7374" level="400" script="bashousen.lua"/>
+<distance id="11429" level="400" script="cetro.lua"/>
+<melee id="2516" level="250" script="raikagegloves.lua"/>
+<melee id="2407" level="75" script="doublekunai.lua"/>
+<melee id="2376" level="250" script="sasukesword.lua"/>
+<melee id="3963" level="350" script="enmastaff.lua"/>
+<melee id="2379" script="kunai.lua"/>
+<melee id="2403" script="ultimateknife.lua"/>
+<melee id="2382" script="katana.lua"/>
+<melee id="2411" script="knuckle.lua"/>
+<melee id="7867" script="kiba.lua"/>
+<melee id="7867" script="staff.lua"/>
+<melee id="7875" script="slayers.lua"/>
+<melee id="7884" script="edge.lua"/>
+<melee id="7874" script="dualedge.lua"/>
+<melee id="2386" script="chakrasword.lua"/>
+<melee id="7872" script="greensword.lua"/>
+<melee id="2396" script="kimimaro.lua"/>
+<melee id="7878" script="dagger.lua"/>
+<melee id="2390" level="250" script="samehada2.lua"/>
+<melee id="2398" level="200" script="third.lua"/>
+<melee id="7891" level="275" script="doublesasuke.lua"/>
+<melee id="2413" level="500" script="samehada.lua"/>
+<melee id="11491" level="400" script="jidanda.lua"/>
+<melee id="2408" level="500" script="kubi.lua"/>
+<melee id="2188" level="500" script="hira.lua"/>
+<melee id="2190" level="500" script="kabu.lua"/>
+<melee id="2189" level="500" script="nui.lua"/>
+<melee id="2191" level="500" script="shibu.lua"/>
+<melee id="7857" level="350" script="sealed.lua"/>
+<melee id="7868" level="500" script="kibaeletric.lua"/>
+<melee id="7863" level="400" script="kunaikaton.lua"/>
+<melee id="7860" level="400" script="kunaidoton.lua"/>
+<melee id="7864" level="400" script="kunaifuuton.lua"/>
+<melee id="7856" level="400" script="kunaisuiton.lua"/>
+<melee id="7858" level="400" script="kunairaiton.lua"/>
+<melee id="7865" level="400" script="kagekunai.lua"/>
+<melee id="2171" level="300" script="totsuka.lua"/>
+<melee id="7855" level="400" script="gunbai.lua"/>
+<melee id="2380" script="leegloves.lua"/>
+<melee id="2321" script="geningloves.lua"/>
+<melee id="2405" script="taijutsugloves.lua"/>
+<melee id="2524" script="soundgloves.lua"/>
+<melee id="7898" script="sharpgloves.lua"/>
+<melee id="2372" level="200" script="lotus.lua"/>
+<melee id="2373" level="200" script="absorved.lua"/>
+<melee id="7420" level="200" script="kakuzu.lua"/>
+<melee id="2388" level="300" script="claws.lua"/>
+<melee id="11433" level="375" script="unicgloves.lua"/>
+<melee id="2387" level="400" script="kagegloves.lua"/>
+<melee id="2440" level="400" script="glovesdoton.lua"/>
+<melee id="2435" level="400" script="glovessuiton.lua"/>
+<melee id="3962" level="400" script="glovesfuuton.lua"/>
+<melee id="2434" level="400" script="gloveschakra.lua"/>
+<melee id="3964" level="400" script="gloveskaton.lua"/>
+<melee id="5875" level="400" script="glovesraiton.lua"/>
+<melee id="7895" level="350" script="enchantedgloves.lua"/>
+<melee id="7867" script="doublekusanagi.lua"/>
+<melee id="7868" script="eletrickusanagi.lua"/>
+<melee id="2433" level="225" script="eletrickatana.lua"/>
+<melee id="2648" level="300" script="itachigloves.lua"/>
+<melee id="7888" script="zabuzasword.lua"/>
+<melee id="7902" script="ultimategloves.lua"/>
+</weapons>

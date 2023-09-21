@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jiraiya" nameDescription="a jiraiya" race="blood" experience="45000" speed="5000" manacost="490">
+	<health now="8000000" max="8000000"/>
+	<look type="244" corpse="2856"/>
+	<targetchange interval="5000" chance="7"/>
+	<strategy attack="100" defense="45"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="rasengan" interval="1000" range="6" min="-23000" max="-43000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="melee" interval="800" range="6" min="-2000" max="-5000"/>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="70" chance="1500"/> <!-- Gold Bars	 -->
+	</loot>
+</monster>

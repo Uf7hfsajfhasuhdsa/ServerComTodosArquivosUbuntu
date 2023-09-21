@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hinata" nameDescription="a hinata" race="blood" experience="300" speed="400" manacost="490">
+	<health now="10000" max="10000"/>
+	<look type="394" corpse="6080"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="500"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<elements>
+		<element energyPercent="25"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="You cant escape!"/>
+		<voice sentence="Naruto I Shiteru♥!"/>
+	</voices>
+	<loot>
+		<item id="2666" countmax="10" chance="31250"/> <!-- meat -->
+		<item id="2148" countmax="80" chance="25125"/> <!-- platinum coin -->
+	</loot>
+</monster>

@@ -1,0 +1,994 @@
+[02/05/2012 13:18:08] /i gold
+[02/05/2012 13:18:14] /i 2160
+[02/05/2012 13:19:00] /i tobi mask
+[02/05/2012 13:19:05] /i tobi mask
+[02/05/2012 13:19:20] /ghost
+[02/05/2012 13:19:30] /attr set 2000000000000
+[02/05/2012 13:19:43] /attr attack 20000000000000
+[02/05/2012 13:19:59] /attr attack 0
+[02/05/2012 13:20:23] /t
+[02/05/2012 13:20:36] /attr vocation 21
+[02/05/2012 13:21:41] /save
+[02/05/2012 13:22:22] /a
+[02/05/2012 13:22:25] /a
+[02/05/2012 13:58:24] /ghost
+[03/05/2012 14:56:07] /save
+[03/05/2012 14:57:19] /ghost
+[03/05/2012 14:57:31] /t vocation 58
+[03/05/2012 14:57:42] /attr vocation 58
+[03/05/2012 14:58:57] /attr vocation 10
+[03/05/2012 15:00:21] /r
+[03/05/2012 15:01:08] /attr vocation 58
+[03/05/2012 15:26:00] /b vo reinicia serve
+[03/05/2012 15:28:38] /i kazekage coat
+[03/05/2012 15:32:00] /i samehada
+[03/05/2012 15:41:35] /attr vocation 12
+[03/05/2012 15:41:41] /save
+[03/05/2012 15:42:56] /i kazekage coat
+[03/05/2012 15:46:43] /c sasuke uchiha
+[03/05/2012 15:46:49] /attr vocation 9
+[03/05/2012 15:48:33] /ghost
+[03/05/2012 15:48:37] /goto ninja
+[03/05/2012 15:48:47] /t
+[03/05/2012 15:49:43] /c sasuke uchiha
+[03/05/2012 15:49:51] /attr vocation 3
+[03/05/2012 15:51:52] /attr vocation 1
+[03/05/2012 16:23:53] /c sasuke uchiha
+[03/05/2012 16:24:01] /attr guildnick naruto
+[03/05/2012 16:24:38] /addskill sasuke uchiha,level,20
+[03/05/2012 16:24:49] /i kazekage coat
+[03/05/2012 16:24:57] /ghost
+[03/05/2012 16:25:00] /ghost
+[03/05/2012 17:03:06] /newtype 87
+[03/05/2012 17:03:12] /newtype 86
+[03/05/2012 17:03:56] /goto sasuke uchiha
+[03/05/2012 17:05:03] /attr vocation 2
+[03/05/2012 17:06:22] /n kyuubi
+[03/05/2012 17:06:40] /n tobi boss
+[03/05/2012 17:06:46] /n sasuke boss
+[03/05/2012 17:07:18] /m
+[03/05/2012 17:07:22] /m kyuubi
+[03/05/2012 17:07:50] /m tobi
+[03/05/2012 17:08:15] /m hachibi
+[03/05/2012 17:08:36] /m yondaime
+[03/05/2012 17:09:33] /m kyuubi
+[03/05/2012 17:09:35] /m kyuubi
+[03/05/2012 17:10:18] /r
+[03/05/2012 17:10:24] /r
+[03/05/2012 17:10:37] /r
+[03/05/2012 17:12:52] /attr guildnick gay
+[03/05/2012 17:13:35] /save
+[03/05/2012 17:14:05] /b gente vo reinia o serve
+[03/05/2012 17:14:25] /b daki 5 min eesta on
+[03/05/2012 17:14:31] /goto kimarou
+[03/05/2012 17:14:45] /up
+[03/05/2012 17:14:58] /r
+[03/05/2012 17:15:10] /i 1386
+[03/05/2012 17:15:17] /r
+[03/05/2012 17:15:20] /r
+[03/05/2012 17:15:25] /i 1389
+[03/05/2012 17:15:29] /r
+[03/05/2012 17:15:32] /r
+[03/05/2012 17:15:37] /i 1386
+[03/05/2012 17:15:50] /t
+[03/05/2012 17:16:09] /b vo arrrumar um negocio aki daki 5 min ot on !!
+[03/05/2012 17:16:29] /save
+[03/05/2012 17:31:13] /b malz gente por esta caindo td hr to tentanu axar
+[03/05/2012 17:31:24] /b oq esta fazendo cair
+[03/05/2012 17:38:58] /ghost
+[03/05/2012 17:39:00] /ghost
+[03/05/2012 17:39:48] /attr set attack 2000000
+[03/05/2012 17:40:41] /save
+[03/05/2012 17:42:20] /attr set defense 200000000000
+[03/05/2012 17:42:35] /attr set defense 20000
+[03/05/2012 17:42:50] /a 2
+[03/05/2012 18:19:50] /a 2
+[03/05/2012 18:41:09] /attr set attack 10000
+[03/05/2012 18:43:34] /attr set attack 6000
+[03/05/2012 18:44:48] /attr set attack 4500
+[03/05/2012 18:47:36] /goto sasuke amaterasu
+[03/05/2012 18:47:56] /ghost
+[03/05/2012 18:48:09] /attr set attack 3500
+[03/05/2012 18:48:19] /i itachi gloves
+[03/05/2012 18:48:54] /attr set attack 3500
+[03/05/2012 18:49:35] /i samehada
+[03/05/2012 18:49:44] /ghost
+[03/05/2012 18:50:02] /attr set attack 5000
+[03/05/2012 18:50:14] /attr set defense 5000
+[03/05/2012 19:20:44] /t
+[03/05/2012 19:20:48] /c sasuke uchiha
+[03/05/2012 19:20:55] /c sasuke amaterasu
+[03/05/2012 19:22:32] /c sasuke amaterasu
+[03/05/2012 19:22:43] /ghost
+[03/05/2012 19:23:01] /attr vocation 21
+[03/05/2012 19:23:43] /b afk jantanuu
+[03/05/2012 19:23:49] /ghost
+[03/05/2012 19:24:30] /a 2
+[03/05/2012 19:24:32] /r
+[03/05/2012 19:24:35] /a 4
+[03/05/2012 19:35:33] /t naruto rikudou
+[03/05/2012 19:37:03] /attr set attack 4000
+[03/05/2012 19:38:31] /down
+[03/05/2012 19:38:33] /a 2
+[03/05/2012 19:38:43] /c naruto rikudou
+[03/05/2012 19:38:51] /ghost
+[03/05/2012 19:38:58] /attr vocation 5
+[03/05/2012 19:39:07] /attr vocation 6
+[03/05/2012 19:39:23] /attr vocation 8
+[03/05/2012 19:40:10] /i 893
+[03/05/2012 19:40:13] /a
+[03/05/2012 19:40:59] /attr vocation 1
+[03/05/2012 19:42:17] /save
+[03/05/2012 19:43:06] /r
+[03/05/2012 19:43:14] /r
+[03/05/2012 19:43:24] /r
+[03/05/2012 19:44:07] /c naruto rikudou
+[03/05/2012 19:44:10] /attr guildnick
+[03/05/2012 19:44:22] /attr guildnick rock lee
+[03/05/2012 19:44:37] /attr guildnick lee
+[03/05/2012 19:44:43] /r
+[03/05/2012 19:44:58] /attr guildnick sou gayyy
+[03/05/2012 19:45:13] /attr guildnick rocklee
+[03/05/2012 19:45:21] /r
+[03/05/2012 19:46:15] /attr cannotmove
+[03/05/2012 19:46:42] /attr cannotmove 1
+[03/05/2012 19:47:20] /attr cannotmove
+[03/05/2012 19:54:12] /attr set attack 4000
+[03/05/2012 19:55:48] /attr vocation 8
+[03/05/2012 19:56:32] /c mitchie
+[03/05/2012 19:56:55] /attr vocation 21
+[03/05/2012 20:21:45] /c naruto rikudou
+[03/05/2012 20:21:55] /attr vocation 1
+[03/05/2012 20:22:20] /addskill naruto rikudou,level,6
+[03/05/2012 20:24:06] /save
+[03/05/2012 20:34:04] /t naruto rikudou
+[03/05/2012 21:03:40] /save
+[03/05/2012 23:50:06] /ghost
+[03/05/2012 23:50:49] /b gente vo fechar o serve por hoje amanha cedo ele estara on !
+[03/05/2012 23:50:59] /save
+[03/05/2012 23:53:23] /b flw pra vcs
+[04/05/2012 09:10:00] /newtype 375
+[04/05/2012 09:10:11] /newtype 100
+[04/05/2012 09:23:51] /newtype 37
+[04/05/2012 09:23:57] /newtype 100
+[04/05/2012 09:24:26] /newtype 35
+[04/05/2012 09:24:30] /newtype 33
+[04/05/2012 09:24:38] /newtype 86
+[04/05/2012 09:24:45] /newtype 88
+[04/05/2012 09:24:52] /newtype 85
+[04/05/2012 09:40:36] /b gente vo reinicia o ot rapidao
+[04/05/2012 10:04:12] /a 2
+[04/05/2012 10:04:28] /r
+[04/05/2012 10:04:34] /r
+[04/05/2012 10:04:45] /i 5112
+[04/05/2012 10:04:56] /r
+[04/05/2012 10:05:03] /i 5112
+[04/05/2012 10:05:14] /i 1025
+[04/05/2012 10:05:18] /r
+[04/05/2012 10:05:26] /a 2
+[04/05/2012 10:05:33] /r
+[04/05/2012 10:05:37] /r
+[04/05/2012 10:05:39] /r
+[04/05/2012 12:34:07] /c modo senin
+[04/05/2012 12:34:49] /ghost
+[04/05/2012 12:34:57] /attr group 3
+[04/05/2012 12:35:36] /r
+[04/05/2012 12:35:48] /attr group 4
+[04/05/2012 12:36:38] /ghost
+[04/05/2012 12:37:31] /t modo senin
+[04/05/2012 13:13:09] /c sasuke amaterasu
+[04/05/2012 13:13:20] /attr vocation 13
+[04/05/2012 13:13:48] /goto naruto rikudou
+[04/05/2012 13:13:53] /r
+[04/05/2012 13:13:55] /r
+[04/05/2012 13:14:01] /r
+[04/05/2012 13:14:03] /r
+[04/05/2012 13:14:08] /r
+[04/05/2012 13:14:26] /r
+[04/05/2012 13:14:32] /ghost
+[04/05/2012 13:14:41] /r
+[04/05/2012 13:14:55] /ghost
+[04/05/2012 13:14:56] /t
+[04/05/2012 13:51:21] /t naruto rikudou
+[04/05/2012 13:51:27] /r
+[04/05/2012 15:01:11] /attr set attack 3000
+[04/05/2012 15:25:35] /attr set attack 2500
+[04/05/2012 15:36:16] /t
+[04/05/2012 15:36:21] /ghost
+[04/05/2012 15:36:24] /ghost
+[04/05/2012 15:47:52] /i 2160
+[04/05/2012 15:47:58] /i 2160
+[04/05/2012 15:48:10] /ghost
+[04/05/2012 15:48:20] /attr vocation 7
+[04/05/2012 15:48:33] /attr vocation 6
+[04/05/2012 15:48:48] /attr vocation 9
+[04/05/2012 15:49:04] /attr vocation 10
+[04/05/2012 15:49:12] /attr vocation 11
+[04/05/2012 15:49:19] /attr vocation 12
+[04/05/2012 15:50:16] /newtype 86
+[04/05/2012 15:51:08] /c luan
+[04/05/2012 15:51:19] /up
+[04/05/2012 15:51:40] /m tobi
+[04/05/2012 15:52:32] /m tobi boss
+[04/05/2012 15:53:09] /attr vocation 9
+[04/05/2012 15:53:17] /attr vocation 8
+[04/05/2012 15:53:25] /attr vocation 7
+[04/05/2012 15:53:41] /attr vocation 6
+[04/05/2012 16:08:13] /i big shuriken
+[04/05/2012 16:08:38] /i explosion kunai
+[04/05/2012 16:09:03] /attr vocation 14
+[04/05/2012 16:09:18] /attr vocation 15
+[04/05/2012 16:10:47] /attr vocation 50
+[04/05/2012 16:17:31] /goto ninja
+[04/05/2012 16:17:51] /a 2
+[04/05/2012 16:17:58] /a 2
+[04/05/2012 16:18:09] /a 2
+[04/05/2012 16:18:56] /a 2
+[04/05/2012 16:19:07] /t
+[04/05/2012 16:20:08] /c mike
+[04/05/2012 16:20:19] /attr vocation 2
+[04/05/2012 16:21:37] /c luan
+[04/05/2012 16:25:49] /attr vocation 9
+[04/05/2012 16:26:44] /b vo reinicia o serve
+[04/05/2012 16:42:06] /a 2
+[04/05/2012 16:42:09] /r
+[04/05/2012 16:42:12] /a 2
+[04/05/2012 16:43:09] /b quem kiser vir fala "eu " no help q eu puxo
+[04/05/2012 16:43:47] /c luan
+[04/05/2012 16:44:08] /b evento vai ser esconde esconde valendo yondaime coat
+[04/05/2012 16:44:40] /b eu e o god vamos se esconder junto
+[04/05/2012 16:44:50] /b quem axa ganha intenderaam ?
+[04/05/2012 16:45:18] /b evento em konoha
+[04/05/2012 16:45:21] /ghost
+[04/05/2012 16:45:42] /b vamos se esconder
+[04/05/2012 16:46:21] /a 2
+[04/05/2012 16:46:55] /c [god] oni_oni
+[04/05/2012 16:47:50] /c [god] oni_oni
+[04/05/2012 16:47:58] /ghost
+[04/05/2012 16:48:36] /b valendo quem axar ganaha yondaime
+[04/05/2012 16:48:58] /b to num segundo andar
+[04/05/2012 16:49:09] /b Luan Wins
+[04/05/2012 16:49:19] /i yondaime coat
+[04/05/2012 16:50:28] /down
+[04/05/2012 16:50:43] /c luan
+[04/05/2012 16:51:16] /b seis qr evento pvp ou invasao de unknow akat ?
+[04/05/2012 16:51:51] /b invasao ou pvp mandem no help
+[04/05/2012 16:52:25] /b invasao ou pvp mandem no help
+[04/05/2012 16:52:34] /b invasao ganho
+[04/05/2012 16:52:42] /b tds pra dentroo do dp
+[04/05/2012 16:53:05] /t sasuke amaterasu
+[04/05/2012 16:53:11] /ghost
+[04/05/2012 16:53:20] /b vo começa
+[04/05/2012 16:53:31] /m unknow akatsuki
+[04/05/2012 16:53:34] /m unknow akatsuki
+[04/05/2012 16:53:36] /m unknow akatsuki
+[04/05/2012 16:53:37] /m unknow akatsuki
+[04/05/2012 16:53:39] /m unknow akatsuki
+[04/05/2012 16:53:40] /m unknow akatsuki
+[04/05/2012 16:53:42] /m unknow akatsuki
+[04/05/2012 16:53:43] /m unknow akatsuki
+[04/05/2012 16:53:49] /m unknow akatsuki
+[04/05/2012 16:53:51] /m unknow akatsuki
+[04/05/2012 16:53:52] /m unknow akatsuki
+[04/05/2012 16:53:53] /m unknow akatsuki
+[04/05/2012 16:53:54] /m unknow akatsuki
+[04/05/2012 16:53:55] /m unknow akatsuki
+[04/05/2012 16:53:58] /m unknow akatsuki
+[04/05/2012 16:53:59] /m unknow akatsuki
+[04/05/2012 16:54:08] /b invasao começou
+[04/05/2012 16:55:35] /m itachi boss
+[04/05/2012 16:55:40] /m deidara boss
+[04/05/2012 16:55:50] /b deidara e sasori invadiram
+[04/05/2012 16:59:38] /r
+[04/05/2012 16:59:41] /r
+[04/05/2012 17:00:01] /clean
+[04/05/2012 17:00:22] /b cabo evento gente agr so amanha
+[04/05/2012 17:00:28] /r
+[04/05/2012 17:00:32] /r
+[04/05/2012 17:00:35] /r
+[04/05/2012 17:00:39] /r
+[04/05/2012 17:02:21] /r
+[04/05/2012 17:02:26] /r
+[04/05/2012 17:02:32] /clean
+[04/05/2012 17:37:35] /c kankuro
+[04/05/2012 17:37:51] /addskill kankuro,level,100
+[04/05/2012 17:37:55] /t
+[04/05/2012 17:38:26] /ghost
+[04/05/2012 17:38:30] /ghost
+[04/05/2012 17:42:33] /goto pochete
+[04/05/2012 17:42:45] /a 2
+[04/05/2012 17:43:05] /c pochete
+[04/05/2012 17:43:14] /a 2
+[04/05/2012 17:43:24] /t
+[04/05/2012 17:43:27] /down
+[04/05/2012 17:43:30] /a 50
+[04/05/2012 17:43:34] /c best
+[04/05/2012 17:43:56] /addskill best level,50
+[04/05/2012 17:44:10] /addskill best,level,50
+[04/05/2012 17:44:15] /t best
+[04/05/2012 17:44:16] /t
+[04/05/2012 17:50:42] /ghost
+[04/05/2012 17:51:03] /attr vocation 7
+[04/05/2012 17:51:11] /attr vocation 9
+[04/05/2012 17:51:18] /attr vocation 8
+[04/05/2012 18:29:00] /c mike
+[04/05/2012 18:30:30] /attr vocation 1
+[04/05/2012 18:30:43] /ghost
+[04/05/2012 18:30:46] /a 50
+[04/05/2012 18:30:49] /a 2
+[04/05/2012 18:30:53] /c kankuro
+[04/05/2012 18:31:07] /addskill kankuro,level,21
+[04/05/2012 18:31:30] /c mike
+[04/05/2012 18:31:54] /addskill mike,level,13
+[04/05/2012 18:32:09] /attr vocation 21
+[04/05/2012 18:34:12] /a 2
+[04/05/2012 18:34:13] /r
+[04/05/2012 18:34:15] /a 2
+[04/05/2012 18:34:30] /a 2
+[04/05/2012 18:34:33] /r
+[04/05/2012 18:34:36] /r
+[04/05/2012 18:34:38] /a
+[04/05/2012 18:34:49] /r
+[04/05/2012 18:34:51] /r
+[04/05/2012 18:34:54] /r
+[04/05/2012 18:34:56] /r
+[04/05/2012 18:35:09] /r
+[04/05/2012 18:35:11] /r
+[04/05/2012 18:35:16] /r
+[04/05/2012 18:38:47] /m kyuubi
+[04/05/2012 18:38:55] /m tobi
+[04/05/2012 18:39:11] /r
+[04/05/2012 18:39:13] /r
+[04/05/2012 18:40:35] /b vo sai flo
+[04/05/2012 20:36:07] /t sasuke amaterasu
+[04/05/2012 22:02:23] /ghost
+[04/05/2012 22:02:26] /ghost
+[04/05/2012 22:02:51] /c naruto rikudou
+[04/05/2012 22:03:06] /owner naruto rikudou
+[04/05/2012 22:03:16] /a 2
+[04/05/2012 22:04:19] /owner naruto uzumaki
+[04/05/2012 22:04:45] /owner naruto rikudou
+[04/05/2012 22:05:22] /addskill naruto rikudou,level,268
+[04/05/2012 22:05:41] /r
+[04/05/2012 22:05:49] /r
+[04/05/2012 22:07:14] /b gente vo arruma um bug aki ja coloko ot oon
+[04/05/2012 23:03:37] /b gente desculpa pelo lag vo procurar um hoster
+[04/05/2012 23:04:11] /b vou fexar o ot por hoje gente ate amanha
+[04/05/2012 23:05:32] /b flo gente
+[05/05/2012 09:47:02] /a 2
+[05/05/2012 09:47:04] /t
+[05/05/2012 09:47:17] /a 2
+[05/05/2012 09:47:21] /r
+[05/05/2012 09:47:24] /a 2
+[05/05/2012 09:47:38] /a
+[05/05/2012 09:47:39] /r
+[05/05/2012 09:47:41] /r
+[05/05/2012 09:47:46] /r
+[05/05/2012 09:47:49] /a 3
+[05/05/2012 14:56:11] /a
+[05/05/2012 14:56:13] /r
+[05/05/2012 14:56:35] /a 2
+[05/05/2012 14:56:38] /r
+[05/05/2012 14:56:42] /r
+[05/05/2012 14:56:47] /a 2
+[05/05/2012 14:57:58] /ghost
+[05/05/2012 15:02:42] /ghost
+[05/05/2012 15:03:35] /a 50
+[05/05/2012 15:03:39] /a 60
+[05/05/2012 15:03:43] /a 20
+[05/05/2012 15:04:00] /c lordlucas
+[05/05/2012 15:04:03] /ghost
+[05/05/2012 15:06:54] /t
+[05/05/2012 15:06:56] /ghost
+[05/05/2012 16:26:54] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:27:14] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:27:31] /b quem tiver aki ate 16:30 ganha
+[05/05/2012 16:27:54] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:27:57] /ghost
+[05/05/2012 16:28:00] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:08] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:21] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:36] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:41] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:45] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:28:47] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:29:03] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:29:05] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:29:07] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:29:17] /b falta 1 miiiiiin
+[05/05/2012 16:29:52] /b gente vo fazer 1 evento ate as 16:30 quem n for lvl 100 vem dp segundo andar vo dar lvl 100 pra quem n for so hj n percam
+[05/05/2012 16:30:14] /b pronto ngm mais ganha so quem ta aki
+[05/05/2012 16:30:46] /addskill underwar,level,64
+[05/05/2012 16:31:27] /addskill black slipknot,level,90
+[05/05/2012 16:31:51] /addskill naruto fuma crack,level,105
+[05/05/2012 16:32:05] /r
+[05/05/2012 16:32:29] /addskill sirloco,level,110
+[05/05/2012 16:32:51] /addskill naruto paka,level,56
+[05/05/2012 16:33:21] /addskill hinata,level,30
+[05/05/2012 16:34:17] /b por hj e so gente ate
+[05/05/2012 16:34:21] /ghost
+[05/05/2012 16:34:46] /addskill tobi uchiha,level,80
+[05/05/2012 16:35:02] /ghost
+[05/05/2012 16:35:21] /t
+[05/05/2012 16:35:30] /ghost
+[05/05/2012 17:35:11] /c kakashi hatake
+[05/05/2012 17:35:22] /i bag
+[05/05/2012 17:36:08] /c kakshi mangekyo
+[05/05/2012 17:36:37] /addskill kakashi mangekyo,level,4
+[05/05/2012 17:37:08] /addskill kakashi mangekyo,level,4
+[05/05/2012 17:39:55] /ghost
+[05/05/2012 17:40:16] /i bag
+[05/05/2012 17:40:51] /attr vocation 21
+[05/05/2012 17:41:07] /ghost
+[05/05/2012 17:41:59] /owner [GOD] Explosive
+[05/05/2012 17:54:24] /a 2
+[05/05/2012 17:54:25] /r
+[05/05/2012 17:54:28] /a 2
+[05/05/2012 17:54:46] /a 2
+[05/05/2012 17:54:48] /r
+[05/05/2012 17:54:50] /r
+[05/05/2012 17:54:53] /a 2
+[05/05/2012 17:55:13] /a 60
+[05/05/2012 17:55:21] /a 40
+[05/05/2012 17:55:32] /a 2
+[05/05/2012 17:55:44] /a 2
+[05/05/2012 17:56:00] /a 2
+[05/05/2012 17:56:48] /r
+[05/05/2012 17:57:06] /ghost
+[05/05/2012 17:57:08] /ghost
+[05/05/2012 18:04:13] /m yondaime
+[05/05/2012 18:04:35] /attr group 4
+[05/05/2012 18:05:35] /attr group 5
+[05/05/2012 18:06:23] /r
+[05/05/2012 18:06:26] /r
+[05/05/2012 18:07:35] /i 2160
+[05/05/2012 18:11:59] /r
+[05/05/2012 18:12:01] /r
+[05/05/2012 18:12:18] /r
+[05/05/2012 20:11:44] /goto mitchie
+[05/05/2012 20:11:49] /r
+[05/05/2012 20:11:54] /r
+[05/05/2012 20:12:01] /r
+[05/05/2012 20:12:34] /t
+[05/05/2012 20:12:37] /ghost
+[05/05/2012 20:12:40] /ghost
+[06/05/2012 08:19:47] /attr set attack 3500
+[06/05/2012 08:20:05] /t
+[06/05/2012 10:04:18] /a 2
+[06/05/2012 10:04:20] /r
+[06/05/2012 10:04:24] /a 2
+[06/05/2012 10:04:52] /a
+[06/05/2012 10:04:54] /r
+[06/05/2012 10:08:31] /a 2
+[06/05/2012 10:08:33] /r
+[06/05/2012 10:08:48] /a 2
+[06/05/2012 10:08:50] /r
+[06/05/2012 10:08:51] /r
+[06/05/2012 10:08:53] /a 2
+[06/05/2012 10:11:22] /a 2
+[06/05/2012 10:11:24] /r
+[06/05/2012 10:11:26] /r
+[06/05/2012 10:11:27] /r
+[06/05/2012 10:11:30] /r
+[06/05/2012 10:11:37] /a 3
+[06/05/2012 11:24:32] /t
+[06/05/2012 11:24:44] /attr group 6
+[06/05/2012 12:14:26] /addskill mitchie,sword,1
+[06/05/2012 12:15:45] /owner ultimate mangekyou
+[06/05/2012 12:16:42] /goto sasuke amaterasu
+[06/05/2012 12:16:47] /a
+[06/05/2012 12:16:53] /a 2
+[06/05/2012 12:16:58] /r
+[06/05/2012 12:17:03] /r
+[06/05/2012 12:17:05] /r
+[06/05/2012 12:17:09] /t
+[06/05/2012 13:24:03] /a 2
+[06/05/2012 13:39:37] /ghost
+[06/05/2012 13:40:42] /attr vocation 13
+[06/05/2012 13:41:27] /addskill mitchie,1
+[06/05/2012 13:41:32] /addskill mitchie,1
+[06/05/2012 13:41:33] /addskill mitchie,1
+[06/05/2012 13:41:33] /addskill mitchie,1
+[06/05/2012 13:41:34] /addskill mitchie,1
+[06/05/2012 13:41:35] /addskill mitchie,1
+[06/05/2012 13:41:35] /addskill mitchie,1
+[06/05/2012 13:41:36] /addskill mitchie,1
+[06/05/2012 13:41:36] /addskill mitchie,1
+[06/05/2012 13:41:37] /addskill mitchie,1
+[06/05/2012 13:41:37] /addskill mitchie,1
+[06/05/2012 13:41:38] /addskill mitchie,1
+[06/05/2012 13:41:38] /addskill mitchie,1
+[06/05/2012 13:41:39] /addskill mitchie,1
+[06/05/2012 13:41:39] /addskill mitchie,1
+[06/05/2012 13:41:40] /addskill mitchie,1
+[06/05/2012 13:41:41] /addskill mitchie,1
+[06/05/2012 13:41:41] /addskill mitchie,1
+[06/05/2012 13:41:42] /addskill mitchie,1
+[06/05/2012 13:41:42] /addskill mitchie,1
+[06/05/2012 13:41:43] /addskill mitchie,1
+[06/05/2012 13:41:43] /addskill mitchie,1
+[06/05/2012 13:41:44] /addskill mitchie,1
+[06/05/2012 13:41:44] /addskill mitchie,1
+[06/05/2012 13:41:45] /addskill mitchie,1
+[06/05/2012 13:41:45] /addskill mitchie,1
+[06/05/2012 13:41:47] /addskill mitchie,1/addskill mitchie,1
+[06/05/2012 13:41:47] /addskill mitchie,1
+[06/05/2012 13:41:48] /addskill mitchie,1
+[06/05/2012 13:41:49] /addskill mitchie,1
+[06/05/2012 13:41:50] /addskill mitchie,1
+[06/05/2012 13:42:26] /addskill kakashi hataki,level,100
+[06/05/2012 13:43:02] /addskill kakashi hatake,level,100
+[06/05/2012 13:43:43] /addskill kakashi hatake,magic,20
+[06/05/2012 13:43:54] /addskill kakashi hatake,magic,20
+[06/05/2012 13:43:56] /addskill kakashi hatake,magic,20
+[06/05/2012 13:44:00] /addskill kakashi hatake,magic,20
+[06/05/2012 13:44:39] /ghost
+[06/05/2012 14:07:52] /ghost
+[06/05/2012 14:07:55] /ghost
+[06/05/2012 14:07:57] /ghost
+[06/05/2012 14:08:00] /ghost
+[06/05/2012 14:08:04] /ghost
+[06/05/2012 14:08:06] /ghost
+[06/05/2012 14:08:08] /ghost
+[06/05/2012 14:08:10] /ghost
+[06/05/2012 14:08:18] /goto mitchie
+[06/05/2012 14:14:14] /a 2
+[06/05/2012 14:15:02] /a 2
+[06/05/2012 14:15:33] /a 2
+[06/05/2012 14:17:00] /t joao paulo
+[06/05/2012 14:22:09] /goto turus
+[06/05/2012 14:22:14] /ghost
+[06/05/2012 14:22:16] /r
+[06/05/2012 14:22:24] /r
+[06/05/2012 14:22:38] /t
+[06/05/2012 14:22:46] /goto turus
+[06/05/2012 14:23:07] /i ladder
+[06/05/2012 14:23:17] /r
+[06/05/2012 14:23:18] /r
+[06/05/2012 14:23:20] /r
+[06/05/2012 14:23:22] /r
+[06/05/2012 14:23:23] /r
+[06/05/2012 14:23:24] /r
+[06/05/2012 14:23:48] /up
+[06/05/2012 14:24:08] /t
+[06/05/2012 14:24:22] /goto turus
+[06/05/2012 14:24:28] /i 1386
+[06/05/2012 14:24:42] /t
+[06/05/2012 14:24:56] /goto mitchie
+[06/05/2012 14:25:36] /a 2
+[06/05/2012 14:35:08] /t
+[06/05/2012 15:57:38] /c sasuke amaterasu
+[06/05/2012 15:57:43] /ghost
+[06/05/2012 15:57:46] /ghost
+[06/05/2012 15:58:12] /a 2
+[06/05/2012 16:19:05] /t sasuke amaterasu
+[06/05/2012 16:19:43] /t
+[06/05/2012 16:19:45] /r
+[06/05/2012 20:00:30] /ghost
+[07/05/2012 13:04:49] /addskill Fantoche Master,level,250
+[07/05/2012 13:04:59] /i yondaime coat
+[07/05/2012 13:05:14] /i sasuke legs
+[07/05/2012 13:09:54] /addskill Fantoche Master,level,50
+[07/05/2012 19:54:00] /a 20
+[07/05/2012 19:54:04] /a 30
+[07/05/2012 19:54:07] /a 30
+[07/05/2012 19:54:10] /a 30
+[07/05/2012 19:54:27] /a 50
+[07/05/2012 19:54:30] /a 30
+[07/05/2012 19:54:42] /a 20
+[07/05/2012 19:54:50] /a 40
+[07/05/2012 19:54:59] /a 40
+[07/05/2012 19:55:04] /a 2
+[07/05/2012 19:55:10] /r
+[04/06/2012 20:50:42] /a 
+[04/06/2012 20:50:45] /a 2
+[04/06/2012 20:50:51] /a 2
+[04/06/2012 20:51:21] /t
+[04/06/2012 20:52:32] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:34] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:45] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:46] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:47] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:48] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:49] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:50] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:51] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:52] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:53] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:54] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:55] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:56] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:57] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:52:58] /addskill [GOD] Explosive,level,1
+[04/06/2012 20:57:07] /t

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Predator" nameDescription="a quara predator" race="blood" experience="3800" speed="1520" manacost="0">
+	<health now="2900" max="2900"/>
+	<look type="20" corpse="6067"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="235"/>
+	</attacks>
+	<defenses armor="40" defense="45">
+		<defense name="speed" interval="10000" chance="40" speedchange="210" duration="20000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="25" min="113" max="187">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="25"/>
+		<element icePercent="25"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity drown="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Rrrah!"/>
+		<voice sentence="Rraaar!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="2" chance="22800"/> <!-- platinum coin -->
+		<item id="7591" countmax="2" chance="3050"/> <!-- great health potion -->
+		<item id="7897" chance="1525"/> <!-- glacier robe -->
+		<item id="5741" chance="1475"/> <!-- skull helmet -->
+		<item id="2670" countmax="2" chance="4975"/> <!-- shrimp -->
+		<item id="5895" chance="1900"/> <!-- fish fin -->
+		<item id="7368" countmax="4" chance="1400"/> <!-- assassin star -->
+	</loot>
+</monster>

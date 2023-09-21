@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Akatsuki Assasin" nameDescription="a akatsuki assasin" race="blood" experience="10000" speed="1000" manacost="490">
+	<health now="900000" max="900000"/>
+	<look type="178" corpse="2877"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="areadoton" interval="800" chance="60" radius="4" target="1" min="-7000" max="-15000">
+		</attack>
+	    <attack name="suitontutor" interval="2000" chance="70" range="8" min="-15000" max="-30000">
+		<attribute key="shootEffect" value="arrow"/>
+			</attack>
+		<attack name="suiton suiryudan no jutsu" interval="2500" chance="60" range="4" min="-30000" max="-45000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="8866" countmax="1" chance="100"/> <!-- Akatsuki Coat -->
+		<item id="2652" countmax="1" chance="1000"/> <!-- Akatsuki hat	 -->
+	</loot>
+</monster>

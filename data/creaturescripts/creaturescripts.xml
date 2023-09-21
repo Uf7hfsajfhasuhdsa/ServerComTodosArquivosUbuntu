@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+	<event type="preparedeath" name="MArena" script="arena.lua"/>
+
+   	 <!-- Vilarejo Event -->	
+	<event type="kill" name="Gerador3" event="script" value="Gerador3.lua"/>
+    	<event type="death" name="KillgeradorVilage" event="script" value="KillgeradorVilage.lua"/>
+
+
+	<event type="death" name="corpseDecay" event="script" value="corpse.lua"/>
+	<event type="death" name="BlessDrop" event="script" value="DropBless.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="login" name="Outfit" script="loginoufit.lua"/>
+	<event type="login" name="AntiMC" script="antimc.lua"/>
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="textedit" name="BanBook" event="script" value="banbook.lua"/>
+	<event type="kill" name="SummonKill" event="script" value="obsidianknife.lua"/>
+	<event type="login" name="obs_login" event="script" value="obsidianknife.lua"/>
+	<event type="death" name="ObMonsterCheck" event="script" value="obsidianknife.lua"/>      
+	<event type="death" name="tp" event="script" value="tp.lua"/>
+	<event type="death" name="tpobito" event="script" value="tpobito.lua"/>
+	<event type="death" name="tpobito2" event="script" value="tpobito2.lua"/>
+	<event type="attack" name="WeaponSugar" event="script" value="weaponsugar.lua"/>
+	<event type="login" name="ExpVip" script="vipexp.lua"/>
+	<event type="attack" name="ManaSugar" event="script" value="manasugar.lua"/>
+	<event type="kill" name="AmoebaTask" event="script" value="amoebaTaskCreature.lua"/>
+	<event type="statschange" name="invencible" event="script" value="invencible.lua"/>
+	<event type="kill" name="dailyKill" event="script" value="dailyKill.lua"/>
+	<event type="advance" name="UpAbsolute" event="script" value="uplevelabsolute.lua"/>
+	<event type="death" name="ProtegerPlayer" event="script" value="levelprotection.lua"/>
+
+    <event type="attack" name="attackspeed" script="attackspeed.lua"/>
+
+	<event type="statschange" name="defensive1" event="script" value="defensive1.lua"/>
+</creaturescripts>
+
+

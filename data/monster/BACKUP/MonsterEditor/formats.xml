@@ -1,0 +1,225 @@
+<formats>
+<format name="Base" version="-1">
+<property header="0" name="Ground"><child size="2" name="Speed" tooltip="Requires Ground"/></property>
+<property header="1" name="Top Order 1"/>
+<property header="2" name="Top Order 2"/>
+<property header="3" name="Top Order 3"/>
+<property header="4" name="Container"/>
+<property header="5" name="Stackable"/>
+<property header="6" name="Corpse"/>
+<property header="7" name="Useable"/>
+<property header="8" name="Rune"/>
+<property header="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="11" name="Fluid"/>
+<property header="12" name="Splash"/>
+<property header="13" name="Blocking"/>
+<property header="14" name="Immoble"/>
+<property header="15" name="Blocks Missile"/>
+<property header="16" name="Blocks Path"/>
+<property header="17" name="Pickupable"/>
+<property header="18" name="Hangable"/>
+<property header="19" name="Horizontal"/>
+<property header="20" name="Vertical"/>
+<property header="21" name="Rotatable"/>
+<property header="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="23" name="Unknown"/>
+<property header="24" name="Floor Change"/>
+<property header="25" name="Offset"><child size="2" name="Offset X" tooltip="Requires Offset"/><child size="2" name="Offset Y" tooltip="Requires Offset"/></property>
+<property header="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="27" name="Bottom Layer"/>
+<property header="28" name="Idle Animation"/>
+<property header="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+<property header="31" name="Ground item"/>
+<property header="32" name="Ladder"/>
+<property header="33" name="Solid floor"/>
+<property header="34" name="Color Template"/>
+<property header="35" name="Wall Item"/>
+<property header="36" name="Mount South"/>
+<property header="37" name="Mount East"/>
+<property header="38" name="Look through"/>
+</format>
+
+<format name="Version 8.52" version="852" redirect="850"/>
+
+<format name="Version 8.50" version="850">
+<property header="0" base="0" name="Ground"><child size="2" name="Speed"/></property>
+<property header="1" base="1" name="Top Order 1"/>
+<property header="2" base="2" name="Top Order 2"/>
+<property header="3" base="3" name="Top Order 3"/>
+<property header="4" base="4" name="Container"/>
+<property header="5" base="5" name="Stackable"/>
+<property header="6" base="6" name="Corpse"/>
+<property header="7" base="7" name="Useable"/>
+<property header="8" base="8" name="Rune"/>
+<property header="9" base="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="10" base="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="11" base="11" name="Fluid"/>
+<property header="12" base="12" name="Splash"/>
+<property header="13" base="13" name="Blocking"/>
+<property header="14" base="14" name="Immoble"/>
+<property header="15" base="15" name="Blocks Missile"/>
+<property header="16" base="16" name="Blocks Path"/>
+<property header="17" base="17" name="Pickupable"/>
+<property header="18" base="18" name="Hangable"/>
+<property header="19" base="19" name="Horizontal"/>
+<property header="20" base="20" name="Vertical"/>
+<property header="21" base="21" name="Rotatable"/>
+<property header="22" base="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="23" base="23" name="Unknown"/>
+<property header="24" base="24" name="Floor Change"/>
+<property header="25" base="25" name="Offset"><child size="2" name="Offset X" tooltip="Requires Offset"/><child size="2" name="Offset Y" tooltip="Requires Offset"/></property>
+<property header="26" base="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="27" base="27" name="Bottom Layer"/>
+<property header="28" base="28" name="Idle Animation"/>
+<property header="29" base="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="30" base="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Actioned 2" tooltip="Requires Actioned"/></property>
+<property header="31" base="31" name="Ground Item"/>
+<property header="32" base="38" name="See Through"/>
+</format>
+
+<format name="Version 8.40" version="840" redirect="780"/>
+<format name="Version 8.31" version="831" redirect="780"/>
+<format name="Version 8.30" version="830" redirect="780"/>
+<format name="Version 8.22" version="822" redirect="780"/>
+<format name="Version 8.21" version="821" redirect="780"/>
+<format name="Version 8.20" version="820" redirect="780"/>
+<format name="Version 8.11" version="811" redirect="780"/>
+<format name="Version 8.10" version="810" redirect="780"/>
+<format name="Version 8.00" version="800" redirect="780"/>
+
+<format name="Version 7.80" version="780">
+<property header="0" base="0" name="Ground"><child size="2" name="Speed"/></property>
+<property header="1" base="1" name="Top Order 1"/>
+<property header="2" base="2" name="Top Order 2"/>
+<property header="3" base="3" name="Top Order 3"/>
+<property header="4" base="4" name="Container"/>
+<property header="5" base="5" name="Stackable"/>
+<property header="6" base="6" name="Corpse"/>
+<property header="7" base="7" name="Useable"/>
+<property header="8" base="8" name="Rune"/>
+<property header="9" base="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="10" base="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="11" base="11" name="Fluid"/>
+<property header="12" base="12" name="Splash"/>
+<property header="13" base="13" name="Blocking"/>
+<property header="14" base="14" name="Immoble"/>
+<property header="15" base="15" name="Blocks Missile"/>
+<property header="16" base="16" name="Blocks Path"/>
+<property header="17" base="17" name="Pickupable"/>
+<property header="18" base="18" name="Hangable"/>
+<property header="19" base="19" name="Horizontal"/>
+<property header="20" base="20" name="Vertical"/>
+<property header="21" base="21" name="Rotatable"/>
+<property header="22" base="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="24" base="24" name="Floor Change"/>
+<property header="25" base="25" name="Offset"><child size="2" name="Offset X" tooltip="Requires Offset"/><child size="2" name="Offset Y" tooltip="Requires Offset"/></property>
+<property header="26" base="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="27" base="27" name="Bottom Layer"/>
+<property header="28" base="28" name="Idle Animation"/>
+<property header="29" base="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="30" base="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+<property header="31" base="31" name="Ground Item"/>
+</format>
+
+<format name="Version 7.60" version="760" redirect="755"/>
+
+<format name="Version 7.55" version="755">
+<property header="0" base="0" name="Ground"><child size="2" name="Speed"/></property>
+<property header="1" base="1" name="Top Order 1"/>
+<property header="2" base="2" name="Top Order 2"/>
+<property header="3" base="3" name="Top Order 3"/>
+<property header="4" base="4" name="Container"/>
+<property header="5" base="5" name="Stackable"/>
+<property header="6" base="7" name="Useable"/>
+<property header="8" base="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="9" base="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="10" base="11" name="Fluid"/>
+<property header="11" base="12" name="Splash"/>
+<property header="12" base="13" name="Blocking"/>
+<property header="13" base="14" name="Immoble"/>
+<property header="14" base="15" name="Blocks Missile"/>
+<property header="15" base="16" name="Blocks Path"/>
+<property header="16" base="17" name="Pickupable"/>
+<property header="17" base="18" name="Hangable"/>
+<property header="18" base="19" name="Horizontal"/>
+<property header="19" base="20" name="Vertical"/>
+<property header="20" base="21" name="Rotatable"/>
+<property header="21" base="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="23" base="24" name="Floor Change"/>
+<property header="24" base="25" name="Offset"><child size="2" name="Offset X" tooltip="Requires Offset"/><child size="2" name="Offset Y" tooltip="Requires Offset"/></property>
+<property header="25" base="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="26" base="27" name="Bottom Layer"/>
+<property header="27" base="28" name="Idle Animation"/>
+<property header="28" base="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="29" base="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+<property header="30" base="31" name="Ground item"/>
+<property header="-1" base="6" name="Corpse"/>
+<property header="-1" base="8" name="Rune"/>
+<property header="7" base="32" name="Ladder"/>
+</format>
+
+<format name="Version 7.50" version="750" redirect="740"/>
+
+<format name="Version 7.40" version="740" zdiv="0">
+<property header="0" base="0" name="Ground"><child size="2" name="Speed"/></property>
+<property header="1" base="1" name="Always on top"/>
+<property header="2" base="2" name="Walk through"/>
+<property header="3" base="4" name="Container"/>
+<property header="4" base="5" name="Stackable"/>
+<property header="5" base="7" name="Useable"/>
+<property header="6" base="32" name="Ladder"/>
+<property header="7" base="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="8" base="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="9" base="11" name="Fluid"/>
+<property header="10" base="12" name="Splash"/>
+<property header="11" base="13" name="Blocking"/>
+<property header="12" base="14" name="Immoble"/>
+<property header="13" base="15" name="Blocks Missile"/>
+<property header="14" base="16" name="Blocks path"/>
+<property header="15" base="17" name="Pickupable"/>
+<property header="16" base="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="17" base="24" name="Floor Change"/>
+<property header="18" base="33" name="Solid Floor"/>
+<property header="19" base="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="20" base="34" name="Color Template"/>
+<property header="22" base="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="23" base="21" name="Rotateable"/>
+<property header="24" base="27" name="Bottom Layer"/>
+<property header="25" base="35" name="Wall Item"/>
+<property header="26" base="36" name="Mount South"/>
+<property header="27" base="37" name="Mount East"/>
+<property header="28" base="28" name="Idle Animation"/>
+<property header="29" base="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+</format>
+
+<format name="Version 7.10" version="710" zdiv="0">
+<property header="0" base="0" name="Ground"><child size="2" name="Speed"/></property>
+<property header="1" base="1" name="Always on top"/>
+<property header="2" base="2" name="Walk through"/>
+<property header="3" base="4" name="Container"/>
+<property header="4" base="5" name="Stackable"/>
+<property header="5" base="7" name="Useable"/>
+<property header="6" base="32" name="Ladder"/>
+<property header="7" base="9" name="Writeable"><child size="2" name="Write Length" tooltip="Requires Writeable"/></property>
+<property header="8" base="10" name="Readable"><child size="2" name="Read Length" tooltip="Requires Readable"/></property>
+<property header="9" base="11" name="Fluid"/>
+<property header="10" base="12" name="Splash"/>
+<property header="11" base="13" name="Blocking"/>
+<property header="12" base="14" name="Immoble"/>
+<property header="13" base="15" name="Blocks Missile"/>
+<property header="14" base="16" name="Blocks Path"/>
+<property header="15" base="17" name="Pickupable"/>
+<property header="16" base="22" name="Light"><child size="2" name="Lightlevel" tooltip="Requires Light"/><child size="2" name="Lightcolor" tooltip="Requires Light"/></property>
+<property header="17" base="24" name="Floor Change"/>
+<property header="18" base="33" name="Solid Floor"/>
+<property header="19" base="26" name="Heighted"><child size="2" name="Height" tooltip="Requires Height"/></property>
+<property header="20" base="34" name="Color Template"/>
+<property header="22" base="29" name="Minimap"><child size="2" name="Minimap" tooltip="Requires Minimap"/></property>
+<property header="23" base="21" name="Rotateable"/>
+<property header="24" base="27" name="Bottom Layer"/>
+<property header="25" base="28" name="Idle Animation"/>
+<property header="26" base="30" name="Actioned"><child size="1" name="Action" tooltip="Requires Actioned"/><child size="1" name="Action 2" tooltip="Requires Actioned"/></property>
+</format>
+</formats>

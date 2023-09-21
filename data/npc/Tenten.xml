@@ -1,0 +1,9 @@
+<npc name="Tenten" script="aol.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="234" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Estou Vendendo BackPack, Diga 'trade'."/>
+		<parameter key="shop_buyable" value="Shuriken,1999,10000;"/>
+	</parameters>
+</npc>

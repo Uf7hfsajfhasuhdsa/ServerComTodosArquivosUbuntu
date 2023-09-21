@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+     <monster name="Hyuuga Male" level="50" maglevel="35" experience="800" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="200">
+     	<health now="900" max="900"/>
+         	<look type="71" head="50" body="50" legs="50" feet="50" corpse="3128"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+     	<attack type="melee" maxdamage="120"/>
+        <attack type="instant" name="kaiten" exhaustion="500" cycleticks="3000" probability="90"/>
+        <attack type="instant" name="juunken" exhaustion="500" cycleticks="3000" probability="90"/>
+        <attack type="instant" name="junken" exhaustion="500" cycleticks="3000" probability="90"/>     	
+        <attack type="distance" name="throwingstar" mindamage="50" maxdamage="95" cycleticks="2000" probability="100"/>
+     </attacks>
+
+     <defenses>
+
+     </defenses>
+ <voices>
+ </voices>
+  <loot>
+      	<item id="2148" countmax="75" chance1="100000" chancemax="0"/>
+       	<item id="2466" countmax="1" chance1="500" chancemax="0"/>
+     </loot>
+     </monster>

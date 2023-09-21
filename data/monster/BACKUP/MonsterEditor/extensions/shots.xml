@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<shots>
+<shot value="0" name="spear"/>
+<shot value="1" name="bolt"/>
+<shot value="2" name="arrow"/>
+<shot value="3" name="fire"/>
+<shot value="4" name="energy"/>
+<shot value="5" name="poisonarrow"/>
+<shot value="6" name="burstarrow"/>
+<shot value="7" name="throwingstar"/>
+<shot value="8" name="throwingknife"/>
+<shot value="9" name="smallstone"/>
+<shot value="10" name="death"/>
+<shot value="11" name="largerock"/>
+<shot value="12" name="snowball"/>
+<shot value="13" name="powerbolt"/>
+<shot value="14" name="poison"/>
+<shot value="15" name="infernalbolt"/>
+<shot value="16" name="huntingspear"/>
+<shot value="17" name="enchantedspear"/>
+<shot value="18" name="redstar"/>
+<shot value="19" name="greenstar"/>
+<shot value="20" name="royalspear"/>
+<shot value="21" name="sniperarrow"/>
+<shot value="22" name="onyxarrow"/>
+<shot value="23" name="piercingbolt"/>
+<shot value="24" name="whirlwindsword"/>
+<shot value="25" name="whirlwindaxe"/>
+<shot value="26" name="whirlwindclub"/>
+<shot value="27" name="etherealspear"/>
+<shot value="28" name="ice"/>
+<shot value="29" name="earth"/>
+<shot value="30" name="holy"/>
+<shot value="31" name="suddendeath"/>
+<shot value="32" name="flasharrow"/>
+<shot value="33" name="flammingarrow"/>
+<shot value="34" name="shiverarrow"/>
+<shot value="35" name="energyball"/>
+<shot value="36" name="smallice"/>
+<shot value="37" name="smallholy"/>
+<shot value="38" name="smallearth"/>
+<shot value="39" name="eartharrow"/>
+<shot value="40" name="explosion"/>
+<shot value="41" name="cake"/>
+</shots>

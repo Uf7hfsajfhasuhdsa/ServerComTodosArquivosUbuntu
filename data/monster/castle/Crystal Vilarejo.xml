@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Vilarejo" nameDescription="a Crystal Vilarejo" race="blood" experience="0" speed="0" manacost="0">
+  <health now="30000000" max="30000000"/>
+  <look type="645" head="57" body="19" legs="57" feet="95" addons="1" corpse="0"/>
+  <targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="800"/>
+  </flags>
+   <script>
+<event name="KillgeradorVilage"/>
+</script>
+	<attacks>
+		<attack name="melee" interval="900000" min="-0" max="-0"/>
+		<attack name="manadrain" interval="900000" chance="10" range="4" min="-0" max="-0">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="1" defense="1">
+		<defense name="healmonster" interval="5000" chance="80" min="0" max="0">
+			<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+		</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element energyPercent="100"/>
+		<element icePercent="100"/>
+		<element earthPercent="90"/>
+		<element holyPercent="-25"/>
+		<element physicalPercent="-33"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  <summons maxSummons="2">
+    <summon name="deathspawn" interval="1000" chance="0" max="0"/>
+  </summons>
+  <loot>
+    <item id="2160" countmax="20" chance1="100000" chancemax="0"/>
+  </loot>
+</monster>

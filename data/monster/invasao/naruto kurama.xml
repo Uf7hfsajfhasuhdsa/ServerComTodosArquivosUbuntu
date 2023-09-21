@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Naruto Kurama" nameDescription="a kurama" race="blood" experience="99000000" speed="1000" manacost="490">
+	<health now="100000000" max="100000000"/>
+	<look type="20"/>
+	<targetchange interval="20000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Katon daiendan" interval="800" chance="700" range="7" min="-30000" max="-50000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2160" countmax="100" chance="100000"/> <!-- Dollar -->
+	</loot>
+<script>
+<event name="tp"/>
+</script>
+</monster>

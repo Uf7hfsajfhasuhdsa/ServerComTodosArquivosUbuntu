@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gamabunta" nameDescription="a gamabunta" race="blood" experience="30100" speed="1000" manacost="490">
+	<health now="1000000" max="1000000"/>
+	<look type="55"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="habashiri" interval="500" chance="1000" range="2" min="-35000" max="-45000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2152" countmax="1" chance="1000"/> <!-- Dollar -->
+		<item id="2546" countmax="10" chance="100000"/> <!-- Strong Shuriken -->
+	</loot>
+</monster>

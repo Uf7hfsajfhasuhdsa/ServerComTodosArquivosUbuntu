@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="White Shaolin" nameDescription="a white shaolin" race="blood" experience="2000" speed="700" manacost="490">
+	<health now="80000" max="80000"/>
+	<look type="294" corpse="2842"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="suitontutor" interval="1600" chance="700" range="7" min="-2500" max="-4000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="19" chance="20000"/> <!-- Dollar -->
+		<item id="11558" countmax="1" chance="1000"/> <!-- Jounnin Armor -->
+		<item id="11560" countmax="1" chance="2000"/> <!-- Jounnin Boots -->
+
+	</loot>
+</monster>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="offtrain_PlayerLogin" event="script" value="offtrain_login.lua"/>
+	<event type="logout" name="offtrain_PlayerLogout" event="script" value="offtrain_logout.lua"/>
+	<event type="death" name="corpseDecay" event="script" value="corpse.lua"/>
+	<event type="attack" name="WeaponMana" event="script" value="weaponMana.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="login" name="Out" script="loginoufit.lua"/>
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="look" name="questLook" event="script" value="quest.lua"/>
+	<event type="textedit" name="BanBook" event="script" value="banbook.lua"/>
+	<event type="kill" name="SummonKill" event="script" value="obsidianknife.lua"/>
+	<event type="login" name="obs_login" event="script" value="obsidianknife.lua"/>
+	<event type="death" name="ObMonsterCheck" event="script" value="obsidianknife.lua"/>
+        <event type="login" name="expvip" event="script" value="expvip.lua"/>       
+        <event type="think" name="getspeed" event="script" value="getspeed.lua"/>
+        <event type="login" name="fraglook_register" event="script" value="fraglook.lua"/>
+        <event type="look" name="fraglook" event="script" value="fraglook.lua"/>   
+        <event type="login" name="checkvip1" script="vip.lua"/>
+        <event type="login" name="ItemLogin" event="script" value="itemlogin.lua"/>
+	<event type="login" name="VipCheck" event="script" value="vipcheck.lua"/>
+</creaturescripts>
+
+

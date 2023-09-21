@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Especial Wolf" nameDescription="a especial wolf" race="blood" experience="100" speed="134" manacost="200">
+	<health now="10000" max="10000"/>
+	<look type="46" corpse="2846"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="5"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="40"/>
+	</attacks>
+	<defenses armor="1" defense="2"/>
+	<elements>
+		<element earthPercent="25"/>
+		<element holyPercent="10"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Meep!"/>
+	</voices>
+	<loot>
+		<item id="2696" chance="40750"/> <!-- cheese -->
+		<item id="2148" countmax="4" chance="43750"/> <!-- gold coin -->
+	</loot>
+</monster>

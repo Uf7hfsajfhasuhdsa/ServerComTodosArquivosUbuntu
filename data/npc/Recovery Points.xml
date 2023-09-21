@@ -1,0 +1,8 @@
+<npc name="Recovery Points" script="pontos.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="110" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Eu Entrego Seus Pontos, Digite Seu {Token} de {Transferencia Pagseguro} Ex: {TY453CA6-A9BE-6789-TD6R-DD89BFF88CCD}."/>
+	</parameters>
+</npc>

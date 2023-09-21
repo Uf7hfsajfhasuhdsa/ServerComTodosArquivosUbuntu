@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kiba Boss" nameDescription="a Kiba Boss" race="blood" experience="1000" speed="700" manacost="490">
+	<health now="40000" max="40000"/>
+	<look type="331" corpse="2808"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="kiba1" interval="3000" chance="700" range="6" min="-2000" max="-8000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="kiba2" interval="1000" chance="700" min="-1000" max="-2000">
+		</attack>
+	</attacks>
+	<loot>
+	<item id="2148" countmax="5" chance="10000"/> <!-- Dollar -->
+	</loot>
+</monster>

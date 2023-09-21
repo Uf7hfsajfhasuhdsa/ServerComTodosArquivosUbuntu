@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<outfits>
+
+<outfit id="44" premium="no" default="0">
+        <list gender="1" lookType="641" name="Kurama I"/>
+    </outfit>
+	
+<outfit id="45" premium="no" default="0">
+        <list gender="1" lookType="640" name="Susanoo I"/>
+    </outfit>
+
+<outfit id="46" premium="no" default="0">
+        <list gender="1" lookType="642" name="Mumia I"/>
+    </outfit>
+
+<outfit id="47" premium="no" default="0">
+        <list gender="1" lookType="643" name="Ultimate I"/>
+    </outfit>	
+	
+<outfit id="48" premium="no" default="0">
+        <list gender="1" lookType="644" name="Ceifador I"/>
+    </outfit>
+	
+</outfits>

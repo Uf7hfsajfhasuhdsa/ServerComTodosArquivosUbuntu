@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Orc Leader" nameDescription="a orc leader" race="blood" experience="270" speed="230" manacost="640">
+	<health now="450" max="450"/>
+	<look type="59" corpse="6001"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="74"/>
+		<attack name="physical" interval="1000" chance="17" range="7" min="-50" max="-70">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="30"/>
+	<elements>
+		<element firePercent="100"/>
+		<element energyPercent="20"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Ulderek futgyr human!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="2" chance="14150"/> <!-- platinum coin -->
+		<item id="2667" chance="28300"/> <!-- fish -->
+		<item id="2789" chance="8525"/> <!-- brown mushroom -->
+		<item id="7378" chance="2525"/> <!-- royal spear -->
+		<item id="2207" chance="3750"/> <!-- sword ring -->
+		<item id="7618" countmax="4" chance="3700"/> <!-- health potion -->
+	</loot>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Black Anbu" nameDescription="a black anbu" race="black anbu" experience="5000" speed="1000" manacost="0">
+	<health now="200000" max="200000"/>
+	<look type="159" corpse="2915"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-4000" max="-6000"/>
+		<attack name="" interval="3000" chance="670" range="7" min="-70" max="-180">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="Regeneration" interval="1000" chance="10" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance="30300"/> <!-- platinum coin -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+		<item id="2462" chance="2470"/> <!-- haku mask -->
+		<item id="2644" chance="7407"/> <!-- haku shirt -->
+	</loot>
+</monster>

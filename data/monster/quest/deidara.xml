@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Deidara Boss" nameDescription="Deidara Boss" race="blood" experience="50000" speed="1000" manacost="490">
+	<health now="20000000" max="20000000"/>
+	<look type="196" corpse="2880"/>
+	<targetchange interval="20000" chance="30"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="6"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="deidaraexplosion" interval="2000" chance="1000" range="7" min="-32000" max="-50000">
+		</attack>
+		<attack name="deidaraexplosion2" interval="400" chance="1000" range="7" min="-7000" max="-15000">
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="85" chance="30000"/> <!-- Dollar -->
+
+	</loot>
+	<script>
+	<event name="tp"/>
+	</script>
+</monster>

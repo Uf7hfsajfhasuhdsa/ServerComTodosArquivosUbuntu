@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Automatic Raids" version="1.0" author="Vodkart And xotservx" contact="tibiaking.com" enabled="yes"> 
+<config name="raids_func">
+<![CDATA[
+days = {
+	-- Segunda
+	["Monday"] = {
+		["22:05"] = {nome = "Jya", pos = {fromPosition = {x=1416, y=811, z=8},toPosition = {x=1478, y=847, z=8}},m = {"2 Jya", "2 Kyodai", "1 Kyodai" , "2 Jya"}, Time = 5},
+		
+		["22:08"] = {nome = "Kyodai", pos = {fromPosition = {x=1416, y=811, z=8},toPosition = {x=1478, y=847, z=8}},m = {"2 Kyodai", "1 Kyodai", "2 Kyodaijya" , "1 Kyodaijya"}, Time = 5},
+		
+		["22:10"] = {nome = "Kyodai", pos = {fromPosition = {x=1416, y=811, z=8},toPosition = {x=1478, y=847, z=8}},m = {"2 Kyodai", "1 Kyodai", "2 Kyodaijya" , "1 Kyodaijya"}, Time = 5}
+	},	
+	-- Quinta
+	["Tursday"] = {
+		["22:05"] = {nome = "Kyodai", pos = {fromPosition = {x=954, y=835, z=7},toPosition = {x=1089, y=915, z=7}},m = {"3 Kyodai", "2 Kyodai", "3 Kyodaijya" , "2 Kyodaijya"}, Time = 5},
+		
+		["22:08"] = {nome = "Kyodai", pos = {fromPosition = {x=954, y=835, z=7},toPosition = {x=1089, y=915, z=7}},m = {"3 Kyodai", "2 Kyodai", "3 Kyodaijya" , "2 Kyodaijya"}, Time = 5},
+	
+		["22:10"] = {nome = "Kyodai", pos = {fromPosition = {x=954, y=835, z=7},toPosition = {x=1089, y=915, z=7}},m = {"3 Kyodai", "2 Kyodai", "3 Kyodaijya" , "2 Kyodaijya"}, Time = 5}
+		
+	}
+}
+]]></config>
+<globalevent name="AutomaticRaids" interval="2000" event="script"><![CDATA[
+domodlib('raids_func')
+function onThink(interval, lastExecution)	
+	function isWalkable(pos) -- by Nord / editado por Omega
+		if getTileThingByPos({x = pos.x, y = pos.y, z = pos.z, stackpos = 0}).itemid == 0 then
+			return false
+		elseif isCreature(getTopCreature(pos).uid) then
+			return false
+		elseif getTileInfo(pos).protection then
+			return false
+		elseif hasProperty(getThingFromPos(pos).uid, 3) or hasProperty(getThingFromPos(pos).uid, 7) then
+			return false
+		end
+		return true
+	end
+	
+	if days[os.date("%A")] then
+		hours = tostring(os.date("%X")):sub(1, 5)
+		tb = days[os.date("%A")][hours]
+		if tb then
+			function removeCreature(tb)
+				for x = ((tb.pos.fromPosition.x)-20), ((tb.pos.toPosition.x)+20) do
+					for y = ((tb.pos.fromPosition.y)-20), ((tb.pos.toPosition.y)+20) do
+						local m = getTopCreature({x=x, y=y, z= tb.pos.fromPosition.z}).uid
+						if m ~= 0 and isMonster(m) then
+							doSendMagicEffect(getCreaturePosition(m), 3) -- Efeito no monstro quando for removido
+							doSendMagicEffect(getCreaturePosition(m), 3) -- Efeito no monstro quando for removido
+							doRemoveCreature(m)
+						end
+					end
+				end
+			end
+			doBroadcastMessage("O(as) " .. tb.nome .. " e esta Invadindo a Sala de Invasao ajude a derrota-los  ...") -- Mensagem que vai aparecer para todos do servidor quando a invasao iniciar
+			for _ , x in pairs(tb.m) do
+				local c = tonumber(x:match("%d+"))
+				if c > 0 then
+					repeat
+						local pos = {x = math.random(tb.pos.fromPosition.x, tb.pos.toPosition.x), y = math.random(tb.pos.fromPosition.y, tb.pos.toPosition.y), z = tb.pos.fromPosition.z}
+						if isWalkable(pos) then
+							doCreateMonster(x:match("%s(.+)"), pos)
+							local pos2 = {x=pos.x+1, y=pos.y+0, z=pos.z+0}
+							doSendMagicEffect(pos2, 1) -- Efeito no monstro quando ele nascer
+							doSendMagicEffect(pos, 1) -- Efeito no monstro quando ele nascer
+							c = c-1 
+						end
+					until c == 0
+				end
+			end
+			addEvent(removeCreature, tb.Time*240*1000, tb)
+
+		end
+	end
+	return true
+end
+]]></globalevent>
+</mod>

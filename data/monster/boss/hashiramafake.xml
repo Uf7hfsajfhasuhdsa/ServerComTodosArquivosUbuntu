@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mokuton Bunshin Boss" nameDescription="a mokuton bunshin boss" race="blood" experience="10000" speed="1220" manacost="390">
+	<health now="150000000" max="150000000"/>
+	<look type="571" head="113" body="120" legs="114" feet="132" />
+	<targetchange interval="5000" chance="20"/>
+	<strategy attack="100" defense="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag passive="0" />
+	</flags>
+	<script>
+    <event name="tp"/>
+    </script> 
+	<attacks>
+		<attack name="headbutt" interval="800" min="-10050" max="-20250"/>
+		<attack name="hashi1" interval="2000" min="-33050" max="-50250"/>
+		<attack name="Ninpou Mokuton Barrier" interval="15000" radius="7" min="-17050" max="-20250"/>
+	</attacks>
+	<defenses armor="80" defense="40">
+	</defenses>
+	<elements>
+		<element physicalPercent="-0"/>
+		<element deathPercent="-0"/>
+	</elements>
+	<voices interval="5000" chance="0">
+		<voice sentence=""/>
+	</voices>
+	<loot>
+
+	</loot>
+</monster>

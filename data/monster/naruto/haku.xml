@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Haku" nameDescription="a haku" race="blood" experience="1100" speed="540" manacost="0">
+	<health now="100000" max="100000"/>
+	<look type="17" corpse="2855"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-1000" max="-4000"/>
+		<attack name="senbon" interval="500" chance="670" range="7" min="-70" max="-180">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="regeneration" interval="1000" chance="10" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="20"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Please kill me!"/>
+		<voice sentence="I give my life to protect zabusa!"/>
+		<voice sentence="Zabusaaa!!!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance="30300"/> <!-- platinum coin -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+		<item id="2462" chance="2470"/> <!-- haku mask -->
+		<item id="2644" chance="7407"/> <!-- haku shirt -->
+	</loot>
+</monster>

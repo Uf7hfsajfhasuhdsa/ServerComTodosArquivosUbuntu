@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<singlespawn delay="1000" name="black anbu" x="1026" y="918" z="7"/>
+        <singlespawn delay="1100" name="black anbu" x="1027" y="918" z="7"/>
+        <singlespawn delay="1200" name="black anbu" x="1028" y="918" z="7"/>        
+        <singlespawn delay="1300" name="black anbu" x="1029" y="918" z="7"/>        
+        <singlespawn delay="1400" name="black anbu" x="1030" y="918" z="7"/>        
+        <singlespawn delay="1500" name="black anbu" x="1025" y="918" z="7"/>        
+        <singlespawn delay="1600" name="black anbu" x="1024" y="918" z="7"/>        
+        <singlespawn delay="1700" name="black anbu" x="1023" y="918" z="7"/>        
+        <singlespawn delay="1800" name="black anbu" x="1022" y="918" z="7"/>        
+        <singlespawn delay="1900" name="black anbu" x="1021" y="918" z="7"/>        
+        <singlespawn delay="2000" name="black anbu" x="1020" y="918" z="7"/>
+</raid>

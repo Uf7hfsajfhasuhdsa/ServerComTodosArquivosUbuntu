@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/opentibia/!svn/ver/2051/otserv/trunk/data
+END
+global.lua
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/opentibia/!svn/ver/1958/otserv/trunk/data/global.lua
+END
+commands.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/opentibia/!svn/ver/1993/otserv/trunk/data/commands.xml
+END
+bans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/opentibia/!svn/ver/1909/otserv/trunk/data/bans.xml
+END
+vocations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/opentibia/!svn/ver/1909/otserv/trunk/data/vocations.xml
+END
+admin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/opentibia/!svn/ver/1794/otserv/trunk/data/admin.xml
+END
+outfits.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/opentibia/!svn/ver/2051/otserv/trunk/data/outfits.xml
+END

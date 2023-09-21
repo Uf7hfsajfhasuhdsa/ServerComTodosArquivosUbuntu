@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<singlespawn delay="1000" name="naruto" x="1016" y="933" z="7"/> 	
+        <singlespawn delay="3000" name="4 caudas" x="1015" y="934" z="7"/>      
+        <singlespawn delay="6000" name="4 caudas kyuubi" x="1016" y="934" z="7"/>      
+	<singlespawn delay="9000" name="6 caudas kyuubi" x="1017" y="933" z="7"/>      
+     
+</raid>

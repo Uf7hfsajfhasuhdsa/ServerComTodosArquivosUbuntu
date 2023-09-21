@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shaolin Master" nameDescription="a shaolin master" race="blood" experience="3500" speed="700" manacost="490">
+	<health now="150000" max="150000"/>
+	<look type="120" corpse="2844"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-5000" max="-6000"/>
+	</attacks>
+	<loot>
+		<item id="2525" countmax="1" chance="1500"/> <!-- speed boots -->
+		<item id="2148" countmax="49" chance="20000"/> <!-- gold bar -->
+	</loot>
+</monster>

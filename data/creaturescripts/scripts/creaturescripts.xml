@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="death" name="PlayerDeath" event="script" value="playerdeath.lua"/>
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="look" name="questLook" event="script" value="quest.lua"/>
+	<event type="textedit" name="BanBook" event="script" value="banbook.lua"/>
+	<event type="kill" name="SummonKill" event="script" value="obsidianknife.lua"/>
+	<event type="login" name="obs_login" event="script" value="obsidianknife.lua"/>
+	<event type="death" name="ObMonsterCheck" event="script" value="obsidianknife.lua"/>
+        <event type="login" name="fragsnolook" script="fragsnolook.lua"/>
+        <event type="login" name="efeito" event="script" value="efeito.lua"/>
+        <event type="advance" name="freevip" script="freevip.lua"/> 
+        <event type="kill" name="task_count" script="taskcount.lua"/>
+        <event type="login" name="Mensagem" script="msg.lua">
+<creaturescripts>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kami Bunshin" nameDescription="a kami bunshin" race="blood" experience="35" speed="1500" manacost="300">
+	<health now="200000" max="200000"/>
+	<look type="192"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Kami no Jutsu" interval="1500" chance="100" range="7" min="-4000" max="-4500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="healmonster" interval="1000" chance="700" min="1000" max="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="100"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<loot>
+		<item id="2152" countmax="2" chance="24400"/> <!-- platinum coin -->
+	</loot>
+</monster>

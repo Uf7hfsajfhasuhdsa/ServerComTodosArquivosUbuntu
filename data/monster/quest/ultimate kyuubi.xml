@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ultimate Kyuubi" nameDescription="a ultimate kyuubi" race="blood" experience="40000" speed="5000" manacost="490">
+	<health now="3000000" max="3000000"/>
+	<look type="179" corpse="2813"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="45"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="yonbiko rasengan" interval="1200" range="6" min="-31000" max="-50000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="melee" interval="800" range="6" min="-2000" max="-5000"/>
+	</attacks>
+	<loot>
+		<item id="2152" countmax="3" chance="2500"/> <!-- Gold Bars	 -->
+	</loot>
+</monster>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Black Snake" nameDescription="a snake" race="blood" experience="5200" speed="700" manacost="490">
+	<health now="250000" max="250000"/>
+	<look type="502"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-7000" max="-8000"/>
+	</attacks>
+	<loot>
+		<item id="2160" countmax="1" chance="33333"/> <!-- Dollar -->
+	</loot>
+</monster>

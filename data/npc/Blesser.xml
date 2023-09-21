@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<npc name="Blesser" script="blesser.lua" walkinterval="2000" speed="0" floorchange="0" speechbubble="1">
+	<health now="100" max="100"/>
+	<look type="160" head="58" body="114" legs="87" addons="3"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="bless;blessings" />
+		<parameter key="keyword_reply1" value="Blessing System, diga {All} para comprar todas Blessings" />
+		<parameter key="keyword_reply2" value="Blessing System, diga {All} para comprar todas Blessings" />
+	</parameters>
+</npc>

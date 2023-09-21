@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tenten Boss" nameDescription="a tenten Boss" race="blood" experience="1000" speed="700" manacost="490">
+	<health now="10000000" max="10000000"/>
+	<look type="386"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="3"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="tenten1" interval="3000" chance="700" range="6" min="-3000" max="-9000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="tenten2" interval="1500" chance="700" min="-5500" max="-10000">
+		</attack>
+	</attacks>
+	<loot>
+	<item id="2148" countmax="48" chance="10000"/> <!-- Dollar -->
+	</loot>
+</monster>

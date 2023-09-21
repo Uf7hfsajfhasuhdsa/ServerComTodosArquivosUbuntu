@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghost" nameDescription="a ghost" race="undead" experience="720" speed="200" manacost="650">
+	<health now="650" max="650"/>
+	<look type="48" corpse="5993"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="40"/>
+		<attack name="lifedrain" interval="1000" chance="15" range="1" min="-25" max="-45"/>
+	</attacks>
+	<defenses armor="10" defense="10"/>
+	<elements>
+		<element earthPercent="100"/>
+		<element deathPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Huh!"/>
+		<voice sentence="Shhhhhh"/>
+		<voice sentence="Buuuuuh"/>
+	</voices>
+	<loot>
+		<item id="5909" chance="2300"/> <!-- white piece of cloth -->
+		<item id="2654" chance="9800"/> <!-- cape -->
+		<item id="2532" chance="750"/> <!-- ancient shield -->
+		<item id="10607" chance="1775"/> <!-- ghostly tissue -->
+		<item id="2165" chance="1225"/> <!-- stealth ring -->
+	</loot>
+</monster>

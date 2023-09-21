@@ -1,0 +1,3353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+    	<!--- Runas -->
+	<rune name="Fire Papper" id="2263" charges="100" allowfaruse="1" lvl="200" exhaustion="500" blocktype="all" script="runas/fire.lua">
+	</rune>
+	<rune name="Doton Trap Papper" id="2266" charges="100" allowfaruse="1" lvl="200" exhaustion="500" blocktype="all" script="runas/doton rune.lua">
+	</rune>
+	<rune name="Tree Trap Papper" id="2265" charges="100" allowfaruse="1" lvl="200" exhaustion="500" blocktype="all" script="runas/tree rune.lua">
+	</rune>
+
+    	<!--- All Jutsus -->
+	<instant name="skip" words="skip" lvl="1" mana="10" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="skip.lua">		
+	</instant>
+	<instant name="Light" words="light" lvl="1" mana="10" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="light.lua">		
+	</instant>
+	<instant name="Regeneration" words="regeneration" lvl="10" mana="180" prem="0" aggressive="0" exhaustion="1500" needlearn="0" blockwalls="1" enabled="1" event="script" value="regeneration.lua">
+	</instant>
+	<instant name="Find Person" words="sense" lvl="10" mana="100" prem="0" aggressive="0" params="1" exhaustion="500" needlearn="0" function="searchPlayer">
+	</instant>
+	<instant name="Chakra Feet" words="chakra feet" lvl="10" mana="200" aggressive="0" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="chakra impulse.lua">
+	</instant>
+	<instant name="Jump" words="jump" lvl="15" mana="100" prem="0" aggressive="0" exhaustion="500" params="1" needlearn="0" function="Levitate">
+	</instant>
+	<instant name="Chakra Defense" words="chakra defense" lvl="20" mana="500" aggressive="0" prem="1" exhaustion="500" needlearn="0" blockwalls="1" enabled="1" event="script" value="chakra defence.lua">
+	</instant>
+	<instant name="Defense Kai" words="defense kai" lvl="20" mana="500" aggressive="0" prem="1" exhaustion="500" needlearn="0" script="defense kai.lua">
+	</instant>
+	<instant name="Big Regeneration" words="big regeneration" aggressive="0" lvl="150" mana="500" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="big regeneration.lua">
+	</instant>
+	<instant name="Concentrate Chakra Feet" words="concentrate chakra feet" lvl="150" mana="500" aggressive="0" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="concentrate chakra impulse.lua">
+	</instant>
+	<instant name="Kawarimi Defense" words="kawarimi defense" lvl="10" mana="300" prem="1" range="10" blockwalls="0" exhaustion="500" needlearn="0" event="script" value="defensive.lua">
+	</instant>
+
+	<!-- Todos -->
+	<instant name="Power Down" words="powerdown" manapercent="0" prem="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" script="powerdown.lua">
+	</instant>
+	<instant name="Throw Kunai" words="throw kunai" lvl="10" mana="50" prem="0" needtarget ="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kunai.lua">
+	</instant>
+	<instant name="Throw Shuriken" words="throw shuriken" lvl="10" mana="50" prem="0" needtarget ="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shuriken.lua">
+	</instant>
+	<instant name="Kunai Explosive" words="kunai explosion" lvl="50" mana="1500" prem="0" needtarget ="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kunai explosion.lua">
+	</instant>
+	<instant name="Kai" words="kai" lvl="20" mana="100" prem="1" exhaustion="100" needlearn="0" blockwalls="1" enabled="1" event="script" value="kai.lua">
+	</instant>
+	<instant name="Chakra Rest" words="chakra rest" lvl="10" mana="0" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="chakra rest.lua">
+	</instant>
+
+	<!-- Monster -->
+	<instant name="healkatsuyu" words="healkatsuyu" aggressive="0" lvl="150" mana="500" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="monster/healmaster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="attackmuchidama" words="attackmuchidama" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/hijutsu muchidama.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="amaterasumonster" words="amaterasumonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/amaterasu.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="dotonsuiryudannojutsu" words="dotonsuiryudannojutsu" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/dotonsuiryudannojutsu.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="sabakukyu" words="sabakukyu" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/sabakukyu.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="rasenganmonster" words="rasenganmonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/rasenganmonster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="hachibiimari" words="hachibiimari" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/hachibiimari.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="kirinmonster" words="kirinmonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/kirinmonster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="kunaimonster" words="kunaimonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/kunai.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="chidorimonster" words="chidorimonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/chidorimonster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="blacksnake" words="blacksnake" lvl="350" maglv="120" mana="100" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/blacksnake.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="jyaaa" words="jyaaa" lvl="350" maglv="120" mana="100" prem="0" needtarget ="1" range="5" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/jya.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="suitonsuigadan" words="suitonsuigadan" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/suitonsuigadan.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="suirounojutsu" words="suirounojutsu" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/suirounojutsu.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="oodamarasengan" words="oodamarasengan" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/oodamarasengan.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="sabakurou" words="sabakurou" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/sabakurou.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="sabakutaisoumonster" words="sabakutaisoumonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/sabakutaisoumonster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="sabakuroumonster" words="sabakuroumonster" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/sabakuroumonster.lua">
+		<vocation id="0"/>
+	</instant>
+	<instant name="habashiri" words="habashiri" lvl="350" maglv="120" mana="10000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="monster/habashiri.lua">
+		<vocation id="0"/>
+	</instant>
+
+	<!-- Naruto -->
+	<instant name="rasengan" words="rasengan" lvl="20" mana="500" prem="0" needtarget ="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="naruto/rasengan.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Yonbiko rasengan" words="yonbiko rasengan" lvl="50" mana="500" prem="0" needtarget ="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="naruto/yonbiko rasengan.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Oodama Rasengan" words="oodama rasengan" lvl="100" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/oodama rasengan.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Senpou RasenShuriken" words="senpou rasenshuriken" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="naruto/senpou rasenshuriken.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Gama Bunta" words="kuchyose gama bunta" lvl="300" mana="5000" soul="1" prem="1" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="naruto/kuchyose.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Yonbiko punchi" words="yonbiko punchi" lvl="150" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/yonbiko punchi.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Rasen Shuriken" words="rasenshuriken" lvl="200" mana="2000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/rasenshuriken.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Yonbiko imari" words="yonbiko imari" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/yonbiko imari.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Kage Bunshin no Jutsu Max" words="kage bunshin no jutsu max" lvl="250" mana="5000" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/kage bunshin.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Kyuubi Furie" words="kyuubi furie" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="naruto/buff.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Kyuubi Furie Max" words="kyuubi furie max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="naruto/buffvip.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Kurama Dash" words="kurama dash" lvl="400" mana="5000" aggressive="0" prem="1" exhaustion="5000" needlearn="0" blockwalls="1" enabled="1" event="script" value="naruto/kurama dash.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+	<instant name="Fuuton RasenShuriken" words="fuuton rasenshuriken" lvl="600" maglv="140" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="naruto/fuuton rasenshuriken.lua">
+		<vocation id="1"/>
+		<vocation id="56"/>
+		<vocation id="57"/>
+		<vocation id="58"/>
+		<vocation id="59"/>
+		<vocation id="60"/>
+		<vocation id="1000"/>
+		<vocation id="1022"/>
+	</instant>
+
+	<!-- Sasuke -->
+	<instant name="Katon Housenka" words="katon housenka no jutsu" lvl="20" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sasuke/katon housenka no jutsu.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+		
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Katon Ryuuka" words="katon ryuuka no jutsu" lvl="50" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sasuke/katon ryuuka no jutsu.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+		
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Chidori" words="chidori" lvl="100" mana="1000" prem="0" needtarget="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sasuke/chidori.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+	</instant>
+	<instant name="Chidori Nagashi" words="chidori nagashi" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sasuke/chidori nagashi.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Corrupt Chidori" words="corrupt chidori" lvl="150" mana="1000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sasuke/corrupt chidori.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Kirin" words="kirin" lvl="200" mana="2000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sasuke/kirin.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Manda" words="kuchyose manda" lvl="300" mana="5000" soul="1" prem="1" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sasuke/kuchyose.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Susanoo" words="susanoo" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sasuke/buff.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Susanoo Max" words="susanoo max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sasuke/buffvip.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Susanoo Strike" words="susanoo strike" lvl="600" maglv="140" mana="5000" prem="0" needtarget ="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sasuke/susanoo strike.lua">
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+
+	<!-- Lee -->
+	<instant name="Konoha Senpuu" words="konoha senpuu" lvl="20" mana="500" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="lee/konoha senpuu.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Konoha Repuu" words="konoha repuu" lvl="50" mana="500" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="lee/konoha repuu.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Konoha Shofu" words="konoha shofu" lvl="100" mana="1000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="lee/konoha shoufuu.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Konoha Daisenpuu" words="konoha daisenpuu" lvl="150" mana="1000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="lee/konoha daisenpuu.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Dainamikku Entori" words="dainamikku entori" lvl="200" mana="2000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="lee/dainamikku entori.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Omote Renge" words="omote renge" lvl="250" mana="3000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="lee/omote renge.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Asakujaku" words="asakujaku" lvl="250" mana="3000" prem="0" blockwalls="0" exhaustion="1500" needlearn="0" event="script" value="lee/asakujaku.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Open Gates" words="open gates" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="lee/buff.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Open Gates Max" words="open gates max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="lee/buffvip.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+	<instant name="Hitori Omote Renge" words="hitori omote renge" lvl="400" maglv="120" mana="4000" prem="1" needtarget ="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="lee/hitori omote renge.lua">
+		<vocation id="3"/>
+		<vocation id="61"/>
+		<vocation id="62"/>
+		<vocation id="63"/>
+		<vocation id="64"/>
+		<vocation id="65"/>
+		<vocation id="1002"/>
+		<vocation id="1024"/>
+	</instant>
+
+	<!-- Sakura -->
+	<instant name="Shousen no Jutsu" words="shousen no jutsu" aggressive="0" lvl="20" mana="280" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kabuto/shousen no jutsu.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Taihou" words="taihou no jutsu" lvl="30" mana="500" prem="0" needtarget ="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sakura/taihou.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Fubuki no Jutsu" words="fubuki no jutsu" lvl="50" mana="1000" prem="0" needtarget ="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sakura/fubuki.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Oukashou" words="oukashou" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sakura/oukashou.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Chiyute no Jutsu" words="chiyute no jutsu" lvl="125" mana="5000" prem="0" aggressive="0" needtarget="1" params="1" exhaustion="1500" needlearn="0" event="script" value="sakura/healfriend.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Icha Shushon" words="icha shushon" lvl="150" mana="1000" prem="0" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="sakura/shousen.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Furie" words="furie" lvl="200" mana="2000" prem="0" needtarget ="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sakura/furie.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Shannaro" words="shannaro" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sakura/buff.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Shannaro Max" words="concentrate shannaro max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sakura/buffvip.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Katsuyu" words="kuchyose katsuyu" lvl="300" mana="5000" soul="1" prem="1" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sakura/kuchyose.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Taihou Kyaku No Jutsu" words="taihou kyaku No jutsu" lvl="250" mana="3000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sakura/taihou kyaku.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+	<instant name="Create Phill" words="create phill" lvl="400" mana="10000" soul="1" prem="1" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="sakura/phills.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+		<vocation id="1003"/>
+		<vocation id="1025"/>
+	</instant>
+
+	<!-- Shikamaru -->
+	<instant name="Otoko no Kage" words="otoko no kage" lvl="30" mana="500" prem="0" needtarget ="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shikamaru/otoko no kage.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Fuchi No Jutsu" words="kage fuchi no jutsu" lvl="50" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shikamaru/kage fuchi no jutsu.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Oni Shibari" words="kage oni shibari" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shikamaru/kage oni shibari.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Mane no Jutsu" words="kage mane no jutsu" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shikamaru/kage mane no jutsu.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Kubi Shibari no Jutsu" words="kage kubi shibari no jutsu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shikamaru/kage kubi shibari no jutsu.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Noshuko" words="kage noshuko" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="shikamaru/buff.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Noshuko Max" words="kage noshuko max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="shikamaru/buffvip.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Nui no Jutsu" words="kage nui no jutsu" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shikamaru/kage nui no jutsu.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+	<instant name="Kage Mane Hijutsu" words="kage mane hijutsu" lvl="400" mana="10000" prem="1" needtarget="1" range="6"  blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shikamaru/kage mane hijutsu.lua">
+		<vocation id="5"/>
+		<vocation id="71"/>
+		<vocation id="72"/>
+		<vocation id="73"/>
+		<vocation id="74"/>
+		<vocation id="75"/>
+		<vocation id="1004"/>
+		<vocation id="1026"/>
+	</instant>
+
+	<!-- Itachi -->
+	<instant name="Dragon Katon" words="katon dragon no jutsu" lvl="100" mana="1000" prem="0" exhaustion="1000" blockwalls="0" needlearn="0" event="script" value="itachi/katon dragon no jutsu.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+		
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Suiton Suigadan" words="suiton suigadan" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="itachi/suiton suigadan.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+	</instant>
+	<instant name="Tsukuyomi" words="tsukuyomi" lvl="200" mana="5000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="itachi/tsukuyomi.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+	</instant>
+	<instant name="Katon Fenix Gouenkyuu" words="katon fenix gouenkyuu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="itachi/katon fenix.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Amaterasuu" words="amaterasuu" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="itachi/amaterasuu.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+		
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Susano" words="susano" lvl="200" mana="10000" aggressive="0" prem="0" exhaustion="5000" needlearn="0" blockwalls="1" enabled="1" event="script" value="itachi/buff.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+	</instant>
+	<instant name="Susano Max" words="susano max" lvl="300" mana="20000" aggressive="0" prem="1" exhaustion="5000" needlearn="0" blockwalls="1" enabled="1" event="script" value="itachi/buffvip.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+	</instant>
+	<instant name="Tsukuyomi Dimension" words="tsukuyomi dimension" lvl="400" maglv="120" mana="5000" prem="1" needtarget="1" range="5" blockwalls="1" exhaustion="5000" needlearn="0" event="script" value="itachi/tsukuyomi dimension.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+	</instant>
+	<instant name="Katon Housenka Tsumabeni" words="katon housenka tsumabeni" lvl="600" maglv="120" mana="5000" prem="1" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="itachi/katon housenka tsumabeni.lua">
+		<vocation id="6"/>
+		<vocation id="76"/>
+		<vocation id="77"/>
+		<vocation id="78"/>
+		<vocation id="79"/>
+		<vocation id="80"/>
+		<vocation id="1005"/>
+		<vocation id="1027"/>
+	</instant>
+
+	<!-- kakashi -->
+	<instant name="Doton Doryu Heki" words="doton doryu heki" lvl="100" mana="1000" needtarget="1" range="7" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="kakashi/doton doryu heki.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Magen Narakumi Genjutsu" words="magen narakumi genjutsu" lvl="100" mana="1000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kakashi/magen narakumi no jutsu.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+		
+		<vocation id="2"/>
+		<vocation id="51"/>
+		<vocation id="52"/>
+		<vocation id="53"/>
+		<vocation id="54"/>
+		<vocation id="55"/>
+		<vocation id="1001"/>
+		<vocation id="1023"/>
+	</instant>
+	<instant name="Concentrate Raikiri" words="concentrate raikiri" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kakashi/concentrate raikiri.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Suiton Suiryudan no Jutsu" words="suiton suiryudan no jutsu" lvl="150" mana="1000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kakashi/suiton suiryudan no jutsu.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+		
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Doton Suiryudan no Jutsu" words="doton suiryudan no jutsu" lvl="200" mana="2000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kakashi/doton suiryudan no jutsu.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Guruko" words="kuchyose guruko" lvl="200" mana="5000" soul="1" prem="1" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kakashi/kuchyose.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Raiton" words="raiton" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kakashi/buff.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Raiton Max" words="raiton max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kakashi/buffvip.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Raiton Bunshin" words="raiton bunshin" lvl="400" mana="5000" prem="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="kakashi/raiton bunshin.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Doton Prision" words="doton prision" lvl="400" mana="5000" prem="1" maglv="120" needtarget="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kakashi/doton prision.lua">
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+
+	<!-- Kankuro -->
+	<instant name="Aka Higi" words="aka higi" lvl="30" mana="500" needtarget="1" range="7" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="kankuro/aka higi.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Karasu" words="karasu" lvl="75" mana="500" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/karasu.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Kuro Higi Kiki ni Hatsu" words="kuro higi kiki ni hatsu" lvl="100" mana="1000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kankuro/kuro higi kiki ni hatsu.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Toxic Invenenation" words="toxic invenenation" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kankuro/toxic invenenation.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Kiki Sankakuu" words="kiki sankakuu" lvl="150" mana="1000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kankuro/kiki sankaku.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Poison Bomb" words="posion bomb" lvl="200" mana="2000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kankuro/poison bomb.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Poisoned" words="poisoned" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/buff.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Poisoned Max" words="poisoned max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/buffvip.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Sanshouo" words="sanshouo" lvl="200" mana="10000" prem="0" exhaustion="5000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/sanshouo.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Kuroari" words="kuroari" lvl="250" mana="10000" prem="0" exhaustion="5000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/kuroari.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Karasu Explosion" words="karasu explosion" lvl="250" mana="3000" needtarget="1" range="7" prem="0" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kankuro/karasu explosion.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+	<instant name="Sasori" words="sasori" lvl="400" mana="5000" prem="1" exhaustion="1000" maglv="120" needlearn="0" blockwalls="1" enabled="1" event="script" value="kankuro/sasori.lua">
+		<vocation id="8"/>
+		<vocation id="86"/>
+		<vocation id="87"/>
+		<vocation id="88"/>
+		<vocation id="89"/>
+		<vocation id="90"/>
+		<vocation id="1007"/>
+		<vocation id="1029"/>
+	</instant>
+
+	<!-- Gaara -->
+	<instant name="Suna Shuriken" words="suna shuriken" lvl="20" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="gaara/suna shuriken.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku Soso" words="sabaku soso" lvl="50" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="gaara/sabaku soso.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku Kyu" words="sabaku kyu" lvl="100" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="gaara/sabaku kyu.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Gokusa Maiso" words="gokusa maiso" lvl="100" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="gaara/gokusa maiso.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Suna Shigure" words="suna shigure" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="gaara/suna shigure.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku Taisou" words="sabaku taisou" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="gaara/sabaku taisou.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Ryuusa Bakuryuu" words="ryuusa bakuryuu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="gaara/ryuusa bakuryuu.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku no Tate" words="sabaku no tate" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="gaara/buff.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku no Tate Max" words="sabaku no tate max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="gaara/buffvip.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Sabaku Rou" words="sabaku rou" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="gaara/sabaku rou.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+	<instant name="Kyusa Bouheki" words="kyusa bouheki" lvl="400" maglv="120" mana="4000" prem="1" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="gaara/kyusa bouheki.lua">
+		<vocation id="9"/>
+		<vocation id="91"/>
+		<vocation id="92"/>
+		<vocation id="93"/>
+		<vocation id="94"/>
+		<vocation id="95"/>
+		<vocation id="1008"/>
+		<vocation id="1030"/>
+	</instant>
+
+	<!-- Temari -->
+	<instant name="Fuuton no Jutsu" words="fuuton no jutsu" lvl="20" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="temari/fuuton no jutsu.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuusajin no Jutsu" words="fuusajin no jutsu" lvl="50" mana="500" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="temari/fuusajin no jutsu.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Daikamaitachi no Jutsu" words="daikamaitachi no jutsu" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="temari/daikamaitachi no jutsu.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuuton Kakeami" words="fuuton kakeami" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="temari/fuuton kakeami.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Oukamaitachi" words="oukamaitachi" lvl="100" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="temari/oukamaitachi.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuuton Oukakeami" words="fuuton oukakeami" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="temari/fuuton oukakeami.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuuton Tatsu no Oshigoto" words="fuuton tatsu no oshigoto" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="temari/fuuton tatsu no oshigoto.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuuton" words="fuuton" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="temari/buff.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Fuuton Max" words="fuuton max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="temari/buffvip.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Kirikiri Mai" words="kirikiri mai" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="temari/kirikiri mai.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+	<instant name="Kazekiri no Jutsu" words="kazekiri no jutsu" lvl="600" mana="5000" maglv="120" prem="1" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="temari/kazekiri no jutsu.lua">
+		<vocation id="40"/>
+		<vocation id="111"/>
+		<vocation id="112"/>
+		<vocation id="113"/>
+		<vocation id="114"/>
+		<vocation id="115"/>
+		<vocation id="1011"/>
+		<vocation id="1033"/>
+	</instant>
+
+		<!-- Tenten -->
+        <instant name="Senbons no jutsu" words="senbons no jutsu" lvl="20" mana="500" aggressive="1" range="5" blockwalls="1" needtarget="1" exhaustion="1000" needlearn="0" event="script" value="tenten/senbows.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+<instant name="Baku Ryusei" words="baku ryusei" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="tenten/Baku Ryusei.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+        <instant name="Kunai Explosion no Jutsu" words="kunai explosion no jutsu" lvl="75" needtarget="1" range="6" mana="1000" aggressive="1"  exhaustion="1500" needlearn="0" event="script" value="tenten/kunai.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>	
+	</instant>
+        <instant name="Explosive Paper" words="explosion paper" lvl="100" mana="1000" range="6" blockwalls="1" needtarget="1" exhaustion="1000" needlearn="0" event="script" value="tenten/hidden paper.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+        <instant name="Soushouryuu no Jutsu" words="soushouryuu" lvl="150" mana="1000" aggressive="1" range="7" blockwalls="1" needtarget="1" exhaustion="500" needlearn="0" event="script" value="tenten/soushouryuu.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+        <instant name="Chakra Shuriken" words="chakra shuriken" lvl="200" mana="2000" aggressive="1" range="7" blockwalls="1" exhaustion="500" needtarget="1" event="script" value="tenten/sou shuu jin.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+		<instant name="Sou Shuu Jin" words="sou shuu jin" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="tenten/buff.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>
+		<vocation id="1034"/>
+	</instant>
+		<instant name="Sou Shuu Jin Max" words="sou shuu jin max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="tenten/buffvip.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>
+		<vocation id="1034"/>
+	</instant>
+        <instant name="Buki no Nami" words="buki no nami" lvl="250" mana="3000" aggressive="1" range="7" blockwalls="1" needtarget="1" exhaustion="500" needlearn="0" event="script" value="tenten/buki no nami.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+        <instant name="Nami Explosive" words="nami explosive" lvl="600" mana="5000" prem="1" maglv="120" aggressive="1" range="7" blockwalls="1" needtarget="1" exhaustion="500" needlearn="0" event="script" value="tenten/nami explosive.lua">
+		<vocation id="15"/>
+		<vocation id="116"/>
+		<vocation id="117"/>
+		<vocation id="118"/>
+		<vocation id="119"/>
+		<vocation id="120"/>
+		<vocation id="1012"/>	
+		<vocation id="1034"/>
+	</instant>
+
+	<!-- Bee -->
+	<instant name="Raiton Element" words="raiton element" lvl="30" mana="500" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="bee/raiton element.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Headbutt" words="headbutt" lvl="50" mana="500" prem="0" needtarget ="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="bee/headbutt.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Hachibi Imari" words="hachibi imari" lvl="100" mana="1000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="bee/hachibi imari.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Seven Sword Dance" words="seven swords dance" lvl="100" mana="1000" prem="0" blockwalls="1" needtarget="0" exhaustion="1000" needlearn="0" event="script" value="bee/seven swords dance.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>	
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Raiton Swords" words="raiton swords" lvl="150" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="bee/raiton swords.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Hachibi no Kyogyuu Imari" words="hachibi no kyogyuu imari" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="bee/hachibi no kyogyuu imari.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Lariat" words="lariat" lvl="250" mana="3000" prem="0" needtarget="1" range="4" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="bee/lariat.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Liger Bomb" words="liger bomb" lvl="400" mana="4000" prem="1" needtarget="1" range="4" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="bee/liger bomb.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Raiton Yoroi" words="raiton yoroi" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="bee/buff.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Raiton Yoroi Max" words="raiton yoroi max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="bee/buffvip.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+	<instant name="Double Lariat" words="double lariat" lvl="600" mana="5000" prem="1" maglv="120" needtarget="1" range="4" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="bee/double lariat.lua">
+		<vocation id="12"/>
+		<vocation id="96"/>
+		<vocation id="97"/>
+		<vocation id="98"/>
+		<vocation id="99"/>
+		<vocation id="100"/>
+		<vocation id="1009"/>
+		<vocation id="1031"/>
+	</instant>
+
+	<!-- Shino -->
+	<instant name="Kikaichuu no Jutsu" words="kikaichuu no jutsu" lvl="30" mana="500" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shino/kikaichuu no jutsu.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="kikai Invocate" words="kikai" lvl="50" mana="5000" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="shino/kikai.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kikaichuu Arare no Jutsu" words="kikaichuu arare no jutsu" lvl="50" mana="1000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shino/kikaichuu arare no jutsu.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kikaichuu Tsumoji no Jutsu" words="kikaichuu tsumoji no jutsu" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shino/kikaichuu tsumoji no jutsu.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="kikais invenenation" words="kikais invenenation" lvl="150" mana="5000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="shino/kikais invenenation.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kikaichuu Yajiri no Jutsu" words="kikaichuu yajiri no jutsu" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shino/kikaichuu yajiri no jutsu.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kikai Sabaki no Jutsu" words="kikai sabaki no jutsu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shino/kikai sabaki no jutsu.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Insects" words="insects" lvl="200" mana="5000" exhaustion="10000" prem="0" needlearn="0" blockwalls="1" enabled="1" event="script" value="shino/buff.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Insects Max" words="insects max" lvl="300" mana="5000" exhaustion="10000" prem="1" needlearn="0" blockwalls="1" enabled="1" event="script" value="shino/buffvip.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Hijutsu Muchidama" words="hijutsu muchidama" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="shino/hijutsu muchidama.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kikaichuu Invocate" words="kikaichuu invocate" lvl="250" mana="5000" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="shino/kikaichuu invocate.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+	<instant name="Kuchyose Kikai Muchidama" words="kuchyose kikai muchidama" lvl="400" prem="1" maglv="120" soul="1" mana="5000" exhaustion="500" needlearn="0" blockwalls="1" enabled="1" event="script" value="shino/kuchyose kikai muchidama.lua">
+		<vocation id="14"/>
+		<vocation id="106"/>
+		<vocation id="107"/>
+		<vocation id="108"/>
+		<vocation id="109"/>
+		<vocation id="110"/>
+		<vocation id="1010"/>
+		<vocation id="1032"/>
+	</instant>
+
+	<!-- Kisame -->
+	<instant name="Suiton No Jutsu" words="suiton no jutsu" lvl="20" mana="500" prem="0" needtarget ="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kisame/suiton no jutsu.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Goshokuzame" words="suiton goshokuzame" lvl="100" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kisame/suiton goshokuzame.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiton Daibakufu no Jutsu" words="suiton daibakufu no jutsu" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kisame/suiton daibakufu no jutsu.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiton Suikoudan no Jutsu" words="Suiton Suikoudan no Jutsu" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kisame/Suiton Suikoudan no Jutsu.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiryudan no Jutsu" words="Suiryudan no Jutsu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kisame/Suiryudan no Jutsu.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suirou no Jutsu" words="Suirou no Jutsu" lvl="200" mana="5000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="kisame/Suirou no Jutsu.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiton Yoroi" words="suiton yoroi" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kisame/buff.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiton Yoroi Max" words="suiton yoroi max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kisame/buffvip.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Suiton Amesuikouha" words="Suiton Amesuikouha" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kisame/Suiton Amesuikouha.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Mizu Bunshin" words="Mizu Bunshin" lvl="400" mana="5000" prem="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="kisame/Mizu Bunshin.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+	<instant name="Mizu Suiryudan" words="mizu suiryudan" lvl="600" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="kisame/mizu suiryudan.lua">
+		<vocation id="16"/>
+		<vocation id="121"/>
+		<vocation id="122"/>
+		<vocation id="123"/>
+		<vocation id="124"/>
+		<vocation id="125"/>
+		<vocation id="1013"/>
+		<vocation id="1035"/>
+	</instant>
+
+	<!-- Anbu -->
+	<instant name="Suiton Suiryudan" words="suiton suiryudan" lvl="50" mana="500" prem="0" needtarget="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="anbu/suiton suiryudan.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Mokuton Doryu heki" words="mokuton doryu heki" lvl="100" mana="2000" prem="0" needtarget="1" range="8" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="anbu/mokuton doryu heki.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Katon Daiendan" words="katon daiendan" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="anbu/katon endan.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Ninpou Doton Prision" words="ninpou doton prision" lvl="100" mana="3000" prem="0" needtarget="1" range="7" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="anbu/ninpou doton prision.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Raiton Shibari" words="raiton shibari" lvl="150" mana="1000" prem="0" needtarget="1" range="5" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="anbu/raiton shibari.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Katon Habashiri" words="katon habashiri" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="anbu/katon habashiri.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Ninpou Berserker" words="ninpou berserker" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="anbu/buff.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Ninpou Berserker Max" words="ninpou berserker max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="anbu/buffvip.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Ninpou Suiton Suiryuudan" words="ninpou suiton suiryuudan" lvl="250" mana="3000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="anbu/ninpou suiton suiryuudan.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+		
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+	<instant name="Ninpou Raiton Barrier" words="ninpou raiton barrier" lvl="250" mana="5000" prem="1" needtarget="1" range="8" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="anbu/ninpou raiton barrier.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+	</instant>
+	<instant name="Mokuton Kekai" words="mokuton kekai" lvl="400" prem="1" mana="5000" direction="1" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="anbu/mokuton kekai.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Raiton Bakurai" words="raiton bakurai" lvl="600" mana="5000" prem="1" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="anbu/raiton bakurai.lua">
+		<vocation id="17"/>
+		<vocation id="131"/>
+		<vocation id="132"/>
+		<vocation id="133"/>
+		<vocation id="134"/>
+		<vocation id="135"/>
+		<vocation id="1014"/>
+		<vocation id="1036"/>
+		
+		<vocation id="7"/>
+		<vocation id="81"/>
+		<vocation id="82"/>
+		<vocation id="83"/>
+		<vocation id="84"/>
+		<vocation id="85"/>
+		<vocation id="1006"/>
+		<vocation id="1028"/>
+	</instant>
+
+	<!-- Chouji -->
+	<instant name="Mizudan Suisha" words="mizudan suisha" lvl="50" mana="500" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="chouji/mizudan suisha.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Chodan Bakugeki" words="chodan bakugeki" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="chouji/chodan bakugeki.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Harite Sensha" words="harite sensha" lvl="150" mana="1000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="chouji/harite sensha.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Nikudan Sensha" words="nikudan sensha" lvl="200" mana="2000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="chouji/nikudan sensha.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Baika no Jutsu" words="baika no jutsu" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="chouji/buff.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Baika no Jutsu Max" words="baika no jutsu max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="chouji/buffvip.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Cho Harite" words="cho harite" lvl="250" mana="3000" prem="0" needtarget ="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="chouji/cho harite.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+	<instant name="Cho Harite Kunais" words="cho harite kunais" lvl="600" maglv="120" mana="5000" prem="1" needtarget ="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="chouji/cho harite kunais.lua">
+		<vocation id="18"/>
+		<vocation id="136"/>
+		<vocation id="137"/>
+		<vocation id="138"/>
+		<vocation id="139"/>
+		<vocation id="140"/>
+		<vocation id="1015"/>
+		<vocation id="1037"/>
+	</instant>
+
+	<!-- Hashirama -->
+	<instant name="Mokuton no Jutsu" words="mokuton no jutsu" lvl="30" mana="500" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hashirama/mokuton no jutsu.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Mokuton Kebutsu" words="mokuton kebutsu" lvl="100" mana="1000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hashirama/mokuton kebutsu.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>
+		<vocation id="1043"/>	
+	</instant>
+	<instant name="Mokuton Hidai" words="mokuton hidai" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hashirama/mokuton hidai.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Mokuton Mokuji" words="mokuton mokuji" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hashirama/mokuton mokuji.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Mokuton Prision" words="mokuton prision" lvl="150" mana="5000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hashirama/ninpou mokuton prision.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Mokuton Hijutsu" words="mokuton hijutsu" lvl="200" mana="2000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hashirama/mokuton hijutsu.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Ninpou Mokuton Barrier" words="ninpou mokuton barrier" lvl="200" mana="5000" prem="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hashirama/mokuton barrier.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Hokage Mode" words="hokage mode" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="hashirama/buff.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Hokage Mode Max" words="hokage mode max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="hashirama/buffvip.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Mokuton Daijurin" words="mokuton daijurin" lvl="250" mana="3000" prem="0" needtarget ="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hashirama/mokuton daijurin.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+	<instant name="Mokuton Bunshin" words="mokuton bunshin" lvl="400" mana="10000" exhaustion="4000" prem="1" needlearn="0" blockwalls="1" enabled="1" event="script" value="hashirama/mokuton bunshin.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Mokuton Mokujouheki" words="mokuton mokujouheki" lvl="600" maglv="120" mana="5000" prem="1" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hashirama/mokuton mokujouheki.lua">
+		<vocation id="19"/>
+		<vocation id="141"/>
+		<vocation id="142"/>
+		<vocation id="143"/>
+		<vocation id="144"/>
+		<vocation id="145"/>
+		<vocation id="1016"/>
+		<vocation id="1038"/>
+	</instant>
+
+	<!-- Jiraya -->
+	<instant name="Senpou Force" words="senpou force" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="jiraya/senpou force.lua">
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Modo Sennin" words="Modo Sennin" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="jiraya/buff.lua">
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+	</instant>
+	<instant name="Modo Sennin Max" words="Modo Sennin max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="jiraya/buffvip.lua">
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+	</instant>
+	<instant name="Katon Habashi" words="katon habashi" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="jiraya/katon habashiri.lua">
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+	</instant>
+	<instant name="Chou Oodama Rasengan" words="chou oodama rasengan" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="jiraya/chou oodama rasengan.lua">
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+	</instant>
+
+	<!-- Hinata -->
+	<instant name="Juuken" words="juuken" lvl="30" mana="500" prem="0" needtarget ="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/juuken.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Kekkai Shiho Fujin" words="kekkai shiho fujin" lvl="75" mana="500" prem="0" needtarget ="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/kekkai shiho fujin.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Kaiten" words="kaiten" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/kaiten.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Shugohakke Rokujuyon Sho" words="shugohakke rokujuyon sho" lvl="150" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hinata/shugohakke rokujuyon sho.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Hakke Kusho" words="hakke kusho" lvl="175" mana="2000" prem="1" range="3" direction="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/hakke kusho.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Juho Soshiken" words="juho soshiken" lvl="200" mana="2000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hinata/juho soshiken.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Hakkeshou" words="hakkeshou" lvl="250" mana="3000" prem="0" blockwalls="1" needtarget="1" range="3" exhaustion="500" needlearn="0" event="script" value="hinata/hakkeshou kaiten.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Byakugan" words="byakugan" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="hinata/buff.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Byakugan Max" words="byakugan max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="hinata/buffvip.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+	<instant name="Hakke Kuhekisho" words="Hakke Kuhekisho" lvl="400" mana="4000" maglv="120" prem="1" blockwalls="1" needtarget="1" range="3" exhaustion="500" needlearn="0" event="script" value="hinata/Hakke Kuhekisho.lua">
+		<vocation id="22"/>
+		<vocation id="151"/>
+		<vocation id="152"/>
+		<vocation id="153"/>
+		<vocation id="154"/>
+		<vocation id="155"/>
+		<vocation id="1019"/>
+		<vocation id="1041"/>
+	</instant>
+
+	<!-- Nagato -->
+	<instant name="Suiton Mizurappa sui" words="suiton mizurappa sui" lvl="20" mana="500" prem="0" needtarget ="1" range="5" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="nagato/suiton mizurappa.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Katon Endan" words="katon endan" lvl="50" mana="1000" prem="0" needtarget ="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="nagato/katon endan.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Fuuton Reppuushou" words="fuuton reppuushou" lvl="150" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="nagato/fuuton reppuushou.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Shinra Tensei" words="shinra tensei" lvl="175" mana="2000" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="nagato/shinra tensei.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Bansho Ten In" words="bansho ten in" lvl="175" mana="2000" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="nagato/bansho ten in.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+		
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>	
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Kaiwan no Hiya" words="kaiwan no hiya" lvl="200" mana="2000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="nagato/kaiwan no hiya.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Chibaku Tensei" words="chibaku tensei" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="nagato/chibaku tensei.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Rinnegan" words="rinnegan" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="nagato/buff.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Rinnegan Max" words="rinnegan max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="nagato/buffvip.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+	<instant name="Kuchyose Rinnegan" words="kuchyose rinnegan" lvl="400" mana="10000" prem="1" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="nagato/kuchyose rinnegan four.lua">
+		<vocation id="21"/>
+		<vocation id="146"/>
+		<vocation id="147"/>
+		<vocation id="148"/>
+		<vocation id="149"/>
+		<vocation id="150"/>
+		<vocation id="1018"/>
+		<vocation id="1040"/>
+	</instant>
+
+ 	<!-- Konan -->
+	<instant name="Kami Shuriken" words="kami shuriken" lvl="20" mana="500" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="konan/kami shuriken.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami no Jutsu" words="kami no jutsu" lvl="75" mana="1000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="konan/kami no jutsu.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Chakram" words="chakram no kami" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="konan/chakram.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami Senbon" words="kami senbon" lvl="150" mana="1000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="konan/kami senbon.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami Explosion" words="kami explosion" lvl="200" mana="2000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="konan/kami explosion.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami noyoi" words="Kami Noyoi" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="konan/buff.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami noyoi Max" words="Kami Noyoi max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="konan/buffvip.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami no Shisha no Jutsu" words="kami no shisha no jutsu" lvl="250" mana="3000" prem="0" needtarget="1" range="6" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="konan/kami no shisha no jutsu.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami Bunshin" words="kami bunshin" lvl="300" mana="5000" exhaustion="2000" soul="1" prem="0" needlearn="0" blockwalls="1" enabled="1" event="script" value="konan/kami bunshin.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<instant name="Kami Genjutsu" words="kami genjutsu" lvl="400" mana="4000" maglv="120" prem="1" needtarget="1" range="6" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="konan/kami genjutsu.lua">
+		<vocation id="23"/>
+		<vocation id="156"/>
+		<vocation id="157"/>
+		<vocation id="158"/>
+		<vocation id="159"/>
+		<vocation id="160"/>
+		<vocation id="1020"/>
+		<vocation id="1042"/>
+	</instant>
+	<!-- Madara -->
+	<instant name="Susanoo Full" words="Susanoo Full" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="madara/buff.lua">
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Susanoo Full Max" words="Susanoo Full Max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="madara/buffvip.lua">
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Mokuton Mokuryuu no Jutsu" words="Mokuton Mokuryuu no Jutsu" lvl="250" mana="3000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="madara/Mokuton Mokuryuu no Jutsu.lua">
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>
+		<vocation id="1043"/>
+	</instant>
+	<instant name="Tensou Tsuisei" words="Tensou Tsuisei" lvl="600" mana="5000" prem="1" maglv="120" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="madara/Tensou Tsuisei.lua">
+		<vocation id="24"/>
+		<vocation id="161"/>
+		<vocation id="162"/>
+		<vocation id="163"/>
+		<vocation id="164"/>
+		<vocation id="165"/>
+		<vocation id="1021"/>
+		<vocation id="1043"/>
+	</instant>
+
+	<!-- Sai -->
+	<instant name="sumi no jutsu" words="sumi no jutsu" lvl="20" mana="500" prem="0" needtarget ="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sai/sumi no jutsu.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Chooju sumi" words="chooju sumi" lvl="100" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sai/chooju sumi.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Sumigasumi no Jutsu" words="Sumigasumi no Jutsu" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sai/Sumigasumi no Jutsu.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Sumi Bird" words="sumi bird" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sai/sumi bird.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Choushin Giga" words="choushin giga" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sai/choushin giga.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Sumi Yoroi" words="sumi yoroi" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sai/buff.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Sumi Yoroi Max" words="sumi yoroi max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="sai/buffvip.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Sumi Nagashi" words="sumi nagashi" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sai/sumi nagashi.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Magen Sumigasumi" words="magen sumigasumi" lvl="400" maglv="120" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="sai/magen sumigasumi.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+	<instant name="Chooju Giga Beast" words="chooju giga beast" lvl="600" maglv="120" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="sai/chooju giga beast.lua">
+		<vocation id="25"/>
+		<vocation id="166"/>
+		<vocation id="167"/>
+		<vocation id="168"/>
+		<vocation id="169"/>
+		<vocation id="170"/>
+		<vocation id="1044"/>
+		<vocation id="1045"/>
+	</instant>
+
+	<!-- Minato -->
+	<instant name="Senpou Mud" words="senpou mud" lvl="150" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="minato/senpou mud.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Yatai Kuzushi no Jutsu" words="yatai kuzushi no jutsu" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="minato/yatai kuzushi no jutsu.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Yellow Flash" words="yellow flash" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="minato/buff.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Yellow Flash max" words="yellow flash max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="minato/buffvip.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Shiki Fuujin" words="shiki fuujin" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="minato/shiki fuujin.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Hiraishin no Jutsu" words="hiraishin no jutsu" lvl="400" maglv="120" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="minato/hiraishin no jutsu.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+	</instant>
+	<instant name="Chou Oodama Rasengan Max" words="chou oodama rasengan max" lvl="500" maglv="120" mana="10000" prem="1" needtarget ="1" range="4" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="minato/chou oodama rasengan max.lua">
+		<vocation id="26"/>
+		<vocation id="171"/>
+		<vocation id="172"/>
+		<vocation id="173"/>
+		<vocation id="174"/>
+		<vocation id="175"/>
+		<vocation id="1046"/>
+		<vocation id="1047"/>
+
+		<vocation id="20"/>
+		<vocation id="126"/>
+		<vocation id="127"/>
+		<vocation id="128"/>
+		<vocation id="129"/>
+		<vocation id="130"/>
+		<vocation id="1017"/>
+		<vocation id="1039"/>
+	</instant>
+	
+		<!-- Obito -->
+	<instant name="Katon no Dragon" words="katon no dragon" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="obito/katon no dragon.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Gudoudama" words="gudoudama" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="obito/buff.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Gudoudama Max" words="gudoudama max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="obito/buffvip.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Katon Bakufuu Ranbuu" words="katon bakufuu ranbuu" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="obito/katon bakufuu ranbuu.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Kamui In" words="kamui in" lvl="400" maglv="120" mana="20000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="obito/kamui in.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	<instant name="Katon Housenka Dragon" words="katon housenka dragon" lvl="600" maglv="120" mana="5000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="obito/katon housenka dragon.lua">
+		<vocation id="27"/>
+		<vocation id="176"/>
+		<vocation id="177"/>
+		<vocation id="178"/>
+		<vocation id="179"/>
+		<vocation id="180"/>
+		<vocation id="1048"/>
+		<vocation id="1049"/>
+	</instant>
+	
+	<!-- Deidara -->
+	<instant name="c0" words="c0 explosion" lvl="20" mana="500" prem="0" needtarget ="1" range="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="deidara/c0.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="c1" words="c1 explosion" lvl="100" mana="1000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="deidara/c1.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="c2" words="c2 explosion max" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="deidara/c2a.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="c2" words="c2 explosion" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="deidara/c2.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="c3 Bird's" words="c3 birds" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="deidara/c3 birds.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="Explosion Art" words="explosion art" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="deidara/buff.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="Explosion Art Max" words="explosion art max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="deidara/buffvip.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="c3" words="c3 explosion" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="deidara/c3.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="Jibaku Bunshin" words="jibaku bunshin" lvl="400" mana="5000" prem="0" exhaustion="1965" needlearn="0" event="script" value="deidara/jibaku bunshin.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	<instant name="Katsu" words="katsu" lvl="400" mana="4000" prem="1" exhaustion="1965" needlearn="0" event="script" value="deidara/katsu.lua">
+		<vocation id="28"/>
+		<vocation id="181"/>
+		<vocation id="182"/>
+		<vocation id="183"/>
+		<vocation id="184"/>
+		<vocation id="185"/>
+		<vocation id="1050"/>
+		<vocation id="1051"/>
+	</instant>
+	
+	<!--- Hidan Jutsus -->
+	<instant name="Demoniac Jujutsu" words="Demoniac Jujutsu" lvl="100" mana="700" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="kabuto/shousen no jutsu.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+	<instant name="piercing scythes" words="piercing scythes" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hidan/piercing scythes.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+	<instant name="Scythe Smash" words="Scythe Smash" lvl="150" mana="1000" prem="0" needtarget="1" range="6" exhaustion="250" blockwalls="1" needlearn="0" event="script" value="hidan/Scythe Smash.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/>  
+	</instant>
+	<instant name="Jashin Chikara" words="Jashin Chikara" aggressive="0" prem="0" selftarget="1" lvl="200" mana="5000"  exhaustion="1000" event="script" value="hidan/buff.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+	<instant name="Scythe Impulse" words="Scythe Impulse" lvl="200" mana="2000" prem="0" needtarget="1" range="6" exhaustion="500" blockwalls="1" needlearn="0" event="script" value="hidan/Scythe Impulse.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+	<instant name="Jashin Dance Scythe" words="Jashin Dance Scythe" lvl="250" mana="3000" prem="0" needtarget="1" range="6" exhaustion="500" blockwalls="1" needlearn="0" event="script" value="hidan/Jashin Dance Scythe.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+	<instant name="Dansaburedo" words="Dansaburedo" lvl="600" mana="4000" prem="0" needtarget="1" range="6" exhaustion="1200" blockwalls="1" needlearn="0" event="script" value="hidan/Dansaburedo.lua">
+       <vocation id="29"/>   
+       <vocation id="186"/> 
+       <vocation id="187"/> 
+       <vocation id="188"/> 
+       <vocation id="189"/> 
+       <vocation id="190"/> 
+       <vocation id="1052"/> 
+       <vocation id="1053"/> 
+	</instant>
+
+  <!-- TOBIRAMA -->
+
+	<instant name="Suiton Mizurappa" words="Suiton Mizurappa" lvl="100" mana="1000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="tobirama/Suiton Mizurappa.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suigadan Suiton" words="Suigadan Suiton" lvl="150" mana="1000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="550" needlearn="0" event="script" value="tobirama/Suigadan Suiton.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Suidanha" words="Suiton Suidanha" lvl="200" mana="2000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="550" needlearn="0" event="script" value="tobirama/Suiton Suidanha.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Suijinheki" words="Suiton Suijinheki" lvl="250" mana="3000" prem="0" needtarget="1" range="8" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="tobirama/Suiton Prison.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Mizu" words="Suiton Mizu" lvl="200" mana="5000" aggressive="0" prem="0" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="tobirama/buff2.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Mizu Max" words="Suiton Mizu max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="tobirama/buffvip.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Tenkyu no jutsu" words="Tenkyu no jutsu" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="550" needlearn="0" event="script" value="tobirama/Tenkyu no jutsu250.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Bunshin" words="Suiton Bunshin" lvl="400" mana="5000" soul="1" prem="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="tobirama/Suiton Bunshin.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<instant name="Suiton Suiryuudan no Jutsu" words="Suiton Suiryuudan no Jutsu" lvl="600" mana="4000" prem="1" needtarget ="1" range="7" blockwalls="1" exhaustion="550" needlearn="0" event="script" value="tobirama/Suiton Suiryuudan no Jutsu.lua">
+		<vocation id="30"/>
+		<vocation id="191"/>
+		<vocation id="192"/>
+		<vocation id="193"/>
+		<vocation id="194"/>
+		<vocation id="195"/>
+		<vocation id="1054"/>
+		<vocation id="1055"/>
+	</instant>
+	<!-- Naruto -->
+	<instant name="jin senei" words="jin senei" lvl="100" mana="3000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="orochimaru/100.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Mandara no Jin" words="mandara no jin" lvl="100" mana="5000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="orochimaru/100 area.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Jin no Jutsu" words="jin no jutsu" lvl="150" mana="4000" prem="0" needtarget="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="orochimaru/150.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Jagei Jubaku" words="Jagei Jubaku" lvl="200" mana="2000" prem="0" needtarget="1" range="2" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="orochimaru/200.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Senei Tajashu" words="senei tajashu" lvl="250" mana="3000" prem="0" needtarget ="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="orochimaru/250.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Jin Yoroi" words="Jin Yoroi" lvl="200" mana="10000" aggressive="0" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="orochimaru/buff.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Jin Yoroi Max" words="Jin Yoroi Max" lvl="300" mana="5000" aggressive="0" prem="1" exhaustion="10000" needlearn="0" blockwalls="1" enabled="1" event="script" value="orochimaru/buffvip.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+	<instant name="Kuchyose Black Snake" words="kuchyose black snake" lvl="400" mana="500" soul="1" prem="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="orochimaru/kuchyose.lua">
+		<vocation id="31"/>
+		<vocation id="196"/>
+		<vocation id="197"/>
+		<vocation id="198"/>
+		<vocation id="199"/>
+		<vocation id="200"/>
+		<vocation id="1056"/>
+		<vocation id="1057"/>
+	</instant>
+
+	<instant name="Multiples Senbons" words="multiples senbons" lvl="200" mana="5000" prem="0" needtarget="1" range="7" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="tsunade/200.lua">
+		<vocation id="0"/>
+	</instant>
+</spells>

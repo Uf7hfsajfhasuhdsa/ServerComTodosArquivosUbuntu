@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jounnin" nameDescription="a jounnin" race="blood" experience="700" speed="400" manacost="490">
+	<health now="7000" max="7000"/>
+	<look type="289" corpse="2852"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="200"/>
+		<attack name="Suiton no Jutsu" interval="3000" chance="25" range="7" min="-500" max="-3000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<elements>
+		<element energyPercent="25"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="You cant escape!"/>
+		<voice sentence="Im a chunnin!"/>
+	</voices>
+	<loot>
+		<item id="2666" countmax="10" chance="31250"/> <!-- meat -->
+		<item id="2148" countmax="10" chance="25125"/> <!-- platinum coin -->
+	</loot>
+</monster>

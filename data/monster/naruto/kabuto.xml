@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kimimaru" nameDescription="a kimimaru" race="blood" experience="2000" speed="2000" manacost="0">
+	<health now="700000" max="700000"/>
+	<look type="23" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="100"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-8000" max="-10000"/>
+	</attacks>
+	<defenses armor="150" defense="200">
+		<defense name="regeneration" interval="1000" chance="500" min="1130" max="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element deathPercent="100"/>
+		<element earthPercent="100"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die Stupid Boy!"/>
+	</voices>
+	<loot>
+		<item id="2138" chance="10050"/> <!-- aol amulet -->
+		<item id="2160" countmax="2" chance="50000"/> <!-- platinum coin -->
+		<item id="1999" chance="10050"/> <!-- Konoha Backpack -->
+            <item id="2160" countmax="10" chance="25125"/> <!-- gold bar -->
+	</loot>
+</monster>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jounnin" nameDescription="a jounnin" race="blood" experience="950" speed="700" manacost="490">
+	<health now="50000" max="50000"/>
+	<look type="31" corpse="2852"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="chidori" interval="2250" chance="700" range="7" min="-2000" max="-2500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2545" countmax="10" chance="20000"/> <!-- shuriken -->
+		<item id="2152" countmax="10" chance="100000"/> <!-- Dollar -->
+	</loot>
+</monster>

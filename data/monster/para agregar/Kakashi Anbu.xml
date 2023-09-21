@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+     <monster name="Kakashi Anbu" level="400" maglevel="250" experience="2" pushable="0" armor="150" defense="150" canpushitems="1" staticattack="50" changetarget="200" speed="700">
+     	<health now="7" max="7"/>
+         	<look type="8" head="50" body="50" legs="50" feet="50" corpse="3128"/>
+     	<combat targetdistance="1" runonhealth="0"/>
+     <attacks>
+	</attacks>
+
+     <defenses>
+
+     </defenses>
+
+<summons max="2">
+  </summons>
+
+ <voices>
+<voice sentence="Eu sou o Kakashi da Anbu seu idiota Acabarei com vc Agora"/>
+ </voices>
+<loot>
+ 	<inside>
+
+ 	</inside>
+
+</loot>
+     </monster>

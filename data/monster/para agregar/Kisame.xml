@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<monster name="Kisame" level="100" maglevel="55" experience="6000" pushable="0" armor="40" defense="45" canpushitems="1" staticattack="50" changetarget="200" speed="600">
+	<health now="6000" max="6000"/>
+	<look type="166" head="77" body="79" legs="78" feet="77" corpse="3128" race="2"/>
+	<combat targetdistance="1" runonhealth="0"/>
+
+<attacks>
+	<attack type="melee" maxdamage="150" cycleticks="100" probability="100" exhaustion="0" />/>
+	<attack type="instant" name="sugakra" exhaustion="1000" cycleticks="400" probability="60"/>
+                <attack type="instant" name="suiton daibakufu no jutsu" exhaustion="1000" cycleticks="600" probability="60"/>
+        <attack type="instant" name="suiton suikoudan no jutsu" exhaustion="1000" cycleticks="0" probability="60"/>
+        <attack type="instant" name="chiyute no jutsu" exhaustion="1500" cycleticks="600" probability="60"/>
+	
+</attacks>
+
+<defenses>
+
+	<defense immunity="invisible"/>
+        <defense immunity="fire"/>
+        
+        <defense immunity="water"/>
+</defenses>
+
+<voices>
+	<voice sentence="Espera vencer um renegado da akatsuki?? hahaha"/>
+	<voice sentence="Lol nao brinca com agua.... voce se molha"/>
+</voices>
+
+<loot>
+</loot>
+
+<summons maxSummons="5">
+ 	<summon name="Tubarao De Chakra" chance="2000"/>
+	<summon name="Tubarao De Chakra" chance="1818"/>
+	<summon name="Tubarao De Chakra" chance="1428"/>
+</summons>
+
+</monster>

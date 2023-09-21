@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+    <!--- All Jutsus -->
+	<!-- Hinata -->
+	<instant name="Juuken" words="juuken" lvl="30" mana="500" prem="0" needtarget ="1" range="2" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/juuken.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Kekkai Shiho Fujin" words="kekkai shiho fujin" lvl="75" mana="2000" prem="0" needtarget ="1" range="3" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/kekkai shiho fujin.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Kaiten" words="kaiten" lvl="100" mana="3000" prem="0" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/kaiten.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Shugohakke Rokujuyon Sho" words="shugohakke rokujuyon sho" lvl="150" mana="4000" prem="0" needtarget="1" range="8" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hinata/shugohakke rokujuyon sho.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Hakke Kusho" words="hakke kusho" lvl="175" mana="5000" prem="0" range="8" direction="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="hinata/hakke kusho.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Juho Soshiken" words="juho soshiken" lvl="200" mana="5000" prem="0" needtarget="1" range="4" blockwalls="1" exhaustion="500" needlearn="0" event="script" value="hinata/juho soshiken.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Hakkeshou" words="hakkeshou" lvl="250" mana="7500" prem="0" blockwalls="1" needtarget="1" exhaustion="1000" needlearn="0" event="script" value="hinata/hakkeshou kaiten.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+	<instant name="Byakugan" words="byakugan" lvl="250" mana="500" aggressive="0" prem="1" exhaustion="2000" needlearn="0" blockwalls="1" enabled="1" event="script" value="hinata/buff.lua">
+		<vocation id="4"/>
+		<vocation id="66"/>
+		<vocation id="67"/>
+		<vocation id="68"/>
+		<vocation id="69"/>
+		<vocation id="70"/>
+	</instant>
+</spells>

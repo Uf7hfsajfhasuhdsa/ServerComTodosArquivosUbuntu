@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shinobi of Konoha" script="data/npc/scripts/UchiItaMissions.lua" walkinterval="2000" speed="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="61" head="19" body="113" legs="95" feet="115" addons="0"/>
+  <parameters>
+    <parameter key="message_greet" value="Me Ajude a conseguir alguns Secret Konoha Archives em troca lhe darei uma recompensa! Deseja me ajudar {Ajudar} ?." />
+  </parameters>
+</npc>

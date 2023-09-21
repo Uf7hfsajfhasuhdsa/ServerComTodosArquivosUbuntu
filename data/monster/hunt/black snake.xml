@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Black Snake" nameDescription="a Black Snake" race="blood" experience="14100" speed="1300" manacost="490">
+	<health now="700000" max="700000"/>
+	<look type="79" corpse="2823"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="900" chance="700" range="7" min="-4000" max="-8500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="blacksnake" interval="1000" chance="700" range="7" min="-4000" max="-8500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2152" countmax="1" chance="800"/> <!-- Dollar -->
+		<item id="2399" countmax="1" chance="1000"/> <!-- Strong Shuriken -->
+	</loot>
+</monster>

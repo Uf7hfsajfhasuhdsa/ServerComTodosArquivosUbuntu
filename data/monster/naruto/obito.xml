@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Obito" nameDescription="a obito" race="human" experience="5000000" speed="1000" manacost="0">
+	<health now="90000000" max="90000000"/>
+	<look type="389" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="100"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-17000" max="-22000"/>
+		<attack name="katon protect" interval="2000" chance="100" range="7" min="-5000" max="-6000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="150" defense="200">
+		<defense name="regeneration" interval="1000" chance="500" min="1130" max="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element deathPercent="100"/>
+		<element earthPercent="100"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die Stupid Boy!"/>
+	</voices>
+	<loot>
+		<item id="2138" chance="10050"/> <!-- aol amulet -->
+		<item id="2160" countmax="2" chance="50000"/> <!-- platinum coin -->
+		<item id="1999" chance="10050"/> <!-- Konoha Backpack -->
+            <item id="2160" countmax="10" chance="25125"/> <!-- gold bar -->
+	</loot>
+</monster>

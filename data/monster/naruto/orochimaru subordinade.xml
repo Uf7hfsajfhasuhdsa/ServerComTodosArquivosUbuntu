@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Orochimaru Subordinade" nameDescription="a subordinade" race="blood" experience="3000" speed="900" manacost="0">
+	<health now="250000" max="250000"/>
+	<look type="133" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="1000" poison="1000"/>
+		<attack name="speed" interval="1000" chance="800" range="7" speedchange="-100" duration="20000">
+			<attribute key="areaEffect" value="SMALLCLOUDS"/>
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="1200" radius="7" target="0" min="-6000" max="-10000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20">
+		<defense name="healing" interval="1000" chance="500" min="113" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element deathPercent="100"/>
+		<element earthPercent="100"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="My master order to kill you!"/>
+		<voice sentence="Muajaja!"/>
+		<voice sentence="For Orochimaru!"/>
+	</voices>
+	<loot>
+		<item id="2138" chance="10050"/> <!-- aol amulet -->
+		<item id="2152" countmax="10" chance="16250"/> <!-- platinum coin -->
+		<item id="2133" chance="850"/> <!-- 50 helmet -->
+		<item id="2136" chance="1700"/> <!-- 50 legs -->
+		<item id="2142" chance="1150"/> <!-- 50 armor -->
+		<item id="7888" chance="2275"/> <!-- 50 sword -->
+	</loot>
+</monster>

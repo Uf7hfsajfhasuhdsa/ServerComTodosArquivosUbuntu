@@ -1,0 +1,57 @@
+8
+
+dir
+2142
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/npc
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-01-02T18:01:06.550042Z
+2096
+otserv_simone
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+scripts
+dir
+
+sven.xml
+file
+
+
+
+
+2007-01-18T20:24:53.875000Z
+e94bc25f5a14c4658227cdbc4315abf1
+2007-01-02T18:01:06.550042Z
+2096
+otserv_simone
+has-props
+
+bug.xml
+file
+
+
+
+
+2007-01-18T20:24:53.875000Z
+2c9e08cdadae6af9597ae04c71c4b090
+2007-01-02T18:01:06.550042Z
+2096
+otserv_simone
+has-props
+

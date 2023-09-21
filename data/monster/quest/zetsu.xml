@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zetsu" nameDescription="a zetsu" race="blood" experience="10000" speed="1000" manacost="490">
+	<health now="1200000" max="1200000"/>
+	<look type="488" corpse="2887"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="zetsuattack" interval="1500" chance="60" radius="4" target="1" min="-24000" max="-50000">
+		</attack>
+	</attacks>
+	<loot>
+		<item id="8866" countmax="1" chance="10"/> <!-- Akatsuki Coat -->
+		<item id="2652" countmax="1" chance="10"/> <!-- Akatsuki hat	 -->
+	</loot>
+</monster>

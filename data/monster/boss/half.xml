@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Half Gaara Boss" nameDescription="a Half Gaara Boss" race="blood" experience="1000" speed="700" manacost="490">
+	<health now="308000" max="308000"/>
+	<look type="53" corpse="2882"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="sabakutaisoumonster" interval="1000" chance="700" range="6" min="-2000" max="-5000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="Sabaku Sousou" interval="1500" chance="700" min="-8000" max="-12000">
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="sabaku no tate" interval="60000" chance="100" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<loot>
+	<item id="2148" countmax="15" chance="10000"/> <!-- Dollar -->
+	<item id="7457" countmax="1" chance="7000"/> <!-- Gaara Legs -->
+	</loot>
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Mantassin" nameDescription="a quara mantassin" race="blood" experience="2400" speed="1520" manacost="480">
+	<health now="1900" max="1900"/>
+	<look type="72" corpse="6064"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="40"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="40"/>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="invisible" interval="1000" chance="30" duration="2000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="25"/>
+		<element icePercent="25"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity drown="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Zuerk Pachak!"/>
+		<voice sentence="Shrrrr"/>
+	</voices>
+	<loot>
+		<item id="2670" chance="5175"/> <!-- shrimp -->
+		<item id="2152" countmax="3" chance="26200"/> <!-- platinum coin -->
+		<item id="2165" chance="1100"/> <!-- stealth ring -->
+		<item id="5895" chance="600"/> <!-- fish fin -->
+		<item id="2656" chance="100"/> <!-- blue robe -->
+	</loot>
+</monster>

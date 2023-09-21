@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raikage Boss" nameDescription="a raikage boss" race="blood" experience="1000" speed="1000" manacost="490">
+	<health now="800000000" max="800000000"/>
+	<look type="544" corpse="2932"/>
+	<targetchange interval="20000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+			<attack name="raitonrai" interval="5000" chance="700" range="2" min="-30000" max="-50000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="lariat" interval="500" chance="700" range="2" min="-55000" max="-95000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+				<attack name="raiton bakurai" interval="2000" chance="700" range="2" min="-30000" max="-45000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="raiton yoroi" interval="60000" chance="100" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<loot>
+		<item id="2516" countmax="1" chance="7000"/> <!-- Raikage Glove -->
+	</loot>
+<script>
+<event name="tp"/>
+</script>
+</monster>

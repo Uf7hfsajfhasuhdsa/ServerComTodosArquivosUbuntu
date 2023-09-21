@@ -1,0 +1,5 @@
+<raid>
+<announce delay="0" type="event" message="Itachi Uchiha está para invadir Konoha" />
+<announce delay="150000" type="event" message="Itachi Uchiha acaba de invadir Konoha" />
+<singlespawn delay="150000" name="Itachi Uchiha" x="998" y="898" z="7" />
+</raid>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hanzou Boss" nameDescription="a hanzou boss" race="blood" experience="50000" speed="1220" manacost="390">
+	<health now="3900000" max="3900000"/>
+	<look type="639" corpse="2841"/>
+	<targetchange interval="5000" chance="7"/>
+	<strategy attack="100" defense="50"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag passive="0" />
+	</flags>
+	<script>
+    <event name="tp"/>
+    </script> 
+	<attacks>
+		<attack name="kashi1" interval="1000" min="-9050" max="-20250"/>
+		<attack name="kashi2" interval="4000" min="-27050" max="-50250"/>
+		<attack name="kashi3" interval="8000" min="-47050" max="-80250"/>
+	</attacks>
+	<elements>
+		<element physicalPercent="-0"/>
+		<element deathPercent="-0"/>
+	</elements>
+	<voices interval="5000" chance="0">
+		<voice sentence=""/>
+	</voices>
+	<loot>              
+		<item id="2148" countmax="52" chance="10000"/> <!-- Dollar -->
+		<item id="11498" countmax="1" chance="300"/> <!-- Carta Part II Hanzou Helmet -->
+	</loot>
+</monster>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kiba" nameDescription="a kiba" race="blood" experience="1000" speed="700" manacost="100">
+	<health now="75000" max="75000"/>
+	<look type="200" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-1000" max="-4000"/>
+		<attack name="" interval="2000" chance="100" range="7" min="-3000" max="-6000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="big regeneration" interval="1000" chance="500" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="20"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="This is my way of shinobi!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="5" chance="30300"/> <!-- platinum coin -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+	</loot>
+</monster>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Unknow Akatsuki" nameDescription="a unknow" race="blood" experience="5200" speed="700" manacost="490">
+	<health now="300000" max="300000"/>
+	<look type="336"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Chidori Nagashi" interval="1200" radius="4" min="-2000" max="-4000"/>
+		<attack name="raitonraito" interval="1000" radius="4" min="-2000" max="-4000"/>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="62" chance="20000"/> <!-- Dollar -->
+	</loot>
+</monster>

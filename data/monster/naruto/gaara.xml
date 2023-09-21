@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gaara" nameDescription="a gaara" race="blood" experience="700" speed="700" manacost="0">
+	<health now="20000" max="20000"/>
+	<look type="397" corpse="2886"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="80"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-1000" max="-2000"/>
+		<attack name="sabaku taisou" interval="1300" chance="300" length="8" spread="0" min="-110" max="-350">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="heal" interval="1000" chance="10" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="20"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I EMO!"/>
+		<voice sentence="I dont have parents!"/>
+		<voice sentence="Daad!!!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="30" chance="18350"/> <!-- Dollar -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+		<item id="7425" chance="1780"/> <!-- gaara shirt -->
+		<item id="7453" chance="1800"/> <!-- gaara legs -->
+	</loot>
+</monster>

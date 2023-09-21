@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Unknow Skuller" script="removefrags.lua" walkinterval="5000" floorchange="0">
+<health now="100" max="100"/>
+<look type="118" head="78" body="88" legs="0" feet="88" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="iaew |PLAYERNAME|. Eu posso {remover} seus Frags ou Red Skull, Se quiser diga {remover} seu fila da puta." />
+</parameters>
+</npc>

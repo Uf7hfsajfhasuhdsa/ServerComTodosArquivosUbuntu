@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hachibi" nameDescription="a hachibi" race="blood" experience="4000000" speed="2000" manacost="0">
+	<health now="40000000" max="40000000"/>
+	<look type="399" corpse="2870"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-7000" max="-10000"/>
+		<attack name="hachibi imari" interval="1000" chance="100" range="7" min="-7000" max="-10000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="big regeneration" interval="1000" chance="10" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="20"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Amaterasuu!!!"/>
+	</voices>
+	<loot>
+		<item id="2160" countmax="10" chance="30300"/> <!-- platinum coin -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+		<item id="8865" chance="50000"/> <!-- orochimaru armor -->
+	</loot>
+</monster>

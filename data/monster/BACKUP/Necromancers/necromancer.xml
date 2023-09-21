@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Necromancer" nameDescription="a necromancer" race="undead" experience="1580" speed="200" manacost="0">
+	<health now="1580" max="1580"/>
+	<look type="9" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="40" poison="90"/>
+		<attack name="death" interval="1000" chance="20" range="1" min="-160" max="-400">
+			<attribute key="areaEffect" value="SMALLCLOUDS"/>
+		</attack>
+		<attack name="earth" interval="1500" chance="17" range="7" min="-135" max="-295">
+			<attribute key="shootEffect" value="EARTH"/>
+			<attribute key="areaEffect" value="STONES"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="1000" chance="25" min="42" max="68">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element icePercent="10"/>
+		<element deathPercent="50"/>
+		<element physicalPercent="-5"/>
+		<element firePercent="-5"/>
+		<element holyPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="4">
+		<summon name="Ghoul" interval="1000" chance="17" max="2"/>
+		<summon name="Ghost" interval="1000" chance="15" max="1"/>
+		<summon name="Mummy" interval="1000" chance="13" max="1"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your corpse will be mine!"/>
+		<voice sentence="Taste the sweetness of death!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="3" chance="14925"/> <!-- platinum coin -->
+		<item id="11237" chance="10150"/> <!-- book of necromantic rituals -->
+		<item id="7589" countmax="3" chance="3450"/> <!-- strong mana potion -->
+		<item id="7456" chance="1225"/> <!-- noble axe -->
+	</loot>
+</monster>

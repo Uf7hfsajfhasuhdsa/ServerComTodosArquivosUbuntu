@@ -1,0 +1,47 @@
+8
+
+dir
+2056
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/talkactions
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+lib
+dir
+
+scripts
+dir
+
+talkactions.xml
+file
+
+
+
+
+2006-12-17T18:04:36.859375Z
+ab8c81a2d733ae61ea9fefaf3fccf455
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+has-props
+

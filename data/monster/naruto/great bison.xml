@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Great Bison" nameDescription="a Bison" race="blood" experience="900" speed="500" manacost="0">
+	<health now="30000" max="30000"/>
+	<look type="316" corpse="2930"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-500" max="-3000"/>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="big regeneration" interval="1000" chance="10" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="40"/>
+		<element icePercent="20"/>
+		<element firePercent="30"/>
+		<element holyPercent="50"/>
+		<element earthPercent="50"/>
+		<element physicalPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="This is my way of shinobi!"/>
+		<voice sentence="One day i can be hokage!"/>
+		<voice sentence="Sasukeeee!!!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="40" chance="30300"/> <!-- platinum coin -->
+		<item id="2544" countmax="13" chance="14300"/> <!-- arrow -->
+		<item id="2666" chance="15825"/> <!-- meat -->
+		<item id="2470" chance="2570"/> <!-- naruto legs -->
+		<item id="7407" chance="7407"/> <!-- naruto robe -->
+	</loot>
+</monster>

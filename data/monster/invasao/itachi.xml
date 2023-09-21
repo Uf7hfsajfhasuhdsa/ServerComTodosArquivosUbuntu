@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Itachi Uchiha" nameDescription="a Itachi" race="blood" experience="30000000" speed="2000" manacost="490">
+	<health now="500000000" max="500000000"/>
+	<look type="101" corpse="2898"/>
+	<targetchange interval="20000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="amaterasumonster" interval="1700" chance="700" range="7" min="-20000" max="-35000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="20">
+		<defense name="susano" interval="60000" chance="100" min="100" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<loot>
+		<item id="11460" countmax="20" chance="10000"/> <!-- Dollar -->
+	</loot>
+</monster>

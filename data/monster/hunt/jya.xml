@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jya" nameDescription="a jya" race="blood" experience="4000" speed="900" manacost="490">
+	<health now="250000" max="250000"/>
+	<look type="411" corpse="2845"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1000" chance="700" range="1" min="-4000" max="-6000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+		<attack name="jyaaa" interval="3500" chance="700" range="5" min="-5000" max="-9500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+		<loot>
+		<item id="2148" countmax="49" chance="20000"/> <!-- Dollar -->
+	</loot>
+</monster>

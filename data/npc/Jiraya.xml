@@ -1,0 +1,8 @@
+<npc name="Jiraya" script="removefrags.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="339" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Quer remover seus frags ? diga "remover"."/>
+	</parameters>
+</npc>

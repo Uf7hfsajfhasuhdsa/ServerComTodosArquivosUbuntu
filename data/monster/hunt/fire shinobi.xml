@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Shinobi" nameDescription="a fire shinobi" race="blood" experience="950" speed="700" manacost="490">
+	<health now="50000" max="50000"/>
+	<look type="68" corpse="2852"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Katon Housenka" interval="2250" chance="700" range="7" min="-2000" max="-2500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2545" countmax="3" chance="15000"/> <!-- shuriken -->
+		<item id="2148" countmax="13" chance="20000"/> <!-- Dollar -->
+		<item id="11553" countmax="1" chance="2000"/> <!-- Chunnin Helmet -->
+		<item id="11555" countmax="1" chance="1000"/> <!-- Chunnin Legs -->
+
+	</loot>
+</monster>

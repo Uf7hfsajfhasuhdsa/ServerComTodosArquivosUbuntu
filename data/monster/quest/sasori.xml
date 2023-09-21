@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sasori Boss" nameDescription="Sasori Boss" race="blood" experience="50000" speed="1000" manacost="490">
+	<health now="40000000" max="40000000"/>      
+	<look type="119" corpse="2904"/>
+	<targetchange interval="20000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1500" chance="700" range="1" min="-32000" max="-50000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<summons maxSummons="30">
+		<summon name="Puppet One" interval="4000" chance="100" max="50"/>
+	</summons>
+	<loot>
+		<item id="2152" countmax="1" chance="1000"/> <!-- Dollar -->
+		<item id="2148" countmax="40" chance="20000"/> <!-- Dollar -->
+	</loot>
+	<script>
+	<event name="tp"/>
+	</script>
+</monster>

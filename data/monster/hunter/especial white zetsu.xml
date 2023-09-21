@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Especial White Zetsu" nameDescription="a especial white zetsu" race="blood" experience="15100" speed="1500" manacost="490">
+	<health now="600000" max="600000"/>
+	<look type="255"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="headbutt" interval="1000" chance="700" range="7" min="-14000" max="-36000">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<loot>
+		<item id="2148" countmax="48" chance="1"/> <!-- Dollar -->
+		<item id="2399" countmax="1" chance="5000"/> <!-- Strong Shuriken -->
+		<item id="2145" countmax="1" chance="50000"/> <!-- Small Diamond -->
+	</loot>
+</monster>

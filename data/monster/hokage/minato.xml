@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minato Hokage" nameDescription="a hokage" race="blood" experience="125000" speed="1220" manacost="390">
+	<health now="100000" max="100000"/>
+	<look type="107" head="113" body="120" legs="114" feet="132" />
+	<targetchange interval="5000" chance="20"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag passive="0" />
+	</flags>
+	<script>
+    <event name="tp"/>
+    </script> 
+	<attacks>
+		<attack name="mina1" interval="1000" min="-11050" max="-20250"/>
+		<attack name="mina2" interval="2000" min="-30050" max="-50250"/>
+		<attack name="mina3" interval="4000" min="-65050" max="-130250"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<elements>
+		<element physicalPercent="-0"/>
+		<element deathPercent="-0"/>
+	</elements>
+	<voices interval="5000" chance="0">
+		<voice sentence=""/>
+	</voices>
+	<loot>
+
+	</loot>
+</monster>
